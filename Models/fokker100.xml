@@ -84,9 +84,9 @@
   <property>/surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
-   <x-m>2.6</x-m>
+   <x-m>2.4</x-m>
    <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
+   <z-m>-0.05</z-m>
   </center>
   <axis>
    <x>0.092</x>
@@ -101,9 +101,9 @@
   <property>/surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
-   <x-m>2.6</x-m>
+   <x-m>2.4</x-m>
    <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
+   <z-m>-0.05</z-m>
   </center>
   <axis>
    <x>-0.092</x>
@@ -186,10 +186,8 @@
   <object-name>nose_wheels</object-name>
   <object-name>nose_strut</object-name>
   <property>/gear/gear[0]/position-norm</property>
-  <factor>120</factor>
-  <offset-deg>-120</offset-deg>
-  <min-deg>-90</min-deg>
-  <max-deg>0</max-deg>
+  <factor>-90</factor>
+  <offset-deg>90</offset-deg>
   <center>
    <x-m>-12.23</x-m>
    <y-m>0.0</y-m>
@@ -237,6 +235,76 @@
    <x>1</x>
    <y>0</y>
    <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_speedbrake</object-name>
+  <property>/surface-positions/speedbrake-pos-norm</property>
+  <factor>60</factor>
+  <center>
+   <x-m>14.97</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>0.0</y>
+   <z>1.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_speedbrake</object-name>
+  <property>/surface-positions/speedbrake-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>14.97</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>0.0</y>
+   <z>1.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_upper_thrust_reverse</object-name>
+  <object-name>left_upper_thrust_reverse</object-name>
+  <property>/surface-positions/speedbrake-pos-norm</property>
+  <factor>60</factor>
+  <center>
+   <x-m>11.22</x-m>
+   <y-m>0.0</y-m>
+   <z-m>1.36</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_lower_thrust_reverse</object-name>
+  <object-name>left_lower_thrust_reverse</object-name>
+  <property>/surface-positions/speedbrake-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>11.22</x-m>
+   <y-m>0.0</y-m>
+   <z-m>1.36</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
   </axis>
  </animation>
 
