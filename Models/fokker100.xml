@@ -5,18 +5,14 @@
  <path>fokker100.ac</path>
 
  <offsets>
-   <!-- <x-m>-18.789</x-m> -->
-   <z-m>5</z-m>
+   <z-m>-2</z-m>
  </offsets>
 
-<!--
  <animation>
   <type>rotate</type>
-  <object-name>AileronRight.1</object-name>
-  <object-name>AileronRight.2</object-name>
-  <object-name>AileronRight.3</object-name>
+  <object-name>right_aileron</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
-  <factor>-30</factor> <!-- check -->
+  <factor>-30</factor>
   <center>
    <x-m>1.451</x-m>
    <y-m>13.495</y-m>
@@ -31,8 +27,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>FlapOuterRight.2</object-name>
-  <object-name>FlapOuterRight.1</object-name>
+  <object-name>right_outbound_flap</object-name>
   <property>/surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
@@ -49,8 +44,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>FlapInnerRight.2</object-name>
-  <object-name>FlapInnerRight.1</object-name>
+  <object-name>right_inbound_flap</object-name>
   <property>/surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
@@ -67,82 +61,9 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>SMFlapOuterRight</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>20</factor>
-  <center>
-   <x-m>0.848</x-m>
-   <y-m>11.709</y-m>
-   <z-m>-2.525</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SMFlapMidRight</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>20</factor>
-  <center>
-   <x-m>-0.487</x-m>
-   <y-m>8.053</y-m>
-   <z-m>-2.855</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SMEngineRight</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>20</factor>
-  <center>
-   <x-m>-0.842</x-m>
-   <y-m>5.613</y-m>
-   <z-m>-3.132</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SMFlapInnerRight</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>15</factor>
-  <center>
-   <x-m>-1.775</x-m>
-   <y-m>4.637</y-m>
-   <z-m>-3.125</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
--->
- 
-<!-- Left -->
-<!--
- <animation>
-  <type>rotate</type>
-  <object-name>AileronLeft.1</object-name>
-  <object-name>AileronLeft.2</object-name>
-  <object-name>AileronLeft.3</object-name>
+  <object-name>left_inbound_flap</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
-  <factor>-30</factor> <!-- check -->
+  <factor>-30</factor>
   <center>
    <x-m>1.451</x-m>
    <y-m>-13.495</y-m>
@@ -157,8 +78,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>FlapOuterLeft.2</object-name>
-  <object-name>FlapOuterLeft.1</object-name>
+  <object-name>left_outbound_flap</object-name>
   <property>/surface-positions/flap-pos-norm</property>
   <factor>-35</factor>
   <center>
@@ -175,98 +95,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>FlapInnerLeft.2</object-name>
-  <object-name>FlapInnerLeft.1</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>-35</factor>
-  <center>
-   <x-m>-0.813</x-m>
-   <y-m>-2.038</y-m>
-   <z-m>-4.588</z-m>
-  </center>
-  <axis>
-   <x>-0.051</x>
-   <y>-4.309</y>
-   <z>0.561</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SMFlapOuterLeft</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>-20</factor>
-  <center>
-   <x-m>0.848</x-m>
-   <y-m>-11.709</y-m>
-   <z-m>-2.525</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>-1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SMFlapMidLeft</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>-20</factor>
-  <center>
-   <x-m>-0.487</x-m>
-   <y-m>-8.053</y-m>
-   <z-m>-2.855</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>-1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SMEngineLeft</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>-20</factor>
-  <center>
-   <x-m>-0.842</x-m>
-   <y-m>-5.613</y-m>
-   <z-m>-3.132</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>-1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SMFlapInnerLeft</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>-15</factor>
-  <center>
-   <x-m>-1.775</x-m>
-   <y-m>-4.637</y-m>
-   <z-m>-3.125</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>-1</y>
-   <z>0</z>
-  </axis>
- </animation>
--->
-
-<!-- rear -->
-<!--
- <animation>
-  <type>rotate</type>
-  <object-name>Rudder.1</object-name>
-  <object-name>Rudder.2</object-name>
-  <object-name>Rudder.3</object-name>
+  <object-name>rudder</object-name>
   <property>/surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
@@ -283,9 +112,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>ElevatorRight.1</object-name>
-  <object-name>ElevatorRight.2</object-name>
-  <object-name>ElevatorRight.3</object-name>
+  <object-name>right_elevator</object-name>
   <property>/surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <center>
@@ -302,9 +129,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>ElevatorLeft.1</object-name>
-  <object-name>ElevatorLeft.2</object-name>
-  <object-name>ElevatorLeft.3</object-name>
+  <object-name>left_elevator</object-name>
   <property>/surface-positions/elevator-pos-norm</property>
   <factor>-25</factor>
   <center>
@@ -321,7 +146,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>GearFront</object-name>
+  <object-name>nose_gear</object-name>
   <property>/gear/gear[0]/position-norm</property>
   <factor>-90</factor>
   <offset-deg>90</offset-deg>
@@ -339,8 +164,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>GearMainLeft</object-name>
-  <object-name>GearActuatorLeft.1</object-name>
+  <object-name>right_main_gear</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-81.5</factor>
   <offset-deg>81.5</offset-deg>
@@ -358,7 +182,7 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>GearActuatorLeft.1</object-name>
+  <object-name>left_main_gear</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-36.68</factor>
   <offset-deg>36.68</offset-deg>
@@ -373,79 +197,5 @@
    <z>0</z>
   </axis>
  </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>GearActuatorLeft.2</object-name>
-  <property>/gear/gear[1]/position-norm</property>
-  <factor>55</factor>
-  <offset-deg>-55</offset-deg>
-  <center>
-   <x-m>-1.275</x-m>
-   <y-m>-2.311</y-m>
-   <z-m>-3.351</z-m>
-  </center>
-  <axis>
-   <x>1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>GearMainRight</object-name>
-  <object-name>GearActuatorRight.1</object-name>
-  <property>/gear/gear[2]/position-norm</property>
-  <factor>-81.5</factor>
-  <offset-deg>81.5</offset-deg>
-  <center>
-   <x-m>-1.234</x-m>
-   <y-m>3.811</y-m>
-   <z-m>-3.202</z-m>
-  </center>
-  <axis>
-   <x>-1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>GearActuatorRight.1</object-name>
-  <property>/gear/gear[2]/position-norm</property>
-  <factor>-36.68</factor>
-  <offset-deg>36.68</offset-deg>
-  <center>
-   <x-m>-1.275</x-m>
-   <y-m>3.820</y-m>
-   <z-m>-4.764</z-m>
-  </center>
-  <axis>
-   <x>-1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>GearActuatorRight.2</object-name>
-  <property>/gear/gear[2]/position-norm</property>
-  <factor>55</factor>
-  <offset-deg>-55</offset-deg>
-  <center>
-   <x-m>-1.275</x-m>
-   <y-m>2.311</y-m>
-   <z-m>-3.351</z-m>
-  </center>
-  <axis>
-   <x>-1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
--->
 
 </PropertyList>
