@@ -45,7 +45,7 @@
  </animation>
 
  <animation>
-  <type>transpoilere</type>
+  <type>translate</type>
   <object-name>right_inbound_flap</object-name>
   <object-name>right_inbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
@@ -93,7 +93,7 @@
  </animation>
 
  <animation>
-  <type>transpoilere</type>
+  <type>translate</type>
   <object-name>left_inbound_flap</object-name>
   <object-name>left_inbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
@@ -141,7 +141,7 @@
  </animation>
 
  <animation>
-  <type>transpoilere</type>
+  <type>translate</type>
   <object-name>right_outbound_flap</object-name>
   <object-name>right_outbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
@@ -189,7 +189,7 @@
  </animation>
 
  <animation>
-  <type>transpoilere</type>
+  <type>translate</type>
   <object-name>left_outbound_flap</object-name>
   <object-name>left_outbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
