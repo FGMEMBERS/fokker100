@@ -440,10 +440,21 @@
          1.0   1.002
          1.1   1.0
       </FACTOR>
+<!--
+      <FACTOR NAME="kCmpge" TYPE="VECTOR">
+        Change_in_ground_effect_due_to_pitch
+        3
+        attitude/pitch-rad
+        none
+        -0.4   0.6
+         0.0   1.0
+         0.4   1.4
+      </FACTOR>
+-->
       <COEFFICIENT NAME="Cmo" TYPE="VALUE">
          Pitching_moment_at_zero_alpha
          aero/qbar-psf|metrics/Sw-sqft|metrics/cbarw-ft
-         -0.0748
+         -0.042
       </COEFFICIENT>
     </GROUP>
     <COEFFICIENT NAME="Cmalpha" TYPE="VALUE">
