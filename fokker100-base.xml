@@ -20,7 +20,9 @@
    <path>Aircraft/fokker100/Models/fokker100.xml</path>
   </model>
 
-   <chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+
+  <chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
  </sim>
 
  <engines>

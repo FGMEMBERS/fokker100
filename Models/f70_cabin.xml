@@ -4,10 +4,14 @@
 
  <path>f70_cabin.ac</path>
 
+<!--
  <animation>
   <type>select</type>
-  <object-name>seats</object-name>
-  <property>/controls/gear/brake-parking</property>
+  <object-name>PassengerSeats</object-name>
+  <condition>
+    <property>sim/model/f70/stairs/position-norm</property>
+  </condition>
  </animation>
+-->
 
 </PropertyList>

@@ -10,6 +10,11 @@
    <pitch-deg>0.4</pitch-deg>
  </offsets>
 
+ <model>
+  <name>Cockpit</name>
+  <path>Aircraft/fokker100/Models/f100_cockpit.xml</path>
+ </model>
+
  <animation>
   <type>rotate</type>
   <object-name>right_aileron</object-name>
