@@ -73,6 +73,7 @@
     PITCH 0
     YAW 0
     FEED 0
+    FEED 1
     <AC_THRUSTER FILE="direct">
       XLOC 1028.74
       YLOC -101.6
@@ -88,6 +89,7 @@
     PITCH 0
     YAW 0
     FEED 1
+    FEED 2
     <AC_THRUSTER FILE="direct">
       XLOC 1028.74
       YLOC 101.6
@@ -101,24 +103,16 @@
     YLOC 0
     ZLOC -16.5
     RADIUS 1 
-    CAPACITY  1377.0
-    CONTENTS   688.5
+    CAPACITY  2070.0
+    CONTENTS  2070.0
   </AC_TANK>
   <AC_TANK TYPE="FUEL" NUMBER="1">
     XLOC 587.4
     YLOC 0 
     ZLOC -16.5
     RADIUS 1 
-    CAPACITY  1377.0
-    CONTENTS   688.5
-  </AC_TANK>
-  <AC_TANK TYPE="FUEL" NUMBER="2">
-    XLOC 587.4
-    YLOC 0 
-    ZLOC -16.5
-    RADIUS 1 
-    CAPACITY  1377.0
-    CONTENTS   688.5
+    CAPACITY  2070.0
+    CONTENTS  2070.0
   </AC_TANK>
  </PROPULSION>
  <FLIGHT_CONTROL NAME="Fokker 100">
