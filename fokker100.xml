@@ -89,7 +89,7 @@
     PITCH 0
     YAW 0
     FEED 1
-    FEED 2
+    FEED 0
     <AC_THRUSTER FILE="direct">
       XLOC 1028.74
       YLOC 101.6
