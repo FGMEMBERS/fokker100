@@ -46,6 +46,26 @@
      <property>/engines/engine[1]/reverser</property>
     </binding>
    </key>
+
+   <!-- set 12.5% flap adjustment with each detent -->
+   <key n="91">
+    <name>[</name>
+    <desc>Decrease flaps.</desc>
+    <binding>
+     <command>property-adjust</command>
+     <property>/controls/flight/flaps</property>
+     <step type="double">-0.125</step>
+    </binding>
+   </key>
+   <key n="93">
+    <name>]</name>
+    <desc>Increase flaps.</desc>
+    <binding>
+     <command>property-adjust</command>
+     <property>/controls/flight/flaps</property>
+     <step type="double">0.125</step>
+    </binding>
+   </key>
   </keyboard>
  </input>
 
