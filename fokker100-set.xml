@@ -4,6 +4,7 @@
 
  <sim>
   <description>Fokker 100 (JSBSim)</description>
+  <author>Erik Hofman</author>
   <status>beta</status>
  
   <flight-model>jsb</flight-model>
