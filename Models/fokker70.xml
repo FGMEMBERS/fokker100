@@ -7,8 +7,13 @@
  <offsets>
    <x-m>0.0</x-m>
    <z-m>0.4</z-m>
-   <pitch-deg>0.7</pitch-deg>
+   <pitch-deg>-0.3</pitch-deg>
  </offsets>
+
+ <model>
+  <name>PassengerCabin</name>
+  <path>Aircraft/fokker100/Models/f70_cabin.xml</path>
+ </model>
 
  <animation>
   <type>rotate</type>
@@ -242,7 +247,7 @@
   <property>surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
-   <x-m>16.244999</x-m>
+   <x-m>14.345000</x-m>
    <y-m>0.000000</y-m>
    <z-m>4.015000</z-m>
   </center>
@@ -763,8 +768,10 @@
   <type>rotate</type>
   <object-name>left_nose_door</object-name>
   <property>gear/gear[0]/position-norm</property>
-  <offset>-90.0</offset>
-  <factor>90.0</factor>
+  <offset>-170.0</offset>
+  <factor>170.0</factor>
+  <min-deg>-90.0</min-deg>
+  <max-deg>90.0</max-deg>
   <center>
    <x-m>-12.940001</x-m>
    <y-m>-0.630000</y-m>
@@ -781,8 +788,10 @@
   <type>rotate</type>
   <object-name>right_nose_door</object-name>
   <property>gear/gear[0]/position-norm</property>
-  <offset>90.0</offset>
-  <factor>-90.0</factor>
+  <offset>170.0</offset>
+  <factor>-170.0</factor>
+  <min-deg>-90.0</min-deg>
+  <max-deg>90.0</max-deg>
   <center>
    <x-m>-12.940001</x-m>
    <y-m>0.630000</y-m>
@@ -900,5 +909,102 @@
    <z>0.000000</z>
   </axis>
  </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Stairs</object-name>
+  <object-name>LastStep</object-name>
+  <object-name>ArmStrut</object-name>
+  <object-name>ArmStrut1</object-name>
+  <object-name>ArmStrut2</object-name>
+  <property>/controls/gear/brake-parking</property>
+  <!-- position/altitude-agl-ft -->
+  <!-- /velocities/airspeed-kt < 8 -->
+  <factor>-140.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.380000</y-m>
+   <z-m>-0.100000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LastStep</object-name>
+  <property>/controls/gear/brake-parking</property>
+  <factor>-180.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.010000</y-m>
+   <z-m>1.920000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+<!--
+ <animation>
+  <type>rotate</type>
+  <property>/sim/model/f70/door</property>
+  <object-name>ArmStrut</object-name>
+  <object-name>ArmStrut1</object-name>
+  <offset-deg>45.0</offset-deg>
+  <factor>-45.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.420000</y-m>
+   <z-m>1.220000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <property>/sim/model/f70/door</property>
+  <object-name>ArmStrut</object-name>
+  <offset-deg>-45.0</offset-deg>
+  <factor>45.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-0.820000</y-m>
+   <z-m>0.430000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <property>/sim/model/f70/door</property>
+  <object-name>ArmStrut2</object-name>
+  <offset-deg>40.0</offset-deg>
+  <factor>-40.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.330000</y-m>
+   <z-m>0.580000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+-->
 
 </PropertyList>
