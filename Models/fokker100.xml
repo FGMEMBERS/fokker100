@@ -13,7 +13,7 @@
  <animation>
   <type>rotate</type>
   <object-name>right_aileron</object-name>
-  <property>/surface-positions/left-aileron-pos-norm</property>
+  <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor>
   <center>
    <x-m>2.465</x-m>
@@ -30,7 +30,7 @@
  <animation>
   <type>rotate</type>
   <object-name>left_aileron</object-name>
-  <property>/surface-positions/left-aileron-pos-norm</property>
+  <property>surface-positions/left-aileron-pos-norm</property>
   <factor>30</factor>
   <center>
    <x-m>2.465</x-m>
@@ -47,7 +47,7 @@
  <animation>
   <type>rotate</type>
   <object-name>right_inbound_flap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
    <x-m>2.1</x-m>
@@ -64,7 +64,7 @@
  <animation>
   <type>rotate</type>
   <object-name>left_inbound_flap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
    <x-m>2.1</x-m>
@@ -81,7 +81,7 @@
  <animation>
   <type>rotate</type>
   <object-name>right_outbound_flap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
    <x-m>2.4</x-m>
@@ -98,7 +98,7 @@
  <animation>
   <type>rotate</type>
   <object-name>left_outbound_flap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <factor>35</factor>
   <center>
    <x-m>2.4</x-m>
@@ -115,7 +115,7 @@
  <animation>
   <type>rotate</type>
   <object-name>rudder</object-name>
-  <property>/surface-positions/rudder-pos-norm</property>
+  <property>surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
    <x-m>13.56</x-m>
@@ -132,7 +132,7 @@
  <animation>
   <type>rotate</type>
   <object-name>right_elevator</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <center>
    <x-m>17.49</x-m>
@@ -149,7 +149,7 @@
  <animation>
   <type>rotate</type>
   <object-name>left_elevator</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <center>
    <x-m>17.49</x-m>
@@ -167,7 +167,7 @@
   <type>rotate</type>
   <object-name>nose_wheels</object-name>
   <object-name>nose_strut</object-name>
-  <property>/surface-positions/rudder-pos-norm</property>
+  <property>surface-positions/rudder-pos-norm</property>
   <factor>-35</factor>
   <center>
    <x-m>-12.23</x-m>
@@ -185,7 +185,7 @@
   <type>rotate</type>
   <object-name>nose_wheels</object-name>
   <object-name>nose_strut</object-name>
-  <property>/gear/gear[0]/position-norm</property>
+  <property>gear/gear[0]/position-norm</property>
   <factor>-90</factor>
   <offset-deg>90</offset-deg>
   <center>
@@ -204,7 +204,7 @@
   <type>rotate</type>
   <object-name>right_main_wheels</object-name>
   <object-name>right_main_strut</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <factor>85</factor>
   <offset-deg>-85</offset-deg>
   <center>
@@ -223,7 +223,7 @@
   <type>rotate</type>
   <object-name>left_main_wheels</object-name>
   <object-name>left_main_strut</object-name>
-  <property>/gear/gear[2]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <factor>-85</factor>
   <offset-deg>85</offset-deg>
   <center>
@@ -241,7 +241,7 @@
  <animation>
   <type>rotate</type>
   <object-name>right_speedbrake</object-name>
-  <property>/surface-positions/speedbrake-pos-norm</property>
+  <property>surface-positions/speedbrake-pos-norm</property>
   <factor>60</factor>
   <center>
    <x-m>14.97</x-m>
@@ -258,7 +258,7 @@
  <animation>
   <type>rotate</type>
   <object-name>left_speedbrake</object-name>
-  <property>/surface-positions/speedbrake-pos-norm</property>
+  <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
    <x-m>14.97</x-m>
@@ -276,7 +276,7 @@
   <type>rotate</type>
   <object-name>right_upper_thrust_reverse</object-name>
   <object-name>left_upper_thrust_reverse</object-name>
-  <property>/surface-positions/speedbrake-pos-norm</property>
+  <property>surface-positions/speedbrake-pos-norm</property>
   <factor>60</factor>
   <center>
    <x-m>11.22</x-m>
@@ -294,7 +294,7 @@
   <type>rotate</type>
   <object-name>right_lower_thrust_reverse</object-name>
   <object-name>left_lower_thrust_reverse</object-name>
-  <property>/surface-positions/speedbrake-pos-norm</property>
+  <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
    <x-m>11.22</x-m>
