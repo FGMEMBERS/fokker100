@@ -16,14 +16,14 @@
   <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor>
   <center>
-   <x-m>2.465</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.19</z-m>
+   <x-m>3.675000</x-m>
+   <y-m>10.715000</y-m>
+   <z-m>-0.095000</z-m>
   </center>
   <axis>
-   <x>0.092</x>
-   <y>1.0</y>
-   <z>0.0</z>
+   <x>0.119028</x>
+   <y>0.991900</y>
+   <z>0.044344</z>
   </axis>
  </animation>
 
@@ -33,13 +33,26 @@
   <property>surface-positions/left-aileron-pos-norm</property>
   <factor>30</factor>
   <center>
-   <x-m>2.465</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.19</z-m>
+   <x-m>3.675000</x-m>
+   <y-m>-10.715000</y-m>
+   <z-m>-0.095000</z-m>
   </center>
   <axis>
-   <x>-0.092</x>
-   <y>1.0</y>
+   <x>0.119028</x>
+   <y>-0.991900</y>
+   <z>0.044344</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>right_inbound_flap</object-name>
+  <object-name>right_inbound_slot</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.4</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
    <z>0.0</z>
   </axis>
  </animation>
@@ -47,16 +60,47 @@
  <animation>
   <type>rotate</type>
   <object-name>right_inbound_flap</object-name>
+  <object-name>right_inbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
-  <factor>35</factor>
+  <factor>14</factor>
   <center>
-   <x-m>2.1</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.27</z-m>
+   <x-m>2.280000</x-m>
+   <y-m>3.630000</y-m>
+   <z-m>-0.420000</z-m>
   </center>
   <axis>
-   <x>0.1469</x>
-   <y>1.0</y>
+   <x>0.126304</x>
+   <y>0.991489</y>
+   <z>0.031576</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_inbound_flap</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>28</factor>
+  <center>
+   <x-m>2.880000</x-m>
+   <y-m>3.630000</y-m>
+   <z-m>-0.420000</z-m>
+  </center>
+  <axis>
+   <x>0.126304</x>
+   <y>0.991489</y>
+   <z>0.031576</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>left_inbound_flap</object-name>
+  <object-name>left_inbound_slot</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.4</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
    <z>0.0</z>
   </axis>
  </animation>
@@ -64,16 +108,47 @@
  <animation>
   <type>rotate</type>
   <object-name>left_inbound_flap</object-name>
+  <object-name>left_inbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
-  <factor>35</factor>
+  <factor>-14</factor>
   <center>
-   <x-m>2.1</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.27</z-m>
+   <x-m>2.280000</x-m>
+   <y-m>-3.630000</y-m>
+   <z-m>-0.420000</z-m>
   </center>
   <axis>
-   <x>-0.1469</x>
-   <y>1.0</y>
+   <x>0.126304</x>
+   <y>-0.991489</y>
+   <z>0.031576</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_inbound_flap</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>-28</factor>
+  <center>
+   <x-m>2.880000</x-m>
+   <y-m>-3.630000</y-m>
+   <z-m>-0.420000</z-m>
+  </center>
+  <axis>
+   <x>0.126304</x>
+   <y>-0.991489</y>
+   <z>0.031576</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>right_outbound_flap</object-name>
+  <object-name>right_outbound_slot</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.4</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
    <z>0.0</z>
   </axis>
  </animation>
@@ -81,16 +156,47 @@
  <animation>
   <type>rotate</type>
   <object-name>right_outbound_flap</object-name>
+  <object-name>right_outbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
-  <factor>35</factor>
+  <factor>14</factor>
   <center>
-   <x-m>2.4</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.05</z-m>
+   <x-m>2.790000</x-m>
+   <y-m>6.905000</y-m>
+   <z-m>-0.285000</z-m>
   </center>
   <axis>
-   <x>0.092</x>
-   <y>1.0</y>
+   <x>0.111596</x>
+   <y>0.992402</y>
+   <z>0.051812</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_outbound_flap</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>28</factor>
+  <center>
+   <x-m>3.240000</x-m>
+   <y-m>6.905000</y-m>
+   <z-m>-0.285000</z-m>
+  </center>
+  <axis>
+   <x>0.111596</x>
+   <y>0.992402</y>
+   <z>0.051812</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>left_outbound_flap</object-name>
+  <object-name>left_outbound_slot</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.4</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
    <z>0.0</z>
   </axis>
  </animation>
@@ -98,17 +204,35 @@
  <animation>
   <type>rotate</type>
   <object-name>left_outbound_flap</object-name>
+  <object-name>left_outbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
-  <factor>35</factor>
+  <factor>-14</factor>
   <center>
-   <x-m>2.4</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.05</z-m>
+   <x-m>2.790000</x-m>
+   <y-m>-6.905000</y-m>
+   <z-m>-0.285000</z-m>
   </center>
   <axis>
-   <x>-0.092</x>
-   <y>1.0</y>
-   <z>0.0</z>
+   <x>0.111596</x>
+   <y>-0.992402</y>
+   <z>0.051812</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_outbound_flap</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>-28</factor>
+  <center>
+   <x-m>3.240000</x-m>
+   <y-m>-6.905000</y-m>
+   <z-m>-0.285000</z-m>
+  </center>
+  <axis>
+   <x>0.111596</x>
+   <y>-0.992402</y>
+   <z>0.051812</z>
   </axis>
  </animation>
 
@@ -118,14 +242,14 @@
   <property>surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
-   <x-m>13.56</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
+   <x-m>16.244999</x-m>
+   <y-m>0.000000</y-m>
+   <z-m>4.015000</z-m>
   </center>
   <axis>
-   <x>0.69</x>
-   <y>0.0</y>
-   <z>1.0</z>
+   <x>0.563232</x>
+   <y>0.000000</y>
+   <z>0.826299</z>
   </axis>
  </animation>
 
@@ -135,14 +259,14 @@
   <property>surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <center>
-   <x-m>17.49</x-m>
-   <y-m>0.0</y-m>
-   <z-m>5.82</z-m>
+   <x-m>18.195000</x-m>
+   <y-m>2.300000</y-m>
+   <z-m>5.825000</z-m>
   </center>
   <axis>
-   <x>0.372</x>
-   <y>1.0</y>
-   <z></z>
+   <x>0.381081</x>
+   <y>0.924517</y>
+   <z>0.006765</z>
   </axis>
  </animation>
 
@@ -150,16 +274,16 @@
   <type>rotate</type>
   <object-name>left_elevator</object-name>
   <property>surface-positions/elevator-pos-norm</property>
-  <factor>25</factor>
+  <factor>-25</factor>
   <center>
-   <x-m>17.49</x-m>
-   <y-m>0.0</y-m>
-   <z-m>5.82</z-m>
+   <x-m>18.195000</x-m>
+   <y-m>-2.300000</y-m>
+   <z-m>5.825000</z-m>
   </center>
   <axis>
-   <x>-0.372</x>
-   <y>1.0</y>
-   <z>0.0</z>
+   <x>0.381081</x>
+   <y>-0.924517</y>
+   <z>0.006765</z>
   </axis>
  </animation>
 
@@ -240,35 +364,37 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>right_speedbrake</object-name>
+  <object-name>right_speedbrake_inner_shell</object-name>
+  <object-name>right_speedbrake_outer_shell</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
-  <factor>60</factor>
+  <factor>-60</factor>
   <center>
-   <x-m>14.97</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
+   <x-m>14.370000</x-m>
+   <y-m>-0.250000</y-m>
+   <z-m>1.440000</z-m>
   </center>
   <axis>
-   <x>0.0</x>
-   <y>0.0</y>
-   <z>1.0</z>
+   <x>0.000000</x>
+   <y>0.000000</y>
+   <z>-1.000000</z>
   </axis>
  </animation>
 
  <animation>
   <type>rotate</type>
-  <object-name>left_speedbrake</object-name>
+  <object-name>left_speedbrake_inner_shell</object-name>
+  <object-name>left_speedbrake_outer_shell</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>14.97</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
+   <x-m>14.370000</x-m>
+   <y-m>0.250000</y-m>
+   <z-m>1.440000</z-m>
   </center>
   <axis>
-   <x>0.0</x>
-   <y>0.0</y>
-   <z>1.0</z>
+   <x>0.000000</x>
+   <y>0.000000</y>
+   <z>1.000000</z>
   </axis>
  </animation>
 
@@ -277,16 +403,16 @@
   <object-name>right_upper_thrust_reverse</object-name>
   <object-name>left_upper_thrust_reverse</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
-  <factor>60</factor>
+  <factor>-60</factor>
   <center>
-   <x-m>11.22</x-m>
-   <y-m>0.0</y-m>
-   <z-m>1.36</z-m>
+   <x-m>11.040000</x-m>
+   <y-m>-0.250000</y-m>
+   <z-m>1.240000</z-m>
   </center>
   <axis>
-   <x>0.0</x>
-   <y>1.0</y>
-   <z>0.0</z>
+   <x>0.000000</x>
+   <y>-1.000000</y>
+   <z>0.000000</z>
   </axis>
  </animation>
 
@@ -297,14 +423,14 @@
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>11.22</x-m>
-   <y-m>0.0</y-m>
-   <z-m>1.36</z-m>
+   <x-m>11.040000</x-m>
+   <y-m>0.250000</y-m>
+   <z-m>1.240000</z-m>
   </center>
   <axis>
-   <x>0.0</x>
-   <y>1.0</y>
-   <z>0.0</z>
+   <x>0.000000</x>
+   <y>1.000000</y>
+   <z>0.000000</z>
   </axis>
  </animation>
 
