@@ -5,10 +5,11 @@ stairs = aircraft.door.new("sim/model/f70/stairs", 5);
 
 testDoor = func {
    parkingNode.setValue(!parkingNode.getValue());
+   is_parked = func { parkingNode.getValue() and wowNode.getValue() };
 
-   if (parkingNode.getValue() and wowNode.getValue()) {
+   if (is_parked()) {
       delay = 10 + 10*rand();
-      settimer( func { stairs.open() }, delay );
+      settimer( func { if (is_parked()) { stairs.open() }}, delay );
    } else {
       stairs.close();
    }
