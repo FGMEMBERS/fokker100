@@ -163,18 +163,37 @@
   </axis>
  </animation>
 
-<!--
+ <animation>
+  <type>rotate</type>
+  <object-name>nose_wheels</object-name>
+  <object-name>nose_strut</object-name>
+  <property>/surface-positions/rudder-pos-norm</property>
+  <factor>-35</factor>
+  <center>
+   <x-m>-12.23</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
  <animation>
   <type>rotate</type>
   <object-name>nose_wheels</object-name>
   <object-name>nose_strut</object-name>
   <property>/gear/gear[0]/position-norm</property>
-  <factor>-90</factor>
-  <offset-deg>90</offset-deg>
+  <factor>120</factor>
+  <offset-deg>-120</offset-deg>
+  <min-deg>-90</min-deg>
+  <max-deg>0</max-deg>
   <center>
-   <x-m>-13.452</x-m>
-   <y-m>0</y-m>
-   <z-m>-4.064</z-m>
+   <x-m>-12.23</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
   </center>
   <axis>
    <x>0</x>
@@ -188,12 +207,12 @@
   <object-name>right_main_wheels</object-name>
   <object-name>right_main_strut</object-name>
   <property>/gear/gear[1]/position-norm</property>
-  <factor>-81.5</factor>
-  <offset-deg>81.5</offset-deg>
+  <factor>85</factor>
+  <offset-deg>-85</offset-deg>
   <center>
-   <x-m>-1.234</x-m>
-   <y-m>-3.811</y-m>
-   <z-m>-3.202</z-m>
+   <x-m>0.0</x-m>
+   <y-m>2.4</y-m>
+   <z-m>-0.17</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -207,12 +226,12 @@
   <object-name>left_main_wheels</object-name>
   <object-name>left_main_strut</object-name>
   <property>/gear/gear[1]/position-norm</property>
-  <factor>-36.68</factor>
-  <offset-deg>36.68</offset-deg>
+  <factor>-85</factor>
+  <offset-deg>85</offset-deg>
   <center>
-   <x-m>-1.275</x-m>
-   <y-m>-3.820</y-m>
-   <z-m>-4.764</z-m>
+   <x-m>0.0</x-m>
+   <y-m>-2.4</y-m>
+   <z-m>-0.17</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -220,6 +239,5 @@
    <z>0</z>
   </axis>
  </animation>
--->
 
 </PropertyList>
