@@ -385,16 +385,6 @@
        0.0       -1.2
        2.0       -0.300
     </COEFFICIENT>
-    <COEFFICIENT NAME="Cmsb" TYPE="VALUE">
-       Pitch_moment_due_to_speedbrake_deflection
-       aero/qbar-psf|metrics/Sw-sqft|metrics/cbarw-ft|fcs/speedbrake-pos-norm
-       -0.07
-    </COEFFICIENT>
-    <COEFFICIENT NAME="Cmsp" TYPE="VALUE">
-       Pitch_moment_due_to_spoiler_deflection
-       aero/qbar-psf|metrics/Sw-sqft|metrics/cbarw-ft|fcs/spoiler-pos-norm
-       -0.08
-    </COEFFICIENT>
     <COEFFICIENT NAME="Cmq" TYPE="VALUE">
        Pitch_moment_due_to_pitch_rate
        aero/qbar-psf|metrics/Sw-sqft|metrics/cbarw-ft|aero/ci2vel|velocities/q-aero-rad_sec
