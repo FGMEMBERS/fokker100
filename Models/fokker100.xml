@@ -5,9 +5,9 @@
  <path>fokker100.ac</path>
 
  <offsets>
-   <x-m>-3.0</x-m>
-   <z-m>-1.16</z-m>
-   <pitch-deg>-0.61</pitch-deg>
+   <x-m>0.0</x-m>
+   <z-m>0.4</z-m>
+   <pitch-deg>0.4</pitch-deg>
  </offsets>
 
  <animation>
