@@ -17,7 +17,6 @@
   </systems> 
   
   <sound>
-   <audible>true</audible>
    <path>Aircraft/fokker100/fokker100-sound.xml</path>
   </sound>
 
