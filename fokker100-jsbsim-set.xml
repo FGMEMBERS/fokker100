@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <sim>
+
+  <description>Fokker 100</description>
+ 
+  <flight-model>jsb</flight-model>
+  <aero>fokker100</aero>
+  <fuel-fraction>0.5</fuel-fraction>
+  
+  <systems>
+   <electrical>
+    <path>Aircraft/Generic/generic-electrical.xml</path>
+   </electrical>
+  </systems> 
+  
+  <sound>
+   <audible>true</audible>
+   <path>Aircraft/A320/A320-sound.xml</path>
+  </sound>
+
+  <model>
+   <path>Aircraft/fokker100/Models/fokker100.xml</path>
+  </model>
+
+   <chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
+ </sim>
+
+ <consumables>
+  <fuel> <!-- 13365 litres -->
+   <tank n="1">
+    <level-gal_us archive="y">1780</level-gal_us>
+   </tank>
+   <tank n="2">
+    <level-gal_us archive="y">1780</level-gal_us>
+   </tank>
+   <tank n="3">
+    <level-gal_us archive="y">1780</level-gal_us>
+   </tank>
+  </fuel>
+ </consumables>
+
+</PropertyList>

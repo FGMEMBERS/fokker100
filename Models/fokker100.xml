@@ -223,7 +223,7 @@
   <type>rotate</type>
   <object-name>left_main_wheels</object-name>
   <object-name>left_main_strut</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[2]/position-norm</property>
   <factor>-85</factor>
   <offset-deg>85</offset-deg>
   <center>
