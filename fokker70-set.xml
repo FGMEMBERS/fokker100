@@ -3,7 +3,7 @@
 <PropertyList include="fokker100-base.xml">
 
  <sim>
-  <description>Fokker 100 (JSBSim)</description>
+  <description>Fokker 70 (JSBSim)</description>
   <author>Erik Hofman</author>
   <status>beta</status>
  
