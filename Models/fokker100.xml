@@ -5,21 +5,23 @@
  <path>fokker100.ac</path>
 
  <offsets>
-   <z-m>-2</z-m>
+   <x-m>-3.0</x-m>
+   <z-m>-1.16</z-m>
+   <pitch-deg>-0.61</pitch-deg>
  </offsets>
 
  <animation>
   <type>rotate</type>
   <object-name>right_aileron</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
-  <factor>30</factor>
+  <factor>-30</factor>
   <center>
-   <x-m>3.6693</x-m>
-   <y-m>0.183417</y-m>
-   <z-m>-10.7138</z-m>
+   <x-m>2.465</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.19</z-m>
   </center>
   <axis>
-   <x>0.0</x>
+   <x>0.092</x>
    <y>1.0</y>
    <z>0.0</z>
   </axis>
@@ -29,14 +31,14 @@
   <type>rotate</type>
   <object-name>left_aileron</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
-  <factor>-30</factor>
+  <factor>30</factor>
   <center>
-   <x-m>3.6693</x-m>
-   <y-m>0.183417</y-m>
-   <z-m>10.7138</z-m>
+   <x-m>2.465</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.19</z-m>
   </center>
   <axis>
-   <x>0.0</x>
+   <x>-0.092</x>
    <y>1.0</y>
    <z>0.0</z>
   </axis>
@@ -45,36 +47,68 @@
  <animation>
   <type>rotate</type>
   <object-name>right_inbound_flap</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>35</factor>
+  <center>
+   <x-m>2.1</x-m>
+   <y-m>0.0</y-m>
+   <z-m>-0.27</z-m>
+  </center>
+  <axis>
+   <x>0.1469</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
   <object-name>left_inbound_flap</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>-35</factor>
+  <factor>35</factor>
   <center>
-   <x-m>2.97844</x-m>
-   <y-m>-0.27142</y-m>
+   <x-m>2.1</x-m>
+   <y-m>0.0</y-m>
+   <z-m>-0.27</z-m>
+  </center>
+  <axis>
+   <x>-0.1469</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_outbound_flap</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>35</factor>
+  <center>
+   <x-m>2.6</x-m>
+   <y-m>0.0</y-m>
    <z-m>0.0</z-m>
   </center>
   <axis>
-   <x>-0.051</x>
-   <y>4.309</y>
-   <z>0.561</z>
+   <x>0.092</x>
+   <y>1.0</y>
+   <z>0.0</z>
   </axis>
  </animation>
 
  <animation>
   <type>rotate</type>
   <object-name>left_outbound_flap</object-name>
-  <object-name>right_outbound_flap</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>-35</factor>
+  <factor>35</factor>
   <center>
-   <x-m>3.36429</x-m>
-   <y-m>-0.052338</y-m>
+   <x-m>2.6</x-m>
+   <y-m>0.0</y-m>
    <z-m>0.0</z-m>
   </center>
   <axis>
-   <x>2.407</x>
-   <y>-6.922</y>
-   <z>0.835</z>
+   <x>-0.092</x>
+   <y>1.0</y>
+   <z>0.0</z>
   </axis>
  </animation>
 
@@ -84,12 +118,12 @@
   <property>/surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
-   <x-m>17.0516</x-m>
-   <y-m>4.12175</y-m>
+   <x-m>13.56</x-m>
+   <y-m>0.0</y-m>
    <z-m>0.0</z-m>
   </center>
   <axis>
-   <x>0.0</x>
+   <x>0.69</x>
    <y>0.0</y>
    <z>1.0</z>
   </axis>
@@ -98,21 +132,38 @@
  <animation>
   <type>rotate</type>
   <object-name>right_elevator</object-name>
+  <property>/surface-positions/elevator-pos-norm</property>
+  <factor>25</factor>
+  <center>
+   <x-m>17.49</x-m>
+   <y-m>0.0</y-m>
+   <z-m>5.82</z-m>
+  </center>
+  <axis>
+   <x>0.372</x>
+   <y>1.0</y>
+   <z></z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
   <object-name>left_elevator</object-name>
   <property>/surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <center>
-   <x-m>18.5078</x-m>
-   <y-m>5.82468</y-m>
-   <z-m>0.0</z-m>
+   <x-m>17.49</x-m>
+   <y-m>0.0</y-m>
+   <z-m>5.82</z-m>
   </center>
   <axis>
-   <x>0.0</x>
+   <x>-0.372</x>
    <y>1.0</y>
    <z>0.0</z>
   </axis>
  </animation>
 
+<!--
  <animation>
   <type>rotate</type>
   <object-name>nose_wheels</object-name>
@@ -169,5 +220,6 @@
    <z>0</z>
   </axis>
  </animation>
+-->
 
 </PropertyList>
