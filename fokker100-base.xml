@@ -39,11 +39,20 @@
     <desc>Toggle thrust reverser.</desc>
     <binding>
      <command>property-toggle</command>
-     <property>/engines/engine[0]/reverser</property>
+     <property>/controls/engines/engine[0]/reverser</property>
     </binding>
     <binding>
      <command>property-toggle</command>
-     <property>/engines/engine[1]/reverser</property>
+     <property>/controls/engines/engine[1]/reverser</property>
+    </binding>
+   </key>
+
+   <key n="83">
+    <name>S</name>
+    <desc>Toggle spoilers.</desc>
+    <binding>
+     <command>property-toggle</command>
+     <property>/controls/flight/spoilers</property>
     </binding>
    </key>
 

@@ -45,7 +45,7 @@
  </animation>
 
  <animation>
-  <type>translate</type>
+  <type>transpoilere</type>
   <object-name>right_inbound_flap</object-name>
   <object-name>right_inbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
@@ -93,7 +93,7 @@
  </animation>
 
  <animation>
-  <type>translate</type>
+  <type>transpoilere</type>
   <object-name>left_inbound_flap</object-name>
   <object-name>left_inbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
@@ -141,7 +141,7 @@
  </animation>
 
  <animation>
-  <type>translate</type>
+  <type>transpoilere</type>
   <object-name>right_outbound_flap</object-name>
   <object-name>right_outbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
@@ -189,7 +189,7 @@
  </animation>
 
  <animation>
-  <type>translate</type>
+  <type>transpoilere</type>
   <object-name>left_outbound_flap</object-name>
   <object-name>left_outbound_slot</object-name>
   <property>surface-positions/flap-pos-norm</property>
@@ -463,7 +463,7 @@
   <type>rotate</type>
   <object-name>right_upper_thrust_reverse</object-name>
   <object-name>left_upper_thrust_reverse</object-name>
-  <property>surface-positions/speedbrake-pos-norm</property>
+  <property>/controls/engines/engine[0]/reversed</property>
   <factor>-60</factor>
   <center>
    <x-m>11.040000</x-m>
@@ -481,7 +481,7 @@
   <type>rotate</type>
   <object-name>right_lower_thrust_reverse</object-name>
   <object-name>left_lower_thrust_reverse</object-name>
-  <property>surface-positions/speedbrake-pos-norm</property>
+  <property>/controls/engines/engine[0]/reversed</property>
   <factor>-60</factor>
   <center>
    <x-m>11.040000</x-m>
@@ -586,6 +586,177 @@
   <object-name>left_fan_disk</object-name>
   <property>engines/engine[1]/n1</property>
   <factor>0.03</factor>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_spoiler1</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>1.885000</x-m>
+   <y-m>2.505000</y-m>
+   <z-m>-0.215000</z-m>
+  </center>
+  <axis>
+   <x>0.090468</x>
+   <y>0.995144</y>
+   <z>0.038772</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_spoiler1</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>60</factor>
+  <center>
+   <x-m>1.885000</x-m>
+   <y-m>-2.505000</y-m>
+   <z-m>-0.215000</z-m>
+  </center>
+  <axis>
+   <x>0.090468</x>
+   <y>-0.995144</y>
+   <z>0.038772</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_spoiler2</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>2.060000</x-m>
+   <y-m>3.220000</y-m>
+   <z-m>-0.195000</z-m>
+  </center>
+  <axis>
+   <x>0.093885</x>
+   <y>0.995185</y>
+   <z>0.028166</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_spoiler2</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>60</factor>
+  <center>
+   <x-m>2.060000</x-m>
+   <y-m>-3.220000</y-m>
+   <z-m>-0.195000</z-m>
+  </center>
+  <axis>
+   <x>0.093885</x>
+   <y>-0.995185</y>
+   <z>0.028166</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_spoiler3</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>1.920000</x-m>
+   <y-m>4.245000</y-m>
+   <z-m>-0.130000</z-m>
+  </center>
+  <axis>
+   <x>0.089156</x>
+   <y>0.995574</y>
+   <z>0.029719</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_spoiler3</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>60</factor>
+  <center>
+   <x-m>1.920000</x-m>
+   <y-m>-4.245000</y-m>
+   <z-m>-0.130000</z-m>
+  </center>
+  <axis>
+   <x>0.089156</x>
+   <y>-0.995574</y>
+   <z>0.029719</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_spoiler4</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>2.075000</x-m>
+   <y-m>4.990000</y-m>
+   <z-m>-0.115000</z-m>
+  </center>
+  <axis>
+   <x>0.105361</x>
+   <y>0.993408</y>
+   <z>0.045155</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_spoiler4</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>60</factor>
+  <center>
+   <x-m>2.075000</x-m>
+   <y-m>-4.990000</y-m>
+   <z-m>-0.115000</z-m>
+  </center>
+  <axis>
+   <x>0.105361</x>
+   <y>-0.993408</y>
+   <z>0.045155</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right_spoiler5</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>2.255000</x-m>
+   <y-m>6.120000</y-m>
+   <z-m>-0.070000</z-m>
+  </center>
+  <axis>
+   <x>0.139785</x>
+   <y>0.989247</y>
+   <z>0.043011</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_spoiler5</object-name>
+  <property>surface-positions/spoilers-pos-norm</property>
+  <factor>60</factor>
+  <center>
+   <x-m>2.255000</x-m>
+   <y-m>-6.120000</y-m>
+   <z-m>-0.070000</z-m>
+  </center>
+  <axis>
+   <x>0.139785</x>
+   <y>-0.989247</y>
+   <z>0.043011</z>
+  </axis>
  </animation>
 
 </PropertyList>
