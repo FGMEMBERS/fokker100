@@ -28,6 +28,32 @@
    <chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
  </sim>
 
+ <engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+  <engine n="1">
+    <running>true</running>
+  </engine>
+ </engines>
+
+ <input>
+  <keyboard>
+   <key n="82">
+    <name>R</name>
+    <desc>Toggle thrust reverser.</desc>
+    <binding>
+     <command>property-toggle</command>
+     <property>/engines/engine[0]/reverser</property>
+    </binding>
+    <binding>
+     <command>property-toggle</command>
+     <property>/engines/engine[1]/reverser</property>
+    </binding>
+   </key>
+  </keyboard>
+ </input>
+
  <consumables>
   <fuel> <!-- 13365 litres -->
    <tank n="1">
