@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<PropertyList include="fokker100.xml">
+
+ <path>fokker70.ac</path>
+
+ <offsets>
+   <x-m>0.0</x-m>
+   <z-m>0.4</z-m>
+   <pitch-deg>0.4</pitch-deg>
+ </offsets>
+
+</PropertyList>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<PropertyList include="fokker100-base.xml">
+
+ <sim>
+  <description>Fokker 100 (JSBSim)</description>
+  <author>Erik Hofman</author>
+  <status>beta</status>
+ 
+  <flight-model>jsb</flight-model>
+  <aero>fokker100</aero>
+
+  <model>
+   <path>Aircraft/fokker100/Models/fokker70.xml</path>
+  </model>
+ </sim>
+
+</PropertyList>
