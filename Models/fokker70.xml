@@ -434,7 +434,7 @@
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>12.700000</x-m>
+   <x-m>12.480000</x-m>
    <y-m>-0.250000</y-m>
    <z-m>1.440000</z-m>
   </center>
@@ -452,7 +452,7 @@
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>12.700000</x-m>
+   <x-m>12.480000</x-m>
    <y-m>0.250000</y-m>
    <z-m>1.440000</z-m>
   </center>
@@ -917,9 +917,7 @@
   <object-name>ArmStrut</object-name>
   <object-name>ArmStrut1</object-name>
   <object-name>ArmStrut2</object-name>
-  <property>/controls/gear/brake-parking</property>
-  <!-- position/altitude-agl-ft -->
-  <!-- /velocities/airspeed-kt < 8 -->
+  <property>sim/model/f70/stairs/position-norm</property>
   <factor>-140.0</factor>
   <center>
    <x-m>-8.860001</x-m>
@@ -936,7 +934,7 @@
  <animation>
   <type>rotate</type>
   <object-name>LastStep</object-name>
-  <property>/controls/gear/brake-parking</property>
+  <property>sim/model/f70/stairs/position-norm</property>
   <factor>-180.0</factor>
   <center>
    <x-m>-8.860001</x-m>
@@ -950,18 +948,17 @@
   </axis>
  </animation>
 
-<!--
  <animation>
   <type>rotate</type>
-  <property>/sim/model/f70/door</property>
+  <property>sim/model/f70/stairs/position-norm</property>
   <object-name>ArmStrut</object-name>
   <object-name>ArmStrut1</object-name>
-  <offset-deg>45.0</offset-deg>
-  <factor>-45.0</factor>
+  <offset-deg>-90.0</offset-deg>
+  <factor>90.0</factor>
   <center>
    <x-m>-8.860001</x-m>
-   <y-m>-1.420000</y-m>
-   <z-m>1.220000</z-m>
+   <y-m>-1.340000</y-m>
+   <z-m>0.580000</z-m>
   </center>
   <axis>
    <x>-1.000000</x>
@@ -972,10 +969,10 @@
 
  <animation>
   <type>rotate</type>
-  <property>/sim/model/f70/door</property>
+  <property>sim/model/f70/stairs/position-norm</property>
   <object-name>ArmStrut</object-name>
-  <offset-deg>-45.0</offset-deg>
-  <factor>45.0</factor>
+  <offset-deg>90.0</offset-deg>
+  <factor>-90.0</factor>
   <center>
    <x-m>-8.860001</x-m>
    <y-m>-0.820000</y-m>
@@ -990,14 +987,14 @@
 
  <animation>
   <type>rotate</type>
-  <property>/sim/model/f70/door</property>
+  <property>sim/model/f70/stairs/position-norm</property>
   <object-name>ArmStrut2</object-name>
-  <offset-deg>40.0</offset-deg>
-  <factor>-40.0</factor>
+  <offset-deg>-80.0</offset-deg>
+  <factor>80.0</factor>
   <center>
    <x-m>-8.860001</x-m>
-   <y-m>-1.330000</y-m>
-   <z-m>0.580000</z-m>
+   <y-m>-1.430000</y-m>
+   <z-m>1.210000</z-m>
   </center>
   <axis>
    <x>-1.000000</x>
@@ -1005,6 +1002,5 @@
    <z>0.000000</z>
   </axis>
  </animation>
--->
 
 </PropertyList>
