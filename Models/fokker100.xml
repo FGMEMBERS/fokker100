@@ -325,6 +325,26 @@
  </animation>
 
  <animation>
+  <type>select</type>
+  <object-name>nose_tire</object-name>
+  <condition>
+   <not>
+    <property>gear/gear[0]/wow</property>
+   </not>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>nose_tire1_wow</object-name>
+  <object-name>nose_tire2_wow</object-name>
+  <condition>
+    <property>gear/gear[0]/wow</property>
+  </condition>
+ </animation>
+
+
+ <animation>
   <type>rotate</type>
   <object-name>right_main_wheels</object-name>
   <object-name>right_main_strut</object-name>
@@ -344,6 +364,26 @@
  </animation>
 
  <animation>
+  <type>select</type>
+  <object-name>right_tire</object-name>
+  <condition>
+   <not>
+    <property>gear/gear[1]/wow</property>
+   </not>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>right_tire1_wow</object-name>
+  <object-name>right_tire2_wow</object-name>
+  <condition>
+    <property>gear/gear[1]/wow</property>
+  </condition>
+ </animation>
+ 
+
+ <animation>
   <type>rotate</type>
   <object-name>left_main_wheels</object-name>
   <object-name>left_main_strut</object-name>
@@ -361,6 +401,26 @@
    <z>0</z>
   </axis>
  </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>left_tire</object-name>
+  <condition>
+   <not>
+    <property>gear/gear[2]/wow</property>
+   </not>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>left_tire1_wow</object-name>
+  <object-name>left_tire2_wow</object-name>
+  <condition>
+    <property>gear/gear[2]/wow</property>
+  </condition>
+ </animation>
+ 
 
  <animation>
   <type>rotate</type>
@@ -398,6 +458,7 @@
   </axis>
  </animation>
 
+
  <animation>
   <type>rotate</type>
   <object-name>right_upper_thrust_reverse</object-name>
@@ -432,6 +493,99 @@
    <y>1.000000</y>
    <z>0.000000</z>
   </axis>
+ </animation>
+
+
+ <animation>
+  <object-name>right_rotating_fan_disk</object-name>
+  <object-name>right_fan_disk</object-name>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>right_fan_disk</object-name>
+  <property>engines/engine[0]/n1</property>
+  <factor>0.1</factor>
+  <center>
+   <x-m>0.00000</x-m>
+   <y-m>2.60000</y-m>
+   <z-m>1.30000</z-m>
+  </center>
+  <axis>
+   <x>1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>right_rotating_fan_disk</object-name>
+  <property>engines/engine[0]/n1</property>
+  <factor>0.1</factor>
+  <center>
+   <x-m>0.00000</x-m>
+   <y-m>2.60000</y-m>
+   <z-m>1.30000</z-m>
+  </center>
+  <axis>
+   <x>1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>blend</type>
+  <object-name>right_fan_disk</object-name>
+  <property>engines/engine[0]/n1</property>
+  <factor>0.03</factor>
+ </animation>
+
+
+ <animation>
+  <object-name>left_rotating_fan_disk</object-name>
+  <object-name>left_fan_disk</object-name>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>left_fan_disk</object-name>
+  <property>engines/engine[1]/n1</property>
+  <factor>0.1</factor>
+  <center>
+   <x-m>0.00000</x-m>
+   <y-m>-2.60000</y-m>
+   <z-m>1.30000</z-m>
+  </center>
+  <axis>
+   <x>1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>left_rotating_fan_disk</object-name>
+  <property>engines/engine[1]/n1</property>
+  <factor>0.1</factor>
+  <center>
+   <x-m>0.00000</x-m>
+   <y-m>-2.60000</y-m>
+   <z-m>1.30000</z-m>
+  </center>
+  <axis>
+   <x>1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+ <animation>
+  <type>blend</type>
+  <object-name>left_fan_disk</object-name>
+  <property>engines/engine[1]/n1</property>
+  <factor>0.03</factor>
  </animation>
 
 </PropertyList>
