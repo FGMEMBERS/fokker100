@@ -278,7 +278,13 @@
     <COEFFICIENT NAME="CDi" TYPE="VALUE">
        Induced_drag
        aero/qbar-psf|metrics/Sw-sqft|aero/cl-squared-norm
-       0.00867
+       0.04478
+    </COEFFICIENT>
+    <!-- Linssys -->
+    <COEFFICIENT NAME="CDcomp" TYPE="VALUE">
+       Drag_due_to_compressibility
+       aero/qbar-psf|metrics/Sw-sqft
+       0.00115
     </COEFFICIENT>
     <COEFFICIENT NAME="CDmach" TYPE="VECTOR">
        Drag_due_to_mach
