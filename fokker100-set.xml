@@ -18,7 +18,7 @@
   
   <sound>
    <audible>true</audible>
-   <path>Aircraft/A320/A320-sound.xml</path>
+   <path>Aircraft/fokker100/fokker100-sound.xml</path>
   </sound>
 
   <model>
