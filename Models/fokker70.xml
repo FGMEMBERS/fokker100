@@ -36,7 +36,7 @@
   <type>rotate</type>
   <object-name>left_aileron</object-name>
   <property>surface-positions/left-aileron-pos-norm</property>
-  <factor>30</factor>
+  <factor>-30</factor>
   <center>
    <x-m>3.675000</x-m>
    <y-m>-10.715000</y-m>
