@@ -18,7 +18,7 @@ loc -0.0341149 -0.50524 -0.0100189
 kids 1
 OBJECT poly
 name "ActuatorHousing"
-loc 2.68118 -2.31215 -0.00230648
+loc 2.68118 -2.31171 -0.0167916
 numvert 144
 0.367254 2.72798 -5.57582
 0.367254 2.85168 -5.42633
@@ -1804,7 +1804,7 @@ loc 0.0188863 -0.489172 0.0193308
 kids 11
 OBJECT poly
 name "right_rotating_fan_disk"
-loc 1.68818 -0.711382 -2.65037
+loc 1.68818 -0.710943 -2.66486
 texture "fokker70.rgb"
 texrep 0.149 0.149
 numvert 21
@@ -1953,7 +1953,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_rotating_fan_disk"
-loc 1.68906 -0.702335 1.69762
+loc 1.68906 -0.701896 1.68314
 texture "fokker70.rgb"
 texrep 0.149 0.149
 numvert 21
@@ -2102,7 +2102,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightEngineCarrier"
-loc 5.80905 -0.798965 -3.93331
+loc 5.80905 -0.798526 -3.9478
 numvert 22
 3.28701 2.55937 2.94949
 2.28225 2.82111 2.80742
@@ -2262,7 +2262,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_lower_thrust_reverse"
-loc 0.0794331 3.32434 -0.740304
+loc 0.0794331 3.32478 -0.754789
 numvert 22
 8.15693 -1.56638 -1.28196
 8.15684 -2.31833 -1.88786
@@ -2410,7 +2410,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_upper_thrust_reverse"
-loc 1.60998 3.53581 -0.716164
+loc 1.60998 3.53625 -0.730649
 numvert 22
 6.62644 -1.64833 -1.33706
 6.62644 -1.46065 -1.42637
@@ -2558,7 +2558,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngineHousing"
-loc 5.92346 -0.819359 -2.62655
+loc 5.92346 -0.81892 -2.64104
 texture "fokker70.rgb"
 texrep -0.25 0.11
 texoff 0.57 -0.015
@@ -4643,7 +4643,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_compressor"
-loc 1.74448 0.283463 -0.115921
+loc 1.74448 0.283902 -0.130406
 texture "fokker70.rgb"
 texrep 0.12 0.12
 texoff -0.285 0.3
@@ -4793,7 +4793,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_lower_thrust_reverse"
-loc 0.0803291 3.32434 3.60787
+loc 0.0803291 3.32478 3.59338
 numvert 22
 8.15693 -1.56638 -1.64172
 8.15685 -2.31833 -1.03581
@@ -4941,7 +4941,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_upper_thrust_reverse"
-loc 1.61089 3.53581 3.632
+loc 1.61089 3.53625 3.61751
 numvert 22
 6.62645 -1.64833 -1.63488
 6.62645 -1.46065 -1.54556
@@ -5089,7 +5089,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngineHousing"
-loc 5.92436 -0.819359 1.72162
+loc 5.92436 -0.81892 1.70713
 texture "fokker70.rgb"
 texrep 0.25 0.1222
 texoff 0.32 -0.025
@@ -7174,7 +7174,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftEngineCarrier"
-loc 5.80995 -0.798965 0.414856
+loc 5.80995 -0.798526 0.400371
 numvert 22
 3.28701 2.55937 0.512873
 2.28225 2.82111 0.654936
@@ -7338,7 +7338,7 @@ loc 0.0423791 -0.478098 0.0568089
 kids 3
 OBJECT poly
 name "Elevator"
-loc 16.395 3.71516 -0.0651971
+loc 16.395 3.7156 -0.0796822
 numvert 33
 0.950541 2.67242 -4.34398
 0.613279 2.66641 -4.34398
@@ -7689,7 +7689,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_elevator"
-loc 3.58962 -0.536007 -0.046595
+loc 3.58962 -0.535568 -0.0610801
 numvert 10
 13.7533 6.92344 4.32539
 13.416 6.91742 4.32539
@@ -7753,7 +7753,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_elevator"
-loc 3.59245 -0.535853 -4.98018
+loc 3.59245 -0.535414 -4.99467
 numvert 10
 13.7532 6.92343 0.571147
 13.416 6.91742 0.571147
@@ -7816,7 +7816,7 @@ refs 3
 9 0.1 0
 kids 0
 OBJECT poly
-loc 1.7799 -4.30603 0.00462713
+loc 1.7799 -4.30559 -0.00985796
 numvert 10
 -13.399 3.81337 -0.626869
 -13.399 3.81337 0.654776
@@ -7880,7 +7880,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_main_strut"
-loc 1.48904 -3.66728 -2.8259
+loc 1.48904 -3.66684 -2.84039
 numvert 20
 0.601731 3.38009 -0.0995698
 0.648556 3.38009 -0.0380325
@@ -8026,7 +8026,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_main_strut"
-loc 1.48905 -3.6805 2.80841
+loc 1.48905 -3.68006 2.79392
 numvert 20
 0.601733 3.3801 -0.0995688
 0.648556 3.3801 -0.0380306
@@ -8172,7 +8172,7 @@ refs 3
 kids 0
 OBJECT poly
 name "nose_strut"
-loc -7.51279 -3.46925 -0.00231395
+loc -7.51279 -3.46881 -0.016799
 numvert 20
 -2.12357 2.85246 -0.0347264
 -2.09796 2.85246 -0.00108143
@@ -8318,7 +8318,7 @@ refs 3
 kids 0
 OBJECT poly
 name "poly"
-loc 7.89541 -1.3227 -0.00889124
+loc 7.89541 -1.32226 -0.0233763
 texrep 0.25 0.1222
 texoff 0.32 -0.025
 numvert 132
@@ -9898,7 +9898,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_compressor"
-loc 7.73866 -1.26472 2.59284
+loc 7.73866 -1.26428 2.57835
 texture "fokker70.rgb"
 texrep 0.12 0.12
 texoff -0.285 0.3
@@ -10048,7 +10048,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_fan_disk"
-loc 1.69788 -1.21201 -2.62245
+loc 1.69788 -1.21157 -2.63694
 texture "fokker70.rgb"
 texrep 0.13 0.13
 texoff -0.159 0.29
@@ -10198,7 +10198,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_fan_disk"
-loc 1.69681 -1.20007 1.69652
+loc 1.69681 -1.19963 1.68203
 texture "fokker70.rgb"
 texrep 0.13 0.13
 texoff -0.16 0.292
@@ -10348,7 +10348,7 @@ refs 3
 kids 0
 OBJECT poly
 name "disk"
-loc 14.6881 -0.99642 -0.00109377
+loc 14.6881 -0.995981 -0.0155789
 numvert 34
 -1.47111 2.55716 0.254169
 -1.47111 2.69952 0.249285
@@ -10591,7 +10591,7 @@ refs 3
 10 1 0
 kids 0
 OBJECT poly
-loc 13.5402 -1.0298 -0.000267334
+loc 13.5402 -1.02936 -0.0147524
 numvert 245
 -0.66926 2.09574 -0.289566
 -1.10512 2.12849 -0.380176
@@ -12922,7 +12922,7 @@ loc -1.21073 -0.387835 0.0193155
 kids 7
 OBJECT poly
 name "nose_tire"
-loc -10.651 -3.4887 -0.211116
+loc -10.651 -3.48826 -0.225601
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -14403,7 +14403,7 @@ refs 3
 kids 0
 OBJECT poly
 name "nose_tire"
-loc -10.651 -3.48869 0.169605
+loc -10.651 -3.48825 0.15512
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -15884,7 +15884,7 @@ refs 3
 kids 0
 OBJECT poly
 name "nose_tire1_wow"
-loc -6.29013 -3.39301 0.167863
+loc -6.29013 -3.39257 0.153378
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -17273,7 +17273,7 @@ refs 3
 kids 0
 OBJECT poly
 name "FrontLowerStrut"
-loc -6.28106 -0.348451 1.68425
+loc -6.28106 -0.348012 1.66976
 numvert 20
 -2.15016 -0.829721 -1.7343
 -2.12802 -0.829721 -1.7052
@@ -17419,7 +17419,7 @@ refs 3
 kids 0
 OBJECT poly
 name "nose_tire2_wow"
-loc -6.28992 -3.39316 -0.209625
+loc -6.28992 -3.39272 -0.22411
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -18808,7 +18808,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftWheelCore"
-loc -6.27575 -3.39409 -0.208475
+loc -6.27575 -3.39365 -0.22296
 texture "fokker70.rgb"
 texrep 0.067 0.088
 texoff -0.13 0.44
@@ -18889,7 +18889,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightWheelCore"
-loc -6.27577 -3.39413 0.169107
+loc -6.27577 -3.39369 0.154622
 texture "fokker70.rgb"
 texrep 0.067 0.088
 texoff -0.13 0.44
@@ -18974,7 +18974,7 @@ loc 0.00536967 -0.232698 0.384122
 kids 7
 OBJECT poly
 name "left_tire"
-loc 1.49439 -3.94482 2.72974
+loc 1.49439 -3.94438 2.71525
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -20455,7 +20455,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_tire"
-loc 1.4944 -3.94484 2.12184
+loc 1.4944 -3.9444 2.10735
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -21936,7 +21936,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_tire1_wow"
-loc 1.50179 -3.90582 2.12133
+loc 1.50179 -3.90538 2.10684
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -23325,7 +23325,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_tire2_wow"
-loc 1.50143 -3.90556 2.72922
+loc 1.50143 -3.90512 2.71473
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -24714,7 +24714,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightLowerStrut"
-loc 1.52197 0.601062 5.54433
+loc 1.52197 0.601501 5.52984
 numvert 20
 0.553089 -2.075 -3.20806
 0.593575 -2.075 -3.15485
@@ -24860,7 +24860,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftWheelCore"
-loc 1.52753 -3.90773 2.12314
+loc 1.52753 -3.90729 2.10865
 texture "fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
@@ -24941,7 +24941,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightWheelCore"
-loc 1.5275 -3.9078 2.7312
+loc 1.5275 -3.90736 2.71671
 texture "fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
@@ -25026,7 +25026,7 @@ loc 0.00536417 -0.365495 -0.269325
 kids 7
 OBJECT poly
 name "right_tire"
-loc 1.49441 -3.79878 -2.25313
+loc 1.49441 -3.79834 -2.26762
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -26507,7 +26507,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_tire"
-loc 1.49442 -3.7988 -2.86081
+loc 1.49442 -3.79836 -2.8753
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -27988,7 +27988,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_tire1_wow"
-loc 1.50125 -3.75977 -2.25365
+loc 1.50125 -3.75933 -2.26814
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -29377,7 +29377,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftLowerStrut"
-loc 1.52198 0.747062 0.563457
+loc 1.52198 0.747501 0.548972
 numvert 20
 0.553087 -2.075 -3.20806
 0.593572 -2.075 -3.15485
@@ -29523,7 +29523,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_tire2_wow"
-loc 1.50161 -3.76004 -2.86133
+loc 1.50161 -3.7596 -2.87582
 texture "fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
@@ -30912,7 +30912,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftWheelCore"
-loc 1.52753 -3.76174 -2.85962
+loc 1.52753 -3.7613 -2.87411
 texture "fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
@@ -30993,7 +30993,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightWheelCore"
-loc 1.52751 -3.7618 -2.2518
+loc 1.52751 -3.76136 -2.26629
 texture "fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
@@ -31074,7 +31074,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_aileron"
-loc 3.33268 -2.5912 -10.7195
+loc 3.33268 -2.59076 -10.734
 numvert 6
 0.599404 2.64477 -2.12684
 0.599404 2.52614 -2.12684
@@ -31116,7 +31116,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_aileron"
-loc 3.33306 -2.5912 10.695
+loc 3.33306 -2.59076 10.6805
 numvert 6
 0.599315 2.64477 2.12703
 0.599315 2.52614 2.12703
@@ -31164,7 +31164,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_outbound_slot"
-loc 2.55931 -2.71291 -6.91276
+loc 2.55931 -2.71247 -6.92725
 numvert 8
 0.164252 2.5276 1.24407
 0.572948 2.47014 1.24407
@@ -31240,7 +31240,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_outbound_slot"
-loc 2.5585 -2.71194 6.88889
+loc 2.5585 -2.7115 6.8744
 numvert 8
 0.831728 2.60255 1.24369
 0.816771 2.43147 1.24369
@@ -31316,7 +31316,7 @@ refs 4
 kids 0
 OBJECT poly
 name "left_inbound_slot"
-loc 2.12199 -2.91976 3.62091
+loc 2.12199 -2.91932 3.60642
 numvert 8
 0.067174 2.62097 -1.55937
 0.592247 2.55201 -1.55937
@@ -31392,7 +31392,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_inbound_slot"
-loc 2.12179 -2.92034 -3.63296
+loc 2.12179 -2.9199 -3.64745
 numvert 8
 0.952126 2.65599 -1.57257
 0.891142 2.4447 -1.57257
@@ -31468,7 +31468,7 @@ refs 4
 kids 0
 OBJECT poly
 name "left_outbound_flap"
-loc 2.96977 -2.75502 6.88867
+loc 2.96977 -2.75458 6.87418
 numvert 8
 0.172227 2.5121 -1.24322
 0.172563 2.30744 -1.24322
@@ -31566,7 +31566,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_outbound_flap"
-loc 2.97122 -2.75668 -6.91311
+loc 2.97122 -2.75624 -6.9276
 numvert 8
 0.17111 2.51411 1.24385
 0.779343 2.26453 1.24385
@@ -31664,7 +31664,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_inbound_flap"
-loc 2.7061 -2.95951 -3.63139
+loc 2.7061 -2.95907 -3.64588
 numvert 8
 0.0303888 2.59075 1.57102
 0.903173 2.33143 1.57102
@@ -31750,7 +31750,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_inbound_flap"
-loc 2.7076 -2.95836 3.6212
+loc 2.7076 -2.95792 3.60671
 numvert 8
 0.385376 2.69395 1.55967
 0.385376 2.48271 1.55967
@@ -31836,7 +31836,7 @@ refs 3
 kids 0
 OBJECT poly
 name "disk"
-loc -0.00872186 -2.76168 -0.00860476
+loc -0.00872186 -2.76124 -0.0230899
 numvert 20
 0.759061 2.69848 5.3093
 0.43767 2.66085 5.3093
@@ -31962,7 +31962,7 @@ loc 0.0134623 -0.263789 0.0775249
 kids 5
 OBJECT poly
 name "left_spoiler5"
-loc 1.59929 -2.31288 0.915037
+loc 1.59929 -2.31244 0.900552
 numvert 4
 0.784566 2.529 5.58358
 0.657661 2.48696 4.66204
@@ -31984,7 +31984,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_spoiler4"
-loc 1.57631 -2.31288 0.781313
+loc 1.57631 -2.31244 0.766828
 numvert 4
 0.593388 2.47452 4.44251
 0.529935 2.45291 3.79351
@@ -32006,7 +32006,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_spoiler3"
-loc 1.56366 -2.31288 0.694611
+loc 1.56366 -2.31244 0.680126
 numvert 4
 0.455346 2.45973 3.79807
 0.391892 2.43428 3.12803
@@ -32028,7 +32028,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_spoiler2"
-loc 1.566 -2.31288 0.590277
+loc 1.566 -2.31244 0.575792
 numvert 4
 0.6037 2.402 3.07988
 0.516454 2.3662 2.27579
@@ -32050,7 +32050,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_spoiler1"
-loc 1.55146 -2.31288 0.491821
+loc 1.55146 -2.31244 0.477336
 numvert 4
 0.467538 2.37642 2.31539
 0.380293 2.34587 1.53973
@@ -32076,7 +32076,7 @@ loc 0.0134877 -0.263769 -0.880052
 kids 5
 OBJECT poly
 name "right_spoiler5"
-loc 1.59948 -2.31272 -6.83061
+loc 1.59948 -2.31228 -6.8451
 numvert 4
 0.784565 2.529 1.12212
 0.657661 2.48696 2.04365
@@ -32098,7 +32098,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_spoiler4"
-loc 1.57651 -2.31272 -6.96433
+loc 1.57651 -2.31228 -6.97882
 numvert 4
 0.593388 2.47453 2.53063
 0.529935 2.45292 3.17964
@@ -32120,7 +32120,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_spoiler3"
-loc 1.56385 -2.31272 -7.05103
+loc 1.56385 -2.31228 -7.06552
 numvert 4
 0.455348 2.45973 3.34849
 0.391893 2.43428 4.01852
@@ -32142,7 +32142,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_spoiler2"
-loc 1.56619 -2.31272 -7.15537
+loc 1.56619 -2.31228 -7.16986
 numvert 4
 0.603703 2.402 4.27533
 0.516455 2.3662 5.06823
@@ -32164,7 +32164,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_spoiler1"
-loc 1.55166 -2.31272 -7.25382
+loc 1.55166 -2.31228 -7.26831
 numvert 4
 0.467538 2.37642 5.22554
 0.38029 2.34587 6.0012
@@ -32185,7 +32185,7 @@ refs 3
 2 1 0
 kids 0
 OBJECT poly
-loc -0.356597 -2.45523 -0.0071631
+loc -0.356597 -2.45479 -0.0216482
 numvert 4
 6.99998 4.80038 -0.00462389
 11.5539 5.96404 -0.00424068
@@ -32206,7 +32206,7 @@ refs 3
 1 0.819654 0.605277
 kids 0
 OBJECT poly
-loc 0.207304 -4.09418 -0.0071631
+loc 0.207304 -4.09374 -0.0216482
 numvert 26
 14.9058 10.0032 -0.225029
 14.8078 10.1454 -0.150263
@@ -32526,7 +32526,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_nose_door"
-loc -0.0334864 -2.13414 -0.00291395
+loc -0.0334864 -2.1337 -0.017399
 texture "fokker70.rgb"
 texrep 0.01 0.01
 texoff 0.2 -0.22
@@ -32619,7 +32619,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_nose_door"
-loc -0.0334864 -2.13414 -0.00291395
+loc -0.0334864 -2.1337 -0.017399
 texture "fokker70.rgb"
 texrep 0.01 0.01
 texoff 0.2 -0.22
@@ -32712,7 +32712,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftWing"
-loc 0.797826 -2.77684 8.0447
+loc 0.797826 -2.7764 8.03021
 numvert 61
 1.92887 2.8414 4.77719
 1.9041 2.78318 4.77719
@@ -33372,7 +33372,7 @@ refs 3
 57 0.633284 0.660139
 kids 0
 OBJECT poly
-loc 0.797426 -2.77684 -8.05759
+loc 0.797426 -2.7764 -8.07207
 numvert 61
 -1.06638 2.74288 5.99454
 -2.02698 2.64037 5.99454
@@ -34046,7 +34046,7 @@ texoff -0.18 -0.36
 kids 5
 OBJECT poly
 name "rudder"
-loc 14.3291 1.36568 -0.00462384
+loc 14.3291 1.36612 -0.0191089
 texture "fokker70.rgb"
 texrep 0.075 0.08
 texoff -0.153 -0.13
@@ -34245,7 +34245,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_speedbrake_inner_shell"
-loc 13.5536 -0.975 -0.120156
+loc 13.5536 -0.974561 -0.134641
 texture "fokker70.rgb"
 texrep 0.07 0.061
 texoff 0.24 0.007
@@ -34605,7 +34605,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_speedbrake_outer_shell"
-loc 13.5552 -0.97324 -0.122593
+loc 13.5552 -0.972801 -0.137078
 texture "fokker70.rgb"
 texrep 0.052 0.044
 texoff -0.167 -0.176
@@ -34965,7 +34965,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_speedbrake_inner_shell"
-loc 13.5535 -0.974777 0.136966
+loc 13.5535 -0.974338 0.122481
 texture "fokker70.rgb"
 texrep 0.07 0.061
 texoff 0.24 0.007
@@ -35325,7 +35325,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_speedbrake_outer_shell"
-loc 13.5552 -0.973013 0.134528
+loc 13.5552 -0.972574 0.120043
 texture "fokker70.rgb"
 texrep 0.052 0.044
 texoff -0.167 -0.176
@@ -35685,7 +35685,7 @@ refs 3
 kids 0
 OBJECT poly
 name "box"
-loc 1.49609 -3.09616 -2.02057
+loc 1.49609 -3.09572 -2.03506
 numvert 22
 0.164927 2.35525 -0.0542517
 0.0784953 2.76031 -0.0572505
@@ -35881,12 +35881,12 @@ refs 3
 kids 0
 OBJECT poly
 name "box"
-loc 1.49759 -3.09616 2.01061
+loc 1.49759 -3.09572 1.99613
 numvert 22
-0.163426 2.35418 0.0531082
-0.0761318 2.76031 0.0614161
-0.931682 2.76031 0.0597172
-0.841754 2.35525 0.0531082
+0.163426 2.35418 0.0531081
+0.0761318 2.76031 0.061416
+0.931682 2.76031 0.0597171
+0.841754 2.35525 0.0531081
 0.301815 2.43227 1.17245
 0.301099 2.76031 1.17245
 0.741083 2.76031 1.17245
@@ -35897,8 +35897,8 @@ numvert 22
 1.07764 2.76031 -1.67549
 1.07786 2.76031 -0.167414
 1.01601 2.76031 -0.0246724
-0.841754 2.29678 0.0560212
-0.163426 2.29678 0.0560207
+0.841754 2.29678 0.0560211
+0.163426 2.29678 0.0560206
 -0.00564361 2.25372 -0.0221621
 -0.0675023 2.20672 -0.167414
 -0.0677146 2.14286 -1.67549
@@ -36077,7 +36077,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_outer_door"
-loc 1.49452 -3.19718 2.64317
+loc 1.49452 -3.19674 2.62868
 numvert 4
 0.16627 2.45627 -0.579453
 0.848868 2.45627 -0.579453
@@ -36099,7 +36099,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_outer_door"
-loc 1.49456 -3.19718 -2.61834
+loc 1.49456 -3.19674 -2.63283
 numvert 4
 0.166261 2.45627 0.543512
 0.848861 2.45627 0.543512
@@ -36121,7 +36121,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_inner_door"
-loc 1.49294 -3.45661 -1.4846
+loc 1.49294 -3.45617 -1.49908
 texture "fokker70.rgb"
 texrep 0.01 0.01
 texoff 0.2 -0.22
@@ -36188,7 +36188,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_inner_door"
-loc 1.50652 -3.45649 1.41891
+loc 1.50652 -3.45605 1.40443
 texture "fokker70.rgb"
 texrep 0.01 0.01
 texoff 0.2 -0.22
@@ -36255,7 +36255,7 @@ refs 3
 kids 0
 OBJECT poly
 name "box"
-loc -12.4225 -2.85374 -0.000584534
+loc -12.4225 -2.8533 -0.0150696
 numvert 14
 1.34193 2.1655 -0.501602
 1.34137 2.61191 -0.502327
@@ -36379,7 +36379,7 @@ loc -0.117743 0.0324664 0.0317104
 kids 1
 OBJECT poly
 name "RightEscapeDoorOutside"
-loc 2.17324 2.4285 0.266197
+loc 2.17324 2.42894 0.251712
 texture "fokker70.rgb"
 texrep 0.042 0.0335
 texoff 0.207 -0.402
@@ -36637,7 +36637,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightEscapeDoorOutside"
-loc 2.14366 2.37121 3.23898
+loc 2.14366 2.37165 3.22449
 texture "fokker70.rgb"
 texrep 0.042 0.0335
 texoff 0.207 -0.402
@@ -36895,7 +36895,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightEscapeDoorOutside"
-loc -8.96287 1.00197 -1.52372
+loc -8.96287 1.00241 -1.53821
 texture "fokker70.rgb"
 texrep 0.0205 0.0465
 texoff 0.127 -0.382
@@ -37031,7 +37031,7 @@ refs 3
 12 0.999794 0.201038
 kids 0
 OBJECT poly
-loc 1.69657 2.68749 -0.00439608
+loc 1.69657 2.68793 -0.0188812
 texture "fokker70.rgb"
 texrep 0.925 0.205
 texoff 0.01 -0.225
@@ -37385,7 +37385,7 @@ numvert 1642
 7.13948 -2.9345 0.228069
 10.3971 -2.13866 0.00585487
 7.13948 -2.96066 0.00321393
-11.5266 -0.39731 0.000179376
+11.5266 -0.39731 0.000179375
 11.5266 -0.41218 0.0551332
 10.5369 -0.90612 0.44466
 10.5376 -1.68661 0.408634
@@ -37537,7 +37537,7 @@ numvert 1642
 9.79223 -0.425711 -0.163683
 8.53099 -0.37461 -0.168261
 12.8035 -0.1921 0.00259209
-12.841 -0.4788 -0.000324382
+12.841 -0.4788 -0.000324383
 13.134 3.27646 0.0316866
 11.7573 3.13003 0.0467042
 12.1642 3.39181 0.0342194
@@ -53124,7 +53124,7 @@ refs 3
 kids 0
 OBJECT poly
 name "ArmStrut"
-loc 2.14403 -2.32173 0.760297
+loc 2.14403 -2.32129 0.745812
 numvert 72
 -11.4474 3.67897 -0.0731463
 -11.4683 3.67897 -0.0731463
@@ -53922,7 +53922,7 @@ refs 3
 kids 0
 OBJECT poly
 name "ArmStrut1"
-loc -8.85583 0.360258 1.45117
+loc -8.85583 0.360697 1.43668
 numvert 36
 -0.466585 0.21239 -0.103214
 -0.44622 0.203634 -0.122315
@@ -54252,22 +54252,22 @@ refs 3
 kids 0
 OBJECT poly
 name "LastStep"
-loc -8.85497 1.7846 1.00935
+loc -8.85497 1.78504 0.994865
 numvert 16
--0.435106 -0.0738697 -0.0539063
--0.435106 0.073266 0.0849299
--0.435106 0.1437 0.000979424
+-0.435106 -0.0738697 -0.0539064
+-0.435106 0.073266 0.08493
+-0.435106 0.1437 0.000979483
 -0.435106 -0.0669525 -0.11119
-0.434952 -0.0738697 -0.0539063
-0.434952 0.073266 0.0849299
-0.434952 0.1437 0.000979424
-0.434954 -0.0766209 -0.099666
+0.434952 -0.0738697 -0.0539064
+0.434952 0.073266 0.08493
+0.434952 0.1437 0.000979483
+0.434954 -0.0766209 -0.0996661
 -0.435106 -0.213455 0.112462
--0.435106 -0.23809 0.0927889
+-0.435106 -0.23809 0.092789
 0.435106 -0.213455 0.112462
-0.435106 -0.23809 0.0927889
-0.434952 0.0368094 -0.0701358
--0.435106 0.0492425 -0.0849548
+0.435106 -0.23809 0.092789
+0.434952 0.0368094 -0.0701359
+-0.435106 0.0492425 -0.0849549
 -0.435106 -0.00677204 -0.118752
 0.434952 -0.0180362 -0.105325
 numsurf 28
@@ -54442,7 +54442,7 @@ refs 3
 kids 0
 OBJECT poly
 name "ArmStrut2"
-loc -8.85583 0.901052 1.37577
+loc -8.85583 0.901491 1.36128
 numvert 36
 -0.467354 0.308736 0.0619398
 -0.446989 0.302492 0.0414885
@@ -54776,7 +54776,7 @@ loc -4.42843 -0.442505 1.05195
 kids 2
 OBJECT poly
 name "MainDoorOutside"
-loc 4.43216 -0.587566 1.34293
+loc 4.43216 -0.587127 1.32844
 texture "fokker70.rgb"
 texrep 0.0205 0.047
 texoff 0.127 -0.382
@@ -54897,7 +54897,7 @@ refs 3
 kids 0
 OBJECT poly
 name "StairsInside"
-loc -4.42843 1.45998 0.211138
+loc -4.42843 1.46042 0.196653
 numvert 80
 0.478526 1.14181 -0.0920713
 0.477934 0.835171 0.0942264
@@ -55847,7 +55847,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightEscapeDoorOutside"
-loc -8.96973 1.00039 -1.49301
+loc -8.96973 1.00083 -1.5075
 numvert 40
 -0.327164 0.66427 0.111423
 -0.359472 0.58402 0.0719243
@@ -56241,7 +56241,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Hallway"
-loc -8.46626 1.21142 0.0157538
+loc -8.46626 1.21186 0.00126871
 numvert 177
 0.0877285 0.852991 1.12214
 0.088253 0.675264 1.28571
@@ -57839,7 +57839,7 @@ refs 3
 117 0.20509 0.854023
 kids 0
 OBJECT poly
-loc 0 0.000543952 -0.00380766
+loc 0 0.000982881 -0.0182928
 numvert 25
 -9.58243 2.46215 -0.279323
 -9.58243 2.49878 0.0219663
