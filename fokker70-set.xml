@@ -23,6 +23,22 @@
     <z-offset-m archive="y">-10.45</z-offset-m>	<!-- fwd -->
    </config>
   </view>
+
+  <help>
+   <title>Fokker 70</title>
+   <key>
+    <name>B</name>
+    <desc>toggle parking brake &amp; door</desc>
+   </key>
+   <key>
+    <name>R</name>
+    <desc>toggle thrust reverser</desc>
+   </key>
+   <key>
+    <name>S</name>
+    <desc>toggle spoilers</desc>
+   </key>
+  </help>
  </sim>
 
  <nasal>
