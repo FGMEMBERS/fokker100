@@ -6,12 +6,6 @@
 
   <fuel-fraction>0.7</fuel-fraction>
   
-  <systems>
-   <electrical>
-    <path>Aircraft/Generic/generic-electrical.xml</path>
-   </electrical>
-  </systems> 
-  
   <sound>
    <path>Aircraft/fokker100/fokker100-sound.xml</path>
   </sound>
