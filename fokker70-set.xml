@@ -27,10 +27,6 @@
   <help>
    <title>Fokker 70</title>
    <key>
-    <name>B</name>
-    <desc>toggle parking brake &amp; door</desc>
-   </key>
-   <key>
     <name>R</name>
     <desc>toggle thrust reverser</desc>
    </key>
@@ -46,18 +42,5 @@
    <file>Aircraft/fokker100/Models/fokker.nas</file>
   </f70>
  </nasal>
-
- <input>
-  <keyboard>
-   <key n="66">
-    <name>B</name>
-    <desc>Toggle parking brake on or off</desc>
-    <binding>
-     <command>nasal</command>
-     <script>f70.testDoor()</script>
-     </binding>
-   </key>
-  </keyboard>
- </input>
 
 </PropertyList>
