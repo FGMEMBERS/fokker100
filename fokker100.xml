@@ -214,6 +214,7 @@
                     <min>-1</min>
                     <max>1</max>
                 </clipto>
+                <output>fcs/elevator-pos-norm</output>
             </summer>
 
             <aerosurface_scale name="Elevator Control">
@@ -233,6 +234,7 @@
                     <min>-1</min>
                     <max>1</max>
                 </clipto>
+                <output>fcs/left-aileron-pos-norm</output>
             </summer>
 
             <aerosurface_scale name="Left Aileron Control">
@@ -312,6 +314,7 @@
                     <min>-1</min>
                     <max>1</max>
                 </clipto>
+                <output>fcs/rudder-pos-norm</output>
             </summer>
 
             <aerosurface_scale name="Rudder Control">
