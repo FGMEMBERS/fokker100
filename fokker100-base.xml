@@ -17,6 +17,22 @@
   <virtual-cockpit archive="y">true</virtual-cockpit>
 
   <chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
+
+  <help>
+   <title>Fokker 100</title>
+   <key>
+    <name>Ctrl-b</name>
+    <desc>toggle speed brake</desc>
+   </key>
+   <key>
+    <name>Delete</name>
+    <desc>toggle thrust reverser</desc>
+   </key>
+   <key>
+    <name>S</name>
+    <desc>toggle spoilers</desc>
+   </key>
+  </help>
  </sim>
 
  <engines>
@@ -30,19 +46,6 @@
 
  <input>
   <keyboard>
-   <key n="82">
-    <name>R</name>
-    <desc>Toggle thrust reverser.</desc>
-    <binding>
-     <command>property-toggle</command>
-     <property>/controls/engines/engine[0]/reverser</property>
-    </binding>
-    <binding>
-     <command>property-toggle</command>
-     <property>/controls/engines/engine[1]/reverser</property>
-    </binding>
-   </key>
-
    <key n="83">
     <name>S</name>
     <desc>Toggle spoilers.</desc>
@@ -71,6 +74,23 @@
      <step type="double">0.125</step>
     </binding>
    </key>
+
+   <key n="127">
+    <name>Delete</name>
+    <desc>Toggle Reversers</desc>
+    <binding>
+     <command>nasal</command>
+     <script>reversethrust.togglereverser()</script>
+    </binding>
+    <binding>
+     <command>property-toggle</command>
+     <property>/controls/engines/engine[0]/reverser</property>
+    </binding>
+    <binding>
+     <command>property-toggle</command>
+     <property>/controls/engines/engine[1]/reverser</property>
+    </binding>
+   </key>
   </keyboard>
  </input>
 
@@ -84,5 +104,11 @@
    </tank>
   </fuel>
  </consumables>
+
+ <nasal>
+  <reversethrust>
+   <file>Aircraft/fokker100/Nasal/reverse-thrust.nas</file>
+  </reversethrust>
+ </nasal>
 
 </PropertyList>
