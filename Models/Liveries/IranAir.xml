@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+			<livery>
+				<name type="string">IranAir</name>
+				<texture>Liveries/IranAir.rgb</texture>
+			</livery>        
+    </model>
+</sim>
+</PropertyList>

@@ -2,23 +2,71 @@
 
 <PropertyList include="fokker100-base.xml">
 
- <sim>
-  <description>Fokker 100 (JSBSim)</description>
-  <author>Erik Hofman</author>
-  <status>beta</status>
- 
-  <flight-model>jsb</flight-model>
-  <aero>fokker100</aero>
+  <sim>
+    <description>Fokker 100 (JSBSim)</description>
+    <author>Erik Hofman, Isaias Prestes, Michel Maia</author>
+    <status>beta</status>
 
-  <view n="0">
-   <internal archive="y">true</internal>
-   <config>
-    <pitch-offset-deg>-6.5</pitch-offset-deg>
-    <x-offset-m archive="y">-0.57</x-offset-m>  <!-- left -->
-    <y-offset-m archive="y">1.9</y-offset-m>    <!-- up -->
-    <z-offset-m archive="y">-13.16</z-offset-m> <!-- fwd -->
-   </config>
-  </view>
- </sim>
+    <flight-model>jsb</flight-model>
+    <aero>fokker100</aero>
+
+
+    <view n="0">
+      <internal archive="y">true</internal>
+      <config>
+        <pitch-offset-deg>-6.5</pitch-offset-deg>
+        <x-offset-m archive="y">-0.57</x-offset-m>
+        <!-- left -->
+        <y-offset-m archive="y">1.9</y-offset-m>
+        <!-- up -->
+        <z-offset-m archive="y">-13.16</z-offset-m>
+        <!-- fwd -->
+      </config>
+    </view>
+
+
+    <view n="100">
+      <name>Wing View 1</name>
+      <type>lookfrom</type>
+      <internal archive="y">true</internal>
+      <config>
+        <from-model type="bool">true</from-model>
+        <from-model-idx type="int">0</from-model-idx>
+        <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+        <default-field-of-view-deg type="double">55</default-field-of-view-deg>
+        <pitch-offset-deg>-8.0</pitch-offset-deg>
+        <heading-offset-deg type="double">90</heading-offset-deg>
+        <!-- parallel to the panel -->
+        <x-offset-m archive="y"> -2.0 </x-offset-m>
+        <!-- Left/Right -->
+        <y-offset-m archive="y"> 1.31 </y-offset-m>
+        <!-- Up/Down -->
+        <z-offset-m archive="y"> 4.67 </z-offset-m>
+        <!-- Fdw/Back -->
+      </config>
+    </view>
+    <view n="300">
+      <name>Wing View 2</name>
+      <type>lookfrom</type>
+      <internal archive="y">true</internal>
+      <config>
+        <from-model type="bool">true</from-model>
+        <from-model-idx type="int">0</from-model-idx>
+        <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+        <default-field-of-view-deg type="double">55</default-field-of-view-deg>
+        <pitch-offset-deg>-8.0</pitch-offset-deg>
+        <heading-offset-deg type="double">270</heading-offset-deg>
+        <!-- parallel to the panel -->
+        <x-offset-m archive="y"> 2.0 </x-offset-m>
+        <!-- Left/Right -->
+        <y-offset-m archive="y"> 1.31 </y-offset-m>
+        <!-- Up/Down -->
+        <z-offset-m archive="y"> 4.67 </z-offset-m>
+        <!-- Fdw/Back -->
+      </config>
+    </view>
+
+
+  </sim>
 
 </PropertyList>

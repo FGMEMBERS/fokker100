@@ -3,6 +3,107 @@
 <PropertyList>
 
  <path>fokker100.ac</path>
+ 
+
+<!-- Livery System -->
+    <nasal>
+        <load>
+            var livery_update = aircraft.livery_update.new("Aircraft/fokker100/Models/Liveries", 10);
+        </load>
+
+        <unload>
+            livery_update.stop();
+        </unload>
+    </nasal>
+ 
+     <animation>
+        <type>material</type>
+         <object-name>object</object-name>
+         <object-name>LeftWing</object-name>
+         <object-name>RightWing</object-name>
+         <object-name>EngineHousing</object-name>
+         <object-name>rudder</object-name>
+         <object-name>RightEngineCarrier</object-name>
+         <object-name>LeftEngineCarrier</object-name>
+         <object-name>left_speedbrake_outer_shell</object-name>
+         <object-name>left_speedbrake_inner_shell</object-name>
+         <object-name>disk</object-name>
+         <object-name>right_speedbrake_inner_shell</object-name>
+         <object-name>right_speedbrake_outer_shell</object-name>
+         <object-name>Elevator</object-name>
+         <object-name>left_elevator</object-name>
+         <object-name>right_elevator</object-name>
+         <object-name>nose_tire</object-name>
+         <object-name>nose_tire2_wow</object-name>
+         <object-name>nose_tire1_wow</object-name>
+         <object-name>nose_tire</object-name>
+         <object-name>RightWheelCore</object-name>
+         <object-name>LeftWheelCore</object-name>
+         <object-name>FrontLowerStrut</object-name>
+         <object-name>nose_strut</object-name>
+         <object-name>box</object-name>
+         <object-name>left_nose_door</object-name>
+         <object-name>right_nose_door</object-name>
+         <object-name>left_tire2_wow</object-name>
+         <object-name>left_tire</object-name>
+         <object-name>RightWheelCore</object-name>
+         <object-name>left_tire1_wow</object-name>
+         <object-name>right_tire</object-name>
+         <object-name>LeftWheelCore</object-name>
+         <object-name>right_tire1_wow</object-name>
+         <object-name>RightWheelCore</object-name>
+         <object-name>right_tire2_wow</object-name>
+         <object-name>right_tire</object-name>
+         <object-name>LeftWheelCore</object-name>
+         <object-name>RightLowerStrut</object-name>
+         <object-name>LeftLowerStrut</object-name>
+         <object-name>left_main_strut</object-name>
+         <object-name>right_main_strut</object-name>
+         <object-name>left_outer_door</object-name>
+         <object-name>left_inner_door</object-name>
+         <object-name>left_inbound_slot</object-name>
+         <object-name>right_inner_door</object-name>
+         <object-name>right_rotating_fan_disk</object-name>
+         <object-name>right_fan_disk</object-name>
+         <object-name>left_rotating_fan_disk</object-name>
+         <object-name>left_fan_disk</object-name>
+         <object-name>poly</object-name>
+         <object-name>right_upper_thrust_reverse</object-name>
+         <object-name>right_lower_thrust_reverse</object-name>
+         <object-name>right_compressor</object-name>
+         <object-name>left_upper_thrust_reverse</object-name>
+         <object-name>left_lower_thrust_reverse</object-name>
+         <object-name>left_compressor</object-name>
+         <object-name>right_outer_door</object-name>
+         <object-name>ActuatorHousing</object-name>
+         <object-name>right_inbound_slot</object-name>
+         <object-name>left_inbound_flap</object-name>
+         <object-name>right_inbound_flap</object-name>
+         <object-name>left_aileron</object-name>
+         <object-name>left_outbound_flap</object-name>
+         <object-name>right_aileron</object-name>
+         <object-name>right_outbound_flap</object-name>
+         <object-name>left_outbound_slot</object-name>
+         <object-name>left_spoiler5</object-name>
+         <object-name>left_spoiler4</object-name>
+         <object-name>left_spoiler3</object-name>
+         <object-name>left_spoiler2</object-name>
+         <object-name>left_spoiler1</object-name>
+         <object-name>right_outbound_slot</object-name>
+         <object-name>right_spoiler5</object-name>
+         <object-name>right_spoiler4</object-name>
+         <object-name>right_spoiler3</object-name>
+         <object-name>right_spoiler2</object-name>
+         <object-name>right_spoiler1</object-name>
+         <property-base>sim/model/livery</property-base>
+         <texture-prop>texture</texture-prop>
+      <texture>fokker100.rgb</texture>
+    </animation>
+    
+<!-- Livery System -->
+
+
+ 
 
  <offsets>
    <x-m>0.0</x-m>
@@ -468,7 +569,7 @@
   <type>rotate</type>
   <object-name>right_upper_thrust_reverse</object-name>
   <object-name>left_upper_thrust_reverse</object-name>
-  <property>engines/engine[0]/reverser-pos-norm</property>
+  <property>/controls/engines/engine[0]/reversed</property>
   <factor>-60</factor>
   <center>
    <x-m>11.040000</x-m>
@@ -486,7 +587,7 @@
   <type>rotate</type>
   <object-name>right_lower_thrust_reverse</object-name>
   <object-name>left_lower_thrust_reverse</object-name>
-  <property>engines/engine[0]/reverser-pos-norm</property>
+  <property>/controls/engines/engine[0]/reversed</property>
   <factor>-60</factor>
   <center>
    <x-m>11.040000</x-m>
@@ -510,7 +611,7 @@
   <type>spin</type>
   <object-name>right_fan_disk</object-name>
   <property>engines/engine[0]/n1</property>
-  <factor>0.1</factor>
+  <factor>67</factor>
   <center>
    <x-m>0.00000</x-m>
    <y-m>2.60000</y-m>
@@ -527,7 +628,7 @@
   <type>spin</type>
   <object-name>right_rotating_fan_disk</object-name>
   <property>engines/engine[0]/n1</property>
-  <factor>0.1</factor>
+  <factor>67</factor>
   <center>
    <x-m>0.00000</x-m>
    <y-m>2.60000</y-m>
@@ -544,7 +645,7 @@
   <type>blend</type>
   <object-name>right_fan_disk</object-name>
   <property>engines/engine[0]/n1</property>
-  <factor>0.03</factor>
+  <factor>067</factor>
  </animation>
 
 
@@ -557,7 +658,7 @@
   <type>spin</type>
   <object-name>left_fan_disk</object-name>
   <property>engines/engine[1]/n1</property>
-  <factor>0.1</factor>
+  <factor>67</factor>
   <center>
    <x-m>0.00000</x-m>
    <y-m>-2.60000</y-m>
@@ -574,7 +675,7 @@
   <type>spin</type>
   <object-name>left_rotating_fan_disk</object-name>
   <property>engines/engine[1]/n1</property>
-  <factor>0.1</factor>
+  <factor>067</factor>
   <center>
    <x-m>0.00000</x-m>
    <y-m>-2.60000</y-m>
@@ -590,7 +691,7 @@
   <type>blend</type>
   <object-name>left_fan_disk</object-name>
   <property>engines/engine[1]/n1</property>
-  <factor>0.03</factor>
+  <factor>67</factor>
  </animation>
 
 
@@ -905,5 +1006,65 @@
    <z>0.000000</z>
   </axis>
  </animation>
+ 
+<animation>
+  <type>spin</type>
+  <object-name>nose_tires</object-name>
+  <factor>65</factor>
+  <property>engines/engine[0]/n1</property>
+  <center>
+   <x-m>-1.36</x-m>
+   <y-m>-1.79</y-m>
+   <z-m>0.187</z-m>
+  </center>
+  <axis>
+   <x></x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ <!-- reverser -->
+<!-- left --> <animation> <type>rotate</type> <object-name>left_upper_thrust_reverse</object-name> <property>engines/engine/reverser-pos-norm</property>  <interpolation> <entry>  <ind>0</ind>  <dep>0.0</dep> </entry> <entry> <ind>1</ind>  <dep>0.6</dep> </entry> </interpolation> <axis> <x>0</x>  <y>-0.3</y>  <z>0</z> </axis> </animation> <animation> <type>rotate</type> <object-name>left_lower_thrust_reverse</object-name> <property>engines/engine/reverser-pos-norm</property>  <interpolation> <entry>  <ind>0</ind>  <dep>0.0</dep> </entry> <entry> <ind>1</ind>  <dep>0.6</dep> </entry> </interpolation> <axis> <x>0</x>  <y>0.3</y>  <z>0</z> </axis> </animation> <!-- right --> <animation> <type>rotate</type> <object-name>right_lower_thrust_reverse</object-name>  <object-name>rreverserib</object-name> <property>engines/engine[1]/reverser-pos-norm</property>  <interpolation>  <entry>  <ind>0</ind>  <dep>0.0</dep>  </entry>   <entry> <ind>1</ind>  <dep>0.6</dep>  </entry> </interpolation> <axis> <x>0</x>  <y>0.3</y> <z>0</z> </axis> </animation> <animation> <type>rotate</type> <object-name>right_upper_thrust_reverse</object-name> <property>engines/engine[1]/reverser-pos-norm</property>  <interpolation>  <entry>  <ind>0</ind>  <dep>0.0</dep>  </entry>   <entry> <ind>1</ind>  <dep>0.6</dep>  </entry> </interpolation> <axis> <x>0</x>  <y>-0.3</y> <z>0</z> </axis> </animation> 
+
+<!-- Tire smoke animation -->
+	<model>
+		<path>Aircraft/Generic/Effects/tyre-smoke-nose.xml</path>
+		<name>tyre-smoke-n</name>
+		<offsets>
+			<x-m>-12.4378</x-m>
+			<y-m>0</y-m>
+			<z-m>-1.98361</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Generic/Effects/tyre-smoke-port.xml</path>
+		<name>tyre-smoke-p</name>
+		<offsets>
+			<x-m>1.85769</x-m>
+			<y-m>-2.80243</y-m>
+			<z-m>-2.17551</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Generic/Effects/tyre-smoke-stbd.xml</path>
+		<name>tyre-smoke-s</name>
+		<offsets>
+			<x-m>1.85769</x-m>
+			<y-m>2.80243</y-m>
+			<z-m>-2.17551</z-m>
+		</offsets>
+	</model>
+
+<!-- The Pushback -->
+<model>
+	<name>Pushback</name>
+	<path>Models\Airport\Pushback\Military.xml</path>
+	<offsets>
+		<x-m>-12.4378</x-m>
+		<y-m>0</y-m>
+		<z-m>-1.98361</z-m>
+	</offsets>
+</model>
+
 
 </PropertyList>

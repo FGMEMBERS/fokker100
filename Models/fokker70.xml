@@ -473,10 +473,10 @@
   <type>rotate</type>
   <object-name>right_upper_thrust_reverse</object-name>
   <object-name>left_upper_thrust_reverse</object-name>
-  <property>engines/engine[0]/reverser-pos-norm</property>
+  <property>/controls/engines/engine[0]/reversed</property>
   <factor>-60</factor>
   <center>
-   <x-m>8.950000</x-m>
+   <x-m>11.040000</x-m>
    <y-m>-0.250000</y-m>
    <z-m>1.240000</z-m>
   </center>
@@ -491,10 +491,10 @@
   <type>rotate</type>
   <object-name>right_lower_thrust_reverse</object-name>
   <object-name>left_lower_thrust_reverse</object-name>
-  <property>engines/engine[0]/reverser-pos-norm</property>
+  <property>/controls/engines/engine[0]/reversed</property>
   <factor>-60</factor>
   <center>
-   <x-m>8.950000</x-m>
+   <x-m>11.040000</x-m>
    <y-m>0.250000</y-m>
    <z-m>1.240000</z-m>
   </center>

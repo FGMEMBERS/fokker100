@@ -6,13 +6,13 @@
   Inputs:
     name:           Tay-651
     type:           turbine
-    thrust:         15400 lb
+    thrust:         15100 lb
     augmented?      no
     injected?       no
 -->
 
 <turbine_engine name="Tay-651">
-  <milthrust>   15400.0 </milthrust>
+  <milthrust>   15100.0 </milthrust>
   <bypassratio>     3.07 </bypassratio>
   <tsfc>            0.6908 </tsfc>
   <idlen1>         30.0 </idlen1>

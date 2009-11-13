@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+			<livery>
+				<name type="string">OceanAir</name>
+				<texture>Liveries/fokker100.rgb</texture>
+			</livery>        
+    </model>
+</sim>
+</PropertyList>
