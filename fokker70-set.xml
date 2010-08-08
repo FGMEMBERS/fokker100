@@ -8,7 +8,7 @@
   <status>beta</status>
  
   <flight-model>jsb</flight-model>
-  <aero>fokker100</aero>
+  <aero>fokker70</aero>
 
   <model>
    <path>Aircraft/fokker100/Models/fokker70.xml</path>
