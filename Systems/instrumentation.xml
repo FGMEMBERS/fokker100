@@ -37,26 +37,26 @@ file, these values will be used (they are hardcoded).
 
   <airspeed-indicator>
       <name>airspeed-indicator</name>
-      <number>0</number>
+      <number>1</number>
       <total-pressure>/systems/pitot/total-pressure-inhg</total-pressure>
       <static-pressure>/systems/static/pressure-inhg</static-pressure>
   </airspeed-indicator>
 
   <altimeter>
     <name>altimeter</name>
-    <number>0</number>
+    <number>1</number>
     <static-pressure>/systems/static/pressure-inhg</static-pressure>
   </altimeter>
 
   <attitude-indicator>
     <name>attitude-indicator</name>
-    <number>0</number>
+    <number>1</number>
     <suction>/systems/vacuum/suction-inhg</suction>
   </attitude-indicator>
 
   <clock>
     <name>clock</name>
-    <number>0</number>
+    <number>1</number>
   </clock>
 
   <dme>
@@ -77,7 +77,7 @@ file, these values will be used (they are hardcoded).
 
   <heading-indicator-fg>
     <name>heading-indicator-fg</name>
-    <number>0</number>
+    <number>1</number>
   </heading-indicator-fg>
 
   <KT-70>
@@ -143,5 +143,11 @@ file, these values will be used (they are hardcoded).
    <number>0</number>
    <serviceable>true</serviceable>
  </mk-viii>
+ 
+     <groundradar>
+        <name>groundradar</name>
+        <airport-id-source>instrumentation/groundradar/id</airport-id-source>
+        <range-source>instrumentation/groundradar/range</range-source>
+    </groundradar>
 
 </PropertyList>

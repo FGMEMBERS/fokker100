@@ -3,14 +3,15 @@
 <PropertyList include="fokker100-base.xml">
 
   <sim>
-    <description>Fokker 100 (JSBSim)</description>
-    <author>Erik Hofman, Isaias Prestes, Michel Maia</author>
-    <status>beta</status>
+    <description>Fokker 100 (F-28-0100)</description>
+    <author>Erik Hofman, Isaias Prestes, Michel Maia, Thomas Ito-Haigh</author>
+    <status>Beta 0.2</status>
 
     <flight-model>jsb</flight-model>
     <aero>fokker100</aero>
 
-
+    <controls include="Systems/F100-init-controls.xml"/>
+    
     <view n="0">
       <internal archive="y">true</internal>
       <config>
@@ -65,7 +66,17 @@
         <!-- Fdw/Back -->
       </config>
     </view>
-
+    
+        <groundradar>
+            <id type="string">KSFO</id>
+            <range type="double">1.2</range>
+        </groundradar>
+        
+    <controls>
+        <gear>
+            <brake-parking type="bool">1</brake-parking>
+        </gear>
+    </controls>
 
   </sim>
 

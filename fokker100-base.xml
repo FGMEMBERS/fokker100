@@ -50,17 +50,50 @@
 		<!-- O menu de ajuda dessa aeronave -->
 		<help>
 			<title>Fokker 100</title>
-			<line>Choose your favorit texture using the key above</line>
-			<line>To start the plane you have to select "Engine Starter" and then when</line>
-			<line>n2 shows 25 you have to select "Engine Start", If you want to cutoff</line>
-			<line>the engine just select "Engine Start"</line>
+<line>Liveries :</line>
+<line>Choose a livery using the livery menu. Use the option in the 'Fokker 100' menu.</line>
+<line></line>
+<line>Engine Startup :</line>
+<line>(Not how it's done in real life, but this method works)</line>
+<line>1. Switch on both Fire Extinguishers manually, or press 'R'</line>
+<line>2. Switch on the APU and both Generators using the switches in the overhead panel.</line>
+<line>3. Engage both Starters. Use the overhead switches or press 'S'</line>
+<line>4. When N2 reaches 25%, switch off both Fire Extinguishers.</line>
+<line>5. Wait until N1 reaches about 35~40%, then switch off the starters.</line>
+<line>(They should switch off automatically)</line>
+<line></line>
+
+<line>Engine Shutdown :</line>
+<line>Simple - Just engage both Fire Extinguishers, or press 'R'.</line>
+<line></line>
+
+<line>Takeoff Procedure :</line>
+<line>(Not how it's done in real life, but this method works best with the FlightGear model)</line>
+<line>1. Set flaps to 20 degrees. (Two notches down)</line>
+<line>2. Set Pitch trim to 1/2 upwards.</line>
+<line>3. Apply full power. Rotate at 155 Knots.</line>
+<line></line>
+<line>Night Flying :</line>
+<line>Before you take off, it is highly recommended</line>
+<line>that you do the following:</line>
+<line>Set the time to daytime, and switch on the Panel Lights,</line>
+<line>and adjust the brightness of your EFIS screens until you can</line>
+<line>read them in the dark. This should increase your chance</line>
+<line>of enjoying a safe and enjoyable flight through the night skies.</line>
+
+
 			<key>
-				<name>l</name>
-				<desc>Brings up the Livery Switching Dialog</desc>
+				<name>j</name>
+				<desc>Spoilers up one notch</desc>
 			</key>
+            <key>
+				<name>k</name>
+				<desc>Spoilers down one notch</desc>
+			</key>
+            
 			<key>
-				<name>Del</name>
-				<desc>Toggle Reversers</desc>
+				<name>Del (fn+Del for Mac)</name>
+				<desc>Toggle Thrust Reversers</desc>
 			</key>
 			<key>
 				<name>Ctrl+B</name>
@@ -68,12 +101,13 @@
 			</key>
 			<key>
 				<name>R</name>
-				<desc>Cuttoff engine</desc>
+                <desc>Engine ShutDown</desc>
 			</key>
 			<key>
 				<name>S</name>
-				<desc>toggle spoilers</desc>
-			</key>
+				<desc>Toggle Full Spoilers</desc>
+            </key>
+
 
 		</help>
 
@@ -113,6 +147,24 @@
 							<dialog-name>pushback</dialog-name>
 						</binding>
 					</item>
+                                        <item>
+                        <label>EFB</label>
+                        <binding>
+                            <command>nasal</command>
+                            <script>dialogs.EFB.toggle();</script>
+                        </binding>
+                    </item>
+         <item>
+           <label>Equipment Failures</label>
+           <binding>
+            <command>nasal</command>
+            <script>
+                            var failures = gui.Dialog.new("sim/gui/dialogs/failures/dialog", "Aircraft/fokker100/Systems/failures-dlg.xml");
+                            failures.toggle();
+                           </script>
+           </binding>
+         </item>
+                    
 				</menu>
 			</default>
 		</menubar>
@@ -372,6 +424,10 @@
 		<radar>
 			<range type="int" archive="y">20</range>
 		</radar>
+                <groundradar>
+            <id type="string">KSFO</id>
+            <range type="double">1.2</range>
+        </groundradar>
 		<turn-indicator>
 			<serviceable type="bool">true</serviceable>
 			<spin type="double">1</spin>

@@ -5,10 +5,10 @@
  <sim>
   <description>Fokker 70 (JSBSim)</description>
   <author>Erik Hofman</author>
-  <status>beta</status>
+  <status>Alpha (No Cockpit)</status>
  
   <flight-model>jsb</flight-model>
-  <aero>fokker70</aero>
+  <aero>fokker100</aero>
 
   <model>
    <path>Aircraft/fokker100/Models/fokker70.xml</path>

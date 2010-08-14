@@ -8,5 +8,59 @@
    <x-m>-13.48</x-m>
    <z-m>1.15</z-m>
  </offsets>
+ 	<animation>
+		<object-name>panel</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+						<red>0.045</red>
+			<green>0.034</green>
+			<blue>0.018</blue>		</emission>
+	</animation>
+     	<animation>
+		<object-name>cockpit</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+						<red>0.045</red>
+			<green>0.034</green>
+			<blue>0.018</blue>
+		</emission>
+	</animation>
+     	<animation>
+		<object-name>poly</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.045</red>
+			<green>0.034</green>
+			<blue>0.018</blue>
+		</emission>
+	</animation>
+   
+     	<animation>
+		<object-name>box</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.045</red>
+			<green>0.034</green>
+			<blue>0.018</blue>		</emission>
+	</animation>
 
+    <animation>
+        <type>shader</type>
+        <shader>chrome</shader>
+        <texture>shader.png</texture>
+        <name>windows</name>
+  </animation>
+  
+    <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>windows</object-name>
+      </animation>
+
+  
 </PropertyList>

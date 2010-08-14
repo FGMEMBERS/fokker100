@@ -1553,7 +1553,7 @@ refs 3
 26 0.5 0
 21 1 0
 kids 0
-OBJECT poly
+OBJECT "windows"
 loc 0.206426 -0.28082 0.527388
 numvert 47
 0.095551 -0.288831 0.268623
