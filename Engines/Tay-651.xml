@@ -14,7 +14,7 @@
 <turbine_engine name="Tay-651">
   <milthrust>   15100.0 </milthrust>
   <bypassratio>     3.07 </bypassratio>
-  <tsfc>            0.6908 </tsfc>
+  <tsfc>            0.69 </tsfc>
   <idlen1>         30.0 </idlen1>
   <idlen2>         60.0 </idlen2>
   <maxn1>         100.0 </maxn1>

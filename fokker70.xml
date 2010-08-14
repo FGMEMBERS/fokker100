@@ -12,11 +12,9 @@
   <version> $Revision: 1.10 $ </version>
   <description> Fokker 70 commercial airliner </description>
   <reference title="Butterworth-Heinemann - Civil Jet Aircraft Design (BH)
-        http://www.bh.com/companions/034074152X/appendices/data-a/default.htm"/>
+        http://www.elsevierdirect.com/companions/9780340741528/appendices/data-a/table-8/table.htm"/>
   <reference title="Lissys - PIANO aircraft analysis software
         http://www.lissys.demon.co.uk/f7tx2.html"/>
-  <reference title="Advanced Topics in Aerodynamics, Aerodynamic Database (AD)
-        http://aerodyn.org/HighLift/tables.html"/>
   <reference title="Aerodynamic Design of Transport Aircraft
         http://www.scribd.com/doc/23956816/Aerodynamic-Design-of-Transport-Aircraft"/>
  </fileheader>
@@ -58,19 +56,19 @@
    <vtailarea unit="FT2">  132.396 </vtailarea>
    <vtailarm  unit="FT" >   37.4015 </vtailarm>
    <location name="AERORP" unit="IN">
-     <x> 573.73 </x>
+     <x> 583.73 </x>
      <y>   0.00 </y>
-     <z>   0.00 </z>
+     <z>  38.00 </z>
    </location>
    <location name="EYEPOINT" unit="IN">
      <x>  76.84 </x>
      <y> -30.00 </y>
-     <z>  70.00 </z>
+     <z>  88.94 </z>
    </location>
    <location name="VRP" unit="IN">
-     <x>0</x>
-     <y>0</y>
-     <z>0</z>
+     <x> 101.65 </x>
+     <y>   0.0  </y>
+     <z>   0.0  </z>
    </location>
  </metrics>
 
@@ -80,25 +78,25 @@
    <izz unit="SLUG*FT2">    672987 </izz>
    <emptywt unit="LBS" >     49985 </emptywt>
    <location name="CG" unit="IN">
-     <x> 573.73 </x>
+     <x> 601.73 </x>
      <y>   0.00 </y>
-     <z> -27.44 </z>
+     <z>  38.12 </z>
    </location>
 
    <pointmass name="pilot">
      <weight unit="LBS"> 230 </weight>
      <location name="POINTMASS" unit="IN">
-       <x> 76.84 </x>
+       <x> 96.84 </x>
        <y> -30.0 </y>
-       <z> 25.6 </z>
+       <z> 66.0 </z>
      </location>
    </pointmass>
    <pointmass name="copilot">
      <weight unit="LBS"> 230 </weight>
      <location name="POINTMASS" unit="IN">
-       <x> 76.84 </x>
+       <x> 96.84 </x>
        <y> 30.0 </y>
-       <z> 25.6 </z>
+       <z> 66.0 </z>
      </location>
    </pointmass>
    <pointmass name="steward">
@@ -106,7 +104,7 @@
      <location name="POINTMASS" unit="IN">
        <x> 206 </x>
        <y> 30.0 </y>
-       <z> 25.6 </z>
+       <z> 66.0 </z>
      </location>
    </pointmass>
 
@@ -118,7 +116,7 @@
    <location unit="IN">
      <x> 142.70 </x>
      <y>   0.00 </y>
-     <z> -131.72 </z>
+     <z> -63.53 </z>
    </location>
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
@@ -133,8 +131,8 @@
   <contact type="BOGEY" name="LEFT_MAIN">
    <location unit="IN">
      <x> 627.88 </x>
-     <y> -99.50 </y>
-     <z> -131.72 </z>
+     <y>-101.65 </y>
+     <z> -63.53 </z>
    </location>
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
@@ -149,8 +147,8 @@
   <contact type="BOGEY" name="RIGHT_MAIN">
    <location unit="IN">
      <x> 627.88 </x>
-     <y>  99.50 </y>
-     <z> -131.72 </z>
+     <y> 101.65 </y>
+     <z> -63.53 </z>
    </location>
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
@@ -165,8 +163,8 @@
   <contact type="STRUCTURE" name="LEFT_WING">
     <location unit="IN">
      <x> 603.73 </x>
-     <y> -46.07 </y>
-     <z> -27.44 </z>
+     <y>-1105.4 </y>
+     <z>   0.0  </z>
     </location>
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
@@ -177,8 +175,8 @@
   <contact type="STRUCTURE" name="RIGHT_WING">
     <location unit="IN">
      <x> 603.73 </x>
-     <y>  46.07 </y>
-     <z> -27.44 </z>
+     <y> 1105.4 </y>
+     <z>   0.0  </z>
     </location>
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
@@ -193,24 +191,24 @@
    <engine file="Tay-620">
     <location unit="IN">
       <x> 1037.69 </x>
-      <y> -20.00 </y>
-      <z>   0.00 </z>
+      <y> -101.65 </y>
+      <z>  127.06 </z>
     </location>
     <orient unit="DEG">
       <pitch> 0.00 </pitch>
-      <roll>   0.00 </roll>
+      <roll>  0.00 </roll>
       <yaw>   0.00 </yaw>
     </orient>
     <feed>0</feed>
     <thruster file="direct">
      <location unit="IN">
        <x> 1037.69 </x>
-       <y> -20.00 </y>
-       <z>   0.00 </z>
+       <y> -101.65 </y>
+       <z>  127.06 </z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
-       <roll>   0.00 </roll>
+       <roll>  0.00 </roll>
        <yaw>   0.00 </yaw>
      </orient>
     </thruster>
@@ -219,24 +217,24 @@
    <engine file="Tay-620">
     <location unit="IN">
       <x> 1037.69 </x>
-      <y>  20.00 </y>
-      <z>   0.00 </z>
+      <y>  101.65 </y>
+      <z>  127.06 </z>
     </location>
     <orient unit="DEG">
       <pitch> 0.00 </pitch>
-      <roll>   0.00 </roll>
+      <roll>  0.00 </roll>
       <yaw>   0.00 </yaw>
     </orient>
     <feed>1</feed>
     <thruster file="direct">
      <location unit="IN">
        <x> 1037.69 </x>
-       <y>  20.00 </y>
-       <z>   0.00 </z>
+       <y>  101.65 </y>
+       <z>  127.06 </z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
-       <roll>   0.00 </roll>
+       <roll>  0.00 </roll>
        <yaw>   0.00 </yaw>
      </orient>
     </thruster>
@@ -244,9 +242,9 @@
 
   <tank type="FUEL" number="0">
      <location unit="IN">
-       <x> 623.73 </x>
-       <y>   0.00 </y>
-       <z> -27.44 </z>
+       <x> 601.73 </x>
+       <y>-190.59 </y>
+       <z>   0.0  </z>
      </location>
      <capacity unit="LBS"> 1174.08 </capacity>
      <contents unit="LBS"> 587.04 </contents>
@@ -254,9 +252,9 @@
 
   <tank type="FUEL" number="1">
      <location unit="IN">
-       <x> 623.73 </x>
-       <y>   0.00 </y>
-       <z> -27.44 </z>
+       <x> 601.73 </x>
+       <y> 190.59 </y>
+       <z>   0.0  </z>
      </location>
      <capacity unit="LBS"> 1174.08 </capacity>
      <contents unit="LBS"> 587.04 </contents>
@@ -752,9 +750,9 @@
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
                               -0.20 -0.680
-                               0.00  0.287
-                               0.23  1.720
-                               0.60  0.860
+                               0.00  0.217
+                               0.23  1.300
+                               0.60  0.600
                           </tableData>
                       </table>
                 </product>
@@ -889,7 +887,7 @@
                     <property>metrics/Sw-sqft</property>
                     <property>metrics/cbarw-ft</property>
                     <property>aero/function/kCmge</property>
-                    <value>-0.0748</value>
+                    <value>-0.000737</value>
                 </product>
             </function>
             <function name="aero/coefficient/Cmalpha">
@@ -899,7 +897,7 @@
                     <property>metrics/Sw-sqft</property>
                     <property>metrics/cbarw-ft</property>
                     <property>aero/alpha-rad</property>
-                    <value>-1.9000</value>
+                    <value>-0.6000</value>
                 </product>
             </function>
             <function name="aero/coefficient/Cmde">
@@ -926,7 +924,7 @@
                     <property>metrics/cbarw-ft</property>
                     <property>aero/ci2vel</property>
                     <property>velocities/q-aero-rad_sec</property>
-                    <value>-17.0000</value>
+                    <value>-31.0000</value>
                 </product>
             </function>
             <function name="aero/coefficient/Cmadot">
@@ -937,7 +935,7 @@
                     <property>metrics/cbarw-ft</property>
                     <property>aero/ci2vel</property>
                     <property>aero/alphadot-rad_sec</property>
-                    <value>-6.0000</value>
+                    <value>-16.0000</value>
                 </product>
             </function>
         </axis>
