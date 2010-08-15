@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <name>lights-dlg</name>
+ <layout>vbox</layout>
+
+ <text>
+  <label>Fokker 100 Equipment Failures</label>
+ </text>
+
+ <hrule />
+
+ <group>
+  <layout>vbox</layout>
+
+  <group>
+   <layout>hbox</layout>
+
+   <checkbox>
+    <label>Engine 1 Fire</label>
+    <property>controls/engines/engine[1]/on-fire</property>
+    <binding>
+     <command>dialog-apply</command>
+    </binding>
+    <live>true</live>
+   </checkbox>
+
+   <checkbox>
+    <label>Engine 2 Fire</label>
+    <property>controls/engines/engine[0]/on-fire</property>
+    <binding>
+     <command>dialog-apply</command>
+    </binding>
+    <live>true</live>
+   </checkbox>
+
+
+   <checkbox>
+    <label>Flaps*</label>
+        <binding>
+    <command>dialog-apply</command>
+        </binding>
+    <property>sim/failure-manager/controls/flight/flaps/serviceable</property>
+
+   </checkbox>
+  
+  
+    <checkbox>
+    <label>Speedbrakes*</label>
+     <binding>
+    <property>sim/failure-manager/controls/flight/speedbrake/serviceable</property>
+    <command>dialog-apply</command>
+        </binding>
+   </checkbox>
+   
+     
+    <checkbox>
+    <label>Autopilot</label>
+     <binding>
+    <property>sim/failure-manager/controls/flight/speedbrake/serviceable</property>
+    <command>dialog-apply</command>
+        </binding>
+   </checkbox>
+   
+   
+  </group>
+     </group>
+
+ <text>
+  <label>*Uncheck the box to fail the system</label>
+ </text>
+
+ <hrule />
+
+ <group>
+  <layout>vbox</layout>
+
+  <button>
+   <legend>Close</legend>
+   <default>true</default>
+   <key>Esc</key>
+   <padding>10</padding>
+
+   <binding>
+    <command>dialog-apply</command>
+   </binding>
+
+   <binding>
+    <command>dialog-close</command>
+   </binding>
+  </button>
+ </group>
+
+</PropertyList>

@@ -53,7 +53,7 @@
    <vtailarea unit="FT2">  132.396 </vtailarea>
    <vtailarm  unit="FT" >   44.6194 </vtailarm>
    <location name="AERORP" unit="IN">
-     <x> 693.48 </x> <!-- 668.48 -->
+     <x> 699.48 </x> <!-- 668.48 -->
      <y>   0.00 </y>
      <z>  38.00 </z>
    </location>
@@ -75,7 +75,7 @@
    <izz unit="SLUG*FT2">    925012 </izz>
    <emptywt unit="LBS" >     54217 </emptywt>
    <location name="CG" unit="IN">
-     <x> 713.81 </x> <!-- 693.81 -->
+     <x> 719.81 </x> <!-- 693.81 -->
      <y>   0.00 </y>
      <z>  38.12 </z>
    </location>
@@ -185,9 +185,9 @@
 
    <engine file="Tay-620">
     <location unit="IN">
-      <x> 1049.58 </x>
+      <x>  922.52 </x>
       <y> -101.65 </y>
-      <z>  127.06 </z>
+      <z>   43.53 </z>
     </location>
     <orient unit="DEG">
       <pitch> 0.00 </pitch>
@@ -197,9 +197,9 @@
     <feed>0</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 1049.58 </x>
+       <x>  922.52 </x>
        <y> -101.65 </y>
-       <z>  127.06 </z>
+       <z>   43.53 </z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
@@ -211,9 +211,9 @@
 
    <engine file="Tay-620">
     <location unit="IN">
-      <x> 1049.58 </x>
+      <x>  922.52 </x>
       <y>  101.65 </y>
-      <z>  127.06 </z>
+      <z>   43.53 </z>
     </location>
     <orient unit="DEG">
       <pitch> 0.00 </pitch>
@@ -223,9 +223,9 @@
     <feed>1</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 1049.58 </x>
+       <x>  922.52 </x>
        <y>  101.65 </y>
-       <z>  127.06 </z>
+       <z>   43.53 </z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
@@ -461,9 +461,25 @@
      </traverse>
      <output>fcs/speedbrake-pos-norm</output>
    </kinematic>
-
   </channel>
 
+
+  <channel name="Spoilers">
+   <kinematic name="Spoiler Control">
+     <input>fcs/spoiler-cmd-norm</input>
+     <traverse>
+        <setting>
+          <position>0</position>
+          <time>0</time>
+        </setting>
+        <setting>
+          <position>1</position>
+          <time>1</time>
+        </setting>
+     </traverse>
+     <output>fcs/spoiler-pos-norm</output>
+   </kinematic>
+  </channel>
  </flight_control>
 
     <aerodynamics>
@@ -598,6 +614,15 @@
                     <property>metrics/Sw-sqft</property>
                     <property>fcs/spoiler-pos-norm</property>
                     <value>0.0280</value>
+                </product>
+            </function>
+            <function name="aero/coefficient/CDrv">
+                <description>Drag_due_to_reverse</description>
+                <product>
+                    <property>aero/qbar-psf</property>
+                    <property>metrics/Sw-sqft</property>
+                    <property>/engines/engine/reverser-pos-norm</property>
+                    <value>0.0187</value>
                 </product>
             </function>
             <function name="aero/coefficient/CDbeta">

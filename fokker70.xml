@@ -56,7 +56,7 @@
    <vtailarea unit="FT2">  132.396 </vtailarea>
    <vtailarm  unit="FT" >   37.4015 </vtailarm>
    <location name="AERORP" unit="IN">
-     <x> 583.73 </x>
+     <x> 587.73 </x>
      <y>   0.00 </y>
      <z>  38.00 </z>
    </location>
@@ -78,7 +78,7 @@
    <izz unit="SLUG*FT2">    672987 </izz>
    <emptywt unit="LBS" >     49985 </emptywt>
    <location name="CG" unit="IN">
-     <x> 601.73 </x>
+     <x> 605.73 </x>
      <y>   0.00 </y>
      <z>  38.12 </z>
    </location>
@@ -190,9 +190,9 @@
 
    <engine file="Tay-620">
     <location unit="IN">
-      <x> 1037.69 </x>
+      <x>  893.52 </x>
       <y> -101.65 </y>
-      <z>  127.06 </z>
+      <z>   43.53 </z>
     </location>
     <orient unit="DEG">
       <pitch> 0.00 </pitch>
@@ -202,9 +202,9 @@
     <feed>0</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 1037.69 </x>
+       <x>  893.52 </x>
        <y> -101.65 </y>
-       <z>  127.06 </z>
+       <z>   43.53 </z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
@@ -216,9 +216,9 @@
 
    <engine file="Tay-620">
     <location unit="IN">
-      <x> 1037.69 </x>
+      <x>  893.52 </x>
       <y>  101.65 </y>
-      <z>  127.06 </z>
+      <z>   43.53 </z>
     </location>
     <orient unit="DEG">
       <pitch> 0.00 </pitch>
@@ -228,9 +228,9 @@
     <feed>1</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 1037.69 </x>
+       <x>  893.52 </x>
        <y>  101.65 </y>
-       <z>  127.06 </z>
+       <z>   43.53 </z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
@@ -544,22 +544,6 @@
      </traverse>
      <output>fcs/spoiler-pos-norm</output>
    </kinematic>
-
-<!--
-   <kinematic name="Reverser Pos Norm">
-     <input>fcs/reverser-cmd-norm</input>
-     <traverse>
-        <setting>
-          <position>0</position>
-          <time>0</time>
-        </setting>
-        <setting>
-          <position>1</position>
-          <time>1</time>
-        </setting>
-     </traverse>
-   </kinematic>
--->
   </channel>
 
  </flight_control>
@@ -697,6 +681,15 @@
                     <property>metrics/Sw-sqft</property>
                     <property>fcs/spoiler-pos-norm</property>
                     <value>0.0280</value>
+                </product>
+            </function>
+            <function name="aero/coefficient/CDrv">
+                <description>Drag_due_to_reverse</description>
+                <product>
+                    <property>aero/qbar-psf</property>
+                    <property>metrics/Sw-sqft</property>
+                    <property>/engines/engine/reverser-pos-norm</property>
+                    <value>0.0187</value>
                 </product>
             </function>
             <function name="aero/coefficient/CDbeta">

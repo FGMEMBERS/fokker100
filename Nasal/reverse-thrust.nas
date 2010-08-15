@@ -11,8 +11,8 @@ val = getprop(rv1);
 if (val == 0 or val == nil) {
 interpolate(rv1, 1.0, 1.4); 
 interpolate(rv2, 1.0, 1.4);  
-setprop(r1,"reverser-angle-rad","3.14159");
-setprop(r2,"reverser-angle-rad","3.14159");
+setprop(r1,"reverser-angle-rad","1.7");
+setprop(r2,"reverser-angle-rad","1.7");
 setprop(r3,"reverser", "true");
 setprop(r4,"reverser", "true");
 setprop(r5,"engine", "true");

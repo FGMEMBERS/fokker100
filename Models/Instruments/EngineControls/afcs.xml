@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+
+	<PropertyList>
+
+	<path>afcs.ac</path>
+
+	<animation>
+		<type>select</type>
+		<object-name>afcs</object-name>
+		<condition>
+			<equals>
+				<property>sim/current-view/name</property>
+				<value>Cockpit View</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<!-- Stab Aug Pitch Switch -->
+	<animation>
+		<type>rotate</type>
+		<object-name>stab-pitch-switch</object-name>
+		<property>engines/engine[0]/fuel-pump</property>
+		<interpolation>
+            <entry><ind>0</ind><dep>0</dep></entry>
+			<entry><ind>1</ind><dep>25</dep></entry>
+        </interpolation>
+		<center>
+			<x-m>-0.0137</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0038</z-m>
+		</center>
+		<axis><y>-1</y></axis>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<visible>true</visible>
+		<object-name>stab-pitch-switch</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+                <command>property-toggle</command>
+				<property>engines/engine[0]/fuel-pump</property>
+			</binding>
+		</action>
+	</animation>
+
+	<!-- Stab Aug Roll Switch -->
+	<animation>
+		<type>rotate</type>
+		<object-name>stab-roll-switch</object-name>
+		<property>controls/fuel/fuel-dump-valve</property>
+		<interpolation>
+            <entry><ind>0</ind><dep>15</dep></entry>
+			<entry><ind>1</ind><dep>65</dep></entry>
+        </interpolation>
+		<center>
+			<x-m>-0.0137</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0038</z-m>
+		</center>
+		<axis><y>-1</y></axis>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<visible>true</visible>
+		<object-name>stab-roll-switch</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+                <command>property-toggle</command>
+				<property>controls/fuel/fuel-dump-valve</property>
+			</binding>
+		</action>
+	</animation>
+
+	<!-- Stab Aug Yaw Switch -->
+	<animation>
+		<type>rotate</type>
+		<object-name>stab-yaw-switch</object-name>
+		<property>controls/engines/engine[1]/fuel-pump</property>
+		<interpolation>
+            <entry><ind>0</ind><dep>-20</dep></entry>
+			<entry><ind>1</ind><dep>35</dep></entry>
+        </interpolation>
+		<center>
+			<x-m>-0.0137</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0038</z-m>
+		</center>
+		<axis><y>-1</y></axis>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<visible>true</visible>
+		<object-name>stab-yaw-switch</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+                <command>property-toggle</command>
+				<property>controls/engines/engine[1]/fuel-pump</property>
+			</binding>
+		</action>
+	</animation>
+
+	<!-- Autopilot Engage Switch -->
+	<animation>
+		<type>rotate</type>
+		<object-name>engage-switch</object-name>
+		<property>controls/engines/engine[1]/ignition</property>
+		<interpolation>
+            <entry><ind>0</ind><dep>-25</dep></entry>
+			<entry><ind>1</ind><dep>25</dep></entry>
+        </interpolation>
+        <center>
+			<x-m>0.0260</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0034</z-m>
+		</center>
+		<axis><y>-1</y></axis>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<visible>true</visible>
+		<object-name>engage-switch</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+            <command>property-toggle</command>
+				<property>controls/engines/engine[1]/ignition</property>
+            </binding>
+		</action>
+	</animation>
+
+	<!-- Autopilot VEC/PCD ACL Switch -->
+	<animation>
+		<type>rotate</type>
+		<object-name>vec-acl-switch</object-name>
+		<property>controls/engines/engine[0]/starter</property>
+		<interpolation>
+            <entry><ind>0</ind><dep>-25</dep></entry>
+			<entry><ind>1</ind><dep>25</dep></entry>
+        </interpolation>
+		<center>
+			<x-m>0.0260</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0038</z-m>
+		</center>
+		<axis><y>-1</y></axis>
+	</animation>
+    <animation>
+		<type>pick</type>
+		<visible>true</visible>
+		<object-name>vec-acl-switch</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>property-toggle</command>
+				<property>controls/engines/engine[0]/starter</property>
+			</binding>
+		</action>
+	</animation>
+
+	<!-- Autopilot Alt Switch -->
+	<animation>
+		<type>rotate</type>
+		<object-name>alt-switch</object-name>
+		<property>controls/engines/engine[0]/ignition</property>
+		<interpolation>
+            <entry><ind>0</ind><dep>-25</dep></entry>
+			<entry><ind>1</ind><dep>25</dep></entry>
+        </interpolation>
+        <center>
+			<x-m>0.0260</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0038</z-m>
+		</center>
+		<axis><y>-1</y></axis>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<visible>true</visible>
+		<object-name>alt-switch</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+            <command>property-toggle</command>
+				<property>controls/engines/engine[0]/ignition</property>
+            </binding>
+		</action>
+	</animation>
+
+	<!-- Autopilot HDG GT Switch -->
+	<animation>
+		<type>rotate</type>
+		<object-name>hdg-gt-switch</object-name>
+		<property>controls/engines/engine[1]/starter</property>
+		<interpolation>
+            <entry><ind>0</ind><dep>-25</dep></entry>
+			<entry><ind>1</ind><dep>25</dep></entry>
+        </interpolation>
+		<center>
+			<x-m>0.0260</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0038</z-m>
+		</center>
+		<axis><y>-1</y></axis>
+	</animation>
+    <animation>
+		<type>pick</type>
+		<visible>true</visible>
+		<object-name>hdg-gt-switch</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>property-toggle</command>
+				<property>controls/engines/engine[1]/starter</property>
+			</binding>
+		</action>
+	</animation>
+
+	<!-- lighting -->
+	<animation> 
+		<object-name>mount</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.45</red>
+			<green>0.34</green>
+			<blue>0.18</blue>
+            		</emission>
+	</animation>
+
+	<animation>
+		<object-name>switches</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.45</red>
+			<green>0.34</green>
+			<blue>0.18</blue>
+		</emission>
+	</animation>
+
+
+	<!-- LoD -->
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>35</max-m>
+	</animation>
+
+</PropertyList>

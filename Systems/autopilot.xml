@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<!-- 777-200  Autopilot-->
+<!-- Syd Adams. -->
+
+<PropertyList>
+	<!--
+	=========
+	Roll Axis Modes
+	=========
+	-->
+
+	<!-- Heading Bug Hold. -->
+
+	<pi-simple-controller>
+		<name>HDG sel</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/heading</prop>
+			<value>dg-heading-hold</value>
+		</enable>
+		<input>
+			<prop>autopilot/internal/fdm-heading-bug-error-deg</prop>
+		</input>
+		<reference>
+			<value>0.0</value>
+		</reference>
+		<output>
+			<prop>autopilot/internal/target-roll-deg</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>-1.5</value>
+			</Kp>
+			<Ki>0</Ki>
+			<!--
+			<Ti>0</Ti> 
+			<Td>0</Td>
+			-->
+			<u_min>-25</u_min>
+			<u_max>25</u_max>
+		</config>
+	</pi-simple-controller>
+
+	<!-- NAV / APPR. -->
+
+	<pi-simple-controller>
+		<name>NAV hold</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/heading</prop>
+			<value>nav</value>
+		</enable>
+		<input>
+			<prop>systems/fokker50/fmp/hdg-error-nav</prop>
+		</input>
+		<reference>
+			<value>0.0</value>
+		</reference>
+		<output>
+			<prop>autopilot/internal/target-roll-deg</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>-1.5</value>
+			</Kp>
+			<Ki>0</Ki>
+			<!--
+			<Ti>0</Ti>
+			<Td>0</Td>
+			-->
+			<u_min>-25</u_min>
+			<u_max>25</u_max>
+		</config>
+	</pi-simple-controller>
+
+	<filter>
+		<name>roll-command</name>
+		<debug>false</debug>
+		<type>noise-spike</type>
+		<input>autopilot/internal/target-roll-deg</input>
+		<output>autopilot/internal/target-roll-deg</output>
+		<max-rate-of-change>5</max-rate-of-change>
+	</filter>
+
+	<!-- AILERON CONTROL -->
+
+	<pid-controller>
+		<name>Aileron control</name>
+		<debug>false</debug>
+		<enable>
+			<prop>/autopilot/locks/passive-mode</prop>
+			<value>false</value>
+			<honor-passive>true</honor-passive>
+		</enable>
+		<input>
+			<prop>orientation/roll-deg</prop>
+		</input>
+		<reference>
+			<prop>autopilot/internal/target-roll-deg</prop>
+		</reference>
+		<output>
+			<prop>controls/flight/aileron</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>0.03</value>
+			</Kp><!--
+			<beta>1.0</beta>
+			<alpha>1</alpha>
+			<gamma>0.0</gamma>  -->
+			<Ti>
+				<value>999</value>
+			</Ti>
+			<Td>
+				<value>0</value>
+			</Td>
+			<u_min>
+				<value>-1.0</value>
+			</u_min>
+			<u_max>
+				<value>1.0</value>
+			</u_max>
+		</config>
+	</pid-controller>
+
+	<!-- RUDDER CONTROL -->
+	<!-- Just tries to keep the aircraft in balance -->
+
+	<pid-controller>
+		<name>Rudder control</name>
+		<debug>false</debug>
+		<enable>
+			<prop>/autopilot/locks/passive-mode</prop>
+			<value>false</value>
+			<honor-passive>true</honor-passive>
+		</enable>
+		<input>
+			<prop>instrumentation/slip-skid-ball/indicated-slip-skid</prop>
+		</input>
+		<reference>
+			<value>0</value>
+		</reference>
+		<output>
+			<prop>controls/flight/rudder</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>0.3</value>
+			</Kp>
+			<Ti>
+				<value>999</value>
+			</Ti>
+			<Td>
+				<value>0</value>
+			</Td>
+			<u_min>
+				<value>-1.0</value>
+			</u_min>
+			<u_max>
+				<value>1.0</value>
+			</u_max>
+		</config>
+	</pid-controller>
+
+	<!--
+	==========================
+	Pitch Axis Modes
+	==========================
+	-->
+
+	<!-- Alt hold -->
+
+	<pid-controller>
+		<name>Inst Altitude Hold</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/altitude</prop>
+			<value>altitude-hold</value>
+		</enable>
+		<input>
+			<prop>/position/altitude-ft</prop>
+		</input>
+		<reference>
+			<prop>/autopilot/settings/target-altitude-ft</prop>
+		</reference>
+		<output>
+			<prop>/autopilot/internal/target-pitch-deg</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>0.05</value>
+			</Kp>
+			<Ti>999</Ti>
+			<Td>0.0</Td>
+			<u_min>
+				<value>-5</value>
+			</u_min>
+			<u_max>
+				<value>6</value>
+			</u_max>
+		</config>
+	</pid-controller>
+
+
+	<!-- Glideslope hold. -->
+
+	<pid-controller>
+		<name>Glideslope Hold</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/altitude</prop>
+			<value>GS</value>
+		</enable>
+		<input>
+			<prop>instrumentation/nav/gs-needle-deflection</prop>
+		</input>
+		<reference>
+			<value>0</value>
+		</reference>
+		<output>
+			<prop>autopilot/internal/target-pitch-deg</prop>
+		</output>
+		<config>
+			<Kp>-0.5</Kp>
+			<Ti>1</Ti>
+			<Td>0.0</Td>
+			<u_min>
+				<value>-15</value>
+			</u_min>
+			<u_max>
+				<value>5</value>
+			</u_max>
+		</config>
+	</pid-controller>
+
+
+	<!-- V/S hold -->
+
+	<pid-controller>
+		<name>Vertical Speed Hold</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/altitude</prop>
+			<value>vertical-speed-hold</value>
+		</enable>
+		<input>
+			<prop>instrumentation/vertical-speed-indicator/indicated-speed-fpm</prop>
+		</input>
+		<reference>
+			<prop>autopilot/settings/vertical-speed-fpm</prop>
+		</reference>
+		<output>
+			<prop>autopilot/internal/target-pitch-deg</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>0.0005</value><!--0.000126-->
+			</Kp>
+			<Ti>
+				<value>1</value>
+			</Ti>
+			<Td>
+				<value>0.001</value>
+			</Td> 
+			<u_min>
+				<value>-9.9</value>
+			</u_min>
+			<u_max>
+				<value>9.9</value>
+			</u_max>
+		</config>
+	</pid-controller>
+
+	<filter>
+		<name>pitch-command</name>
+		<debug>false</debug>
+		<type>noise-spike</type>
+		<input>autopilot/internal/target-pitch-deg</input>
+		<output>autopilot/internal/target-pitch-deg</output>
+		<max-rate-of-change>1</max-rate-of-change>
+	</filter>
+
+	<!-- Pitch hold -->
+
+	<pi-simple-controller>
+		<name>Pitch hold</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/altitude</prop>
+			<value>pitch-hold</value>
+		</enable>
+		<input>
+			<!--            <prop>orientation/pitch-deg</prop>  -->
+			<value>0</value>
+		</input>
+		<reference>
+			<prop>autopilot/settings/target-pitch-deg</prop>
+		</reference>
+		<output>
+			<prop>autopilot/internal/target-pitch-deg</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>1</value>
+			</Kp>
+		</config>
+	</pi-simple-controller>
+
+	<!-- IAS hold-->
+
+	<!--
+	<pi-simple-controller>
+		<name>Speed hold</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/altitude</prop>
+			<value>speed-with-pitch-trim</value>
+		</enable>
+		<input>
+			<prop>instrumentation/airspeed-indicator/indicated-speed-kt</prop>
+		</input>
+		<reference>
+			<prop>autopilot/settings/target-speed-kt</prop>
+		</reference>
+		<output>
+			<prop>autopilot/internal/target-pitch-deg</prop>
+		</output>
+		<config>
+			<Kp>-0.5</Kp>
+			<Ki>-0.09</Ki>
+			<u_min>-15.0</u_min>
+			<u_max>15.0</u_max>
+		</config>
+	</pi-simple-controller>
+	-->
+
+	<!-- Speed With Pitch -->
+	<pid-controller>
+		<name>Speed With Pitch</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/altitude</prop>
+			<value>speed-with-pitch-trim</value>
+		</enable>
+		<input>
+			<property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+			<!--<property>/autopilot/internal/lookahead-5-sec-airspeed-kt</property>-->
+		</input>
+		<reference>
+			<prop>autopilot/settings/target-speed-kt</prop>
+		</reference>
+		<output>
+			<prop>autopilot/internal/target-pitch-deg</prop>
+		</output>
+		<config>
+			<!-- proportional gain -->
+			<Kp>
+				<property>/autopilot/settings/ias-pitch/Kp</property>
+				<value>-0.85</value>
+			</Kp>
+	        <!-- integrator time -->
+			<Ti>
+				<property>/autopilot/settings/ias-pitch/Ti</property>
+				<value>40.0</value>
+			</Ti>
+		    <!-- derivator time -->
+			<Td>
+				<property>/autopilot/settings/ias-pitch/Td</property>
+				<value>-0.4</value>
+			</Td>
+			<beta>1.0</beta>    <!-- input value weighing factor -->
+			<alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
+			<gamma>0.0</gamma>  <!-- input value weighing factor for -->
+			<u_min>-15.0</u_min><!-- minimum output clamp -->
+			<u_max>15.0</u_max> <!-- maximum output clamp -->
+		</config>
+	</pid-controller>
+	<!-- -->
+
+
+	<filter>
+		<name>pitch-command</name>
+		<debug>false</debug>
+		<type>noise-spike</type>
+		<input>autopilot/internal/target-pitch-deg</input>
+		<output>autopilot/internal/target-pitch-deg</output>
+		<max-rate-of-change>
+			<!--	<value>9</value>  -->
+			<property>systems/fokker50/fmp/maxPitchRate</property>  
+		</max-rate-of-change>
+	</filter>
+
+	<filter>
+		<name>pitch-command</name>
+		<debug>false</debug>
+		<type>noise-spike</type>
+		<input>controls/flight/elevator-trim</input>
+		<output>controls/flight/elevator-trim</output>
+		<max-rate-of-change>0.6</max-rate-of-change>
+	</filter>
+
+	<!-- Elevator Control -->
+
+	<pid-controller>
+		<name>elevator ctl</name>
+		<debug>false</debug>
+		<enable>
+			<prop>autopilot/locks/passive-mode</prop>
+			<value>false</value>
+			<honor-passive>true</honor-passive>
+		</enable>
+		<input>
+			<prop>orientation/pitch-deg</prop>
+		</input>
+		<reference>
+			<prop>autopilot/internal/target-pitch-deg</prop>
+		</reference>
+		<output>
+			<prop>controls/flight/elevator-trim</prop>
+		</output>
+		<config>
+			<Kp>
+				<value>-0.08</value>
+			</Kp>
+			<beta>1.0</beta>
+			<alpha>0.1</alpha>
+			<gamma>0.0</gamma>
+			<Ti>
+				<value>5.0</value>
+			</Ti>
+			<Td>
+				<value>0.000001</value>
+			</Td>
+			<u_min>
+				<value>-1.0</value>
+			</u_min>
+			<u_max>
+				<value>1.0</value>
+			</u_max>
+		</config>
+	</pid-controller>
+
+
+</PropertyList>
+
