@@ -50,10 +50,13 @@ Beta 0.1 - November 11, 2009 11:47:14 AM
 
 Developed by Prestes Hangar. Avaliable at http://presteshangar.blogspot.com or http://presteshangar.wikidot.com/start
 
-Beta 0.2 - August  , 2010
+Beta 0.2 - August 13th , 2010
 		- Second Beta Version. Based on the Fokker 100 available from Flightgear.org and Prestes Hangar. Improvements are fixed autopilot (optimised for FlightGear 2.0), 2D and 3D cockpits, and sound adjustments.
 
 Developed by Armchair Ace. Download from http://www.AAliveries.yolasite.com
+
+Beta 0.3 - August 19th, 2010
+		-Third beta version. Added more instruments to the cockpit, added a fixed FDM made by Erik Hofman, and tweaked the Autopilot to match the new FDM. Other improvements include 2 more liveries.
 
 INSTALLATION
 ===========

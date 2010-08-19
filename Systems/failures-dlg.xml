@@ -43,25 +43,8 @@
     <property>sim/failure-manager/controls/flight/flaps/serviceable</property>
 
    </checkbox>
-  
-  
-    <checkbox>
-    <label>Speedbrakes*</label>
-     <binding>
-    <property>sim/failure-manager/controls/flight/speedbrake/serviceable</property>
-    <command>dialog-apply</command>
-        </binding>
-   </checkbox>
-   
-     
-    <checkbox>
-    <label>Autopilot</label>
-     <binding>
-    <property>sim/failure-manager/controls/flight/speedbrake/serviceable</property>
-    <command>dialog-apply</command>
-        </binding>
-   </checkbox>
-   
+
+
    
   </group>
      </group>

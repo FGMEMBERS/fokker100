@@ -7,7 +7,7 @@
 		<systems>
 			<!-- O piloto automtico do fokker100 -->
 			<autopilot>
-				<path>Aircraft/fokker100/Systems/737-autopilotV5.xml</path>
+				<path>Aircraft/fokker100/Systems/CRJ-200-autopilot.xml</path>
 			</autopilot>
 			<electrical>
 				<path>Aircraft/fokker100/Systems/electrical.xml</path>
@@ -147,24 +147,16 @@
 							<dialog-name>pushback</dialog-name>
 						</binding>
 					</item>
-                                        <item>
-                        <label>EFB</label>
+                    <item>
+                        <label>Equipment Failures</label>
                         <binding>
-                            <command>nasal</command>
-                            <script>dialogs.EFB.toggle();</script>
-                        </binding>
-                    </item>
-         <item>
-           <label>Equipment Failures</label>
-           <binding>
-            <command>nasal</command>
-            <script>
+                        <command>nasal</command>
+                        <script>
                             var failures = gui.Dialog.new("sim/gui/dialogs/failures/dialog", "Aircraft/fokker100/Systems/failures-dlg.xml");
                             failures.toggle();
-                           </script>
-           </binding>
-         </item>
-                    
+                        </script>
+                        </binding>
+                    </item>
 				</menu>
 			</default>
 		</menubar>
@@ -364,14 +356,14 @@
 			<taxi-light>0</taxi-light>
 			<inboard-lights>0</inboard-lights>
 			<outboard-lights>0</outboard-lights>
-			<nav-lights>0</nav-lights>
+			<nav-lights>1</nav-lights>
 			<beacon>1</beacon>
-			<strobe>1</strobe>
+			<strobe>0</strobe>
 			<logo-lights>1</logo-lights>
 			<cabin-lights>0</cabin-lights>
 			<map-lights>0</map-lights>
-			<master-panel>0</master-panel>
-			<instruments-lights>0</instruments-lights>
+			<master-panel>1</master-panel>
+			<instruments-lights>1</instruments-lights>
 			<seatbelt-sign>0</seatbelt-sign>
 		</switches>
 	</controls>

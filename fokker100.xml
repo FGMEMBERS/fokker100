@@ -241,7 +241,7 @@
        <y>-190.59 </y>
        <z>   0.0  </z>
      </location>
-     <capacity unit="LBS"> 1377.01 </capacity>
+     <capacity unit="LBS"> 13360.01 </capacity>
      <contents unit="LBS"> 688.50 </contents>
   </tank>
 
@@ -251,7 +251,7 @@
        <y> 190.59 </y>
        <z>   0.0  </z>
      </location>
-     <capacity unit="LBS"> 1377.01 </capacity>
+     <capacity unit="LBS"> 13360.01 </capacity>
      <contents unit="LBS"> 688.50 </contents>
   </tank>
 <!--

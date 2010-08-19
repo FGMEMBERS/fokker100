@@ -1174,6 +1174,25 @@
 	</model>
     
     <model>
+		<path>Aircraft/fokker100/Models/Effects/tiptrail/tiptrail.xml</path>
+		<name>Right Jet Contrail</name>
+		<offsets>
+ <x-m>4.400</x-m>
+<y-m>-14.000</y-m>
+<z-m>-0.00</z-m>
+		</offsets>
+	</model>
+        <model>
+		<path>Aircraft/fokker100/Models/Effects/tiptrail/tiptrail.xml</path>
+		<name>Right Jet Contrail</name>
+		<offsets>
+ <x-m>4.400</x-m>
+<y-m>14.000</y-m>
+<z-m>-0.00</z-m>
+		</offsets>
+	</model>
+    
+    <model>
 		<path>Aircraft/fokker100/Models/Effects/trail/trailR.xml</path>
 		<name>Right Jet Contrail</name>
 		<offsets>
@@ -1643,13 +1662,14 @@
 
     <offsets>
 
-    <x-m> -13. </x-m>
+    <x-m> -13.50 </x-m>
 
       <y-m> -0.14</y-m>
 
       <z-m> 0.835 </z-m>
       
       <pitch-deg>-85</pitch-deg>
+      <heading-deg>-5</heading-deg>
 
     </offsets>
 
@@ -2092,7 +2112,7 @@
     </offsets>
 
   </model>
-  
+  <!--
     <model>
 
     <path>Aircraft/fokker100/Models/Instruments/EFB/efb.xml</path>
@@ -2110,6 +2130,7 @@
     </offsets>
 
   </model>
+  -->
   
   <model>
 
@@ -2219,6 +2240,17 @@
     </offsets>
 
   </model>
+  
+
+<model>
+<name>PassengerCabin</name>
+<path>Aircraft/fokker100/Models/f70_cabin.xml</path>
+<offsets>
+<x-m>-5.01</x-m>
+<y-m>0.03</y-m>
+<z-m>-0.25</z-m>
+</offsets>
+</model>
 
 
 

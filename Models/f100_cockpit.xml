@@ -58,7 +58,7 @@
     <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <texture>Aircraft/fokker100/Models/shader.png</texture>
     <object-name>windows</object-name>
       </animation>
 

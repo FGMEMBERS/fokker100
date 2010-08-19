@@ -3,7 +3,7 @@ MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  sh
 MATERIAL "ac3dmat12" rgb 0.266667 0.266667 0.266667  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
 MATERIAL "ac3dmat1" rgb 0.89 0.89 0.886  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.502 0.502 0.502  shi 10  trans 0
 MATERIAL "ac3dmat1" rgb 0.776 0.808 0.757  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.722 0.722 0.722  shi 37  trans 0
-MATERIAL "ac3dmat3" rgb 0.808 0 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.059 0.173 0.157  shi 2  trans 0
+MATERIAL "ac3dmat3" rgb 1.01 1.0 1.7  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.059 0.173 0.157  shi 2  trans 0
 MATERIAL "ac3dmat13" rgb 0.533 0.533 0.533  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.055 0.059 0.118  shi 1  trans 0
 OBJECT world
 kids 5
@@ -1308,7 +1308,7 @@ kids 5
 OBJECT poly
 name "BackRest"
 loc -0.90477 1.1459 0.426604
-texture "fabric.rgb"
+texture "fabric.png"
 texrep 2 2
 numvert 1040
 -5.84401 -0.338358 -0.509167
@@ -20602,7 +20602,7 @@ kids 0
 OBJECT poly
 name "Seat"
 loc -1.17488 0.779582 0.427257
-texture "fabric.rgb"
+texture "fabric.png"
 texrep 2 2
 numvert 480
 -5.9682 0.0191444 -0.515084
@@ -23010,7 +23010,7 @@ kids 0
 OBJECT poly
 name "SeatSides"
 loc -1.12047 1.11947 0.427257
-texture "fabric.rgb"
+texture "fabric.png"
 texrep 2 2
 numvert 1440
 -5.62831 -0.311926 -0.509824

@@ -4,5 +4,67 @@
 
  <path>f70_cabin.ac</path>
 
+     	<animation>
+		<object-name>BackRest</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+						<red>0.2</red>
+			<green>0.05</green>
+			<blue>0.2</blue>		</emission>
+	</animation>
+     	<animation>
+		<object-name>ArmRest</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+						<red>0.2</red>
+			<green>0.05</green>
+			<blue>0.2</blue>
+		</emission>
+	</animation>
+     	<animation>
+		<object-name>Seat</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.2</red>
+			<green>0.05</green>
+			<blue>0.2</blue>
+		</emission>
+	</animation>
+         	<animation>
+		<object-name>SeatSides</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.2</red>
+			<green>0.05</green>
+			<blue>0.2</blue>
+		</emission>
+	</animation>
+         	<animation>
+		<object-name>BackSide</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.2</red>
+			<green>0.05</green>
+			<blue>0.2</blue>
+		</emission>
+	</animation>
+         	<animation>
+		<object-name>PassengerCabin</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.2</red>
+			<green>0.004</green>
+			<blue>0.2</blue>
+		</emission>
+	</animation>
+
+
+
 
 </PropertyList>
