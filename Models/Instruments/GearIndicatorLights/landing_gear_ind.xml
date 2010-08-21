@@ -6,6 +6,7 @@
 
 
 <!-- Doors -->
+<!--
 <animation>
   <type>select</type>
   <object-name>FaceDoorOff</object-name>
@@ -26,6 +27,7 @@
     </greater-than>
   </condition>
 </animation>
+-->
 
 <!-- Nose -->
 <animation>

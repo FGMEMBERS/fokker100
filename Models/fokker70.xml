@@ -12,7 +12,11 @@
 
  <model>
   <name>Cockpit</name>
-  <path>Aircraft/fokker100/Models/f70_cockpit.xml</path>
+  <path>Aircraft/fokker100/Models/f100_cockpit.xml</path>
+  <offsets>
+   <x-m>-10.69</x-m>
+   <z-m>1.26</z-m>
+ </offsets>
  </model>
 
  <model>
@@ -472,11 +476,10 @@
  <animation>
   <type>rotate</type>
   <object-name>right_upper_thrust_reverse</object-name>
-  <object-name>left_upper_thrust_reverse</object-name>
-  <property>/controls/engines/engine[0]/reversed</property>
+  <property>engines/engine[0]/reverser-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>11.040000</x-m>
+   <x-m>08.950000</x-m>
    <y-m>-0.250000</y-m>
    <z-m>1.240000</z-m>
   </center>
@@ -490,11 +493,44 @@
  <animation>
   <type>rotate</type>
   <object-name>right_lower_thrust_reverse</object-name>
-  <object-name>left_lower_thrust_reverse</object-name>
-  <property>/controls/engines/engine[0]/reversed</property>
+  <property>engines/engine[0]/reverser-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>11.040000</x-m>
+   <x-m>08.950000</x-m>
+   <y-m>0.250000</y-m>
+   <z-m>1.240000</z-m>
+  </center>
+  <axis>
+   <x>0.000000</x>
+   <y>1.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_upper_thrust_reverse</object-name>
+  <property>engines/engine[1]/reverser-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>08.950000</x-m>
+   <y-m>-0.250000</y-m>
+   <z-m>1.240000</z-m>
+  </center>
+  <axis>
+   <x>0.000000</x>
+   <y>-1.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left_lower_thrust_reverse</object-name>
+  <property>engines/engine[1]/reverser-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>08.950000</x-m>
    <y-m>0.250000</y-m>
    <z-m>1.240000</z-m>
   </center>

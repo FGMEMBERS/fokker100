@@ -3,16 +3,18 @@
 <PropertyList include="fokker100-base.xml">
 
  <sim>
-  <description>Fokker 70 (JSBSim)</description>
-  <author>Erik Hofman</author>
-  <status>Alpha (No Cockpit)</status>
+  <description>Fokker 70 (F-28-070)</description>
+  <author>Erik Hofman, Michel Maia, Thomas Ito-Haigh</author>
+  <status>Beta 0.4</status>
  
   <flight-model>jsb</flight-model>
-  <aero>fokker100</aero>
+  <aero>fokker70</aero>
 
   <model>
    <path>Aircraft/fokker100/Models/fokker70.xml</path>
   </model>
+
+  <controls include="Systems/F100-init-controls.xml"/>
 
   <view n="0">
    <internal archive="y">true</internal>
@@ -25,10 +27,33 @@
   </view>
  </sim>
 
+ <groundradar>
+   <id type="string">KSFO</id>
+   <range type="double">1.2</range>
+ </groundradar>
+
+ <controls>
+  <gear>
+   <brake-parking type="bool">1</brake-parking>
+  </gear>
+ </controls>
+
  <nasal>
   <f70>
    <file>Aircraft/fokker100/Nasal/fokker.nas</file>
   </f70>
+  <reversethrust>
+   <file>Aircraft/fokker100/Nasal/reverse-thrust.nas</file>
+  </reversethrust>
+  <tyresmoke>
+   <file>Aircraft/fokker100/Nasal/tyresmoke.nas</file>
+  </tyresmoke>
+  <livery>
+   <file>Aircraft/fokker100/Nasal/livery.nas</file>
+  </livery>
+  <airground>
+   <file>Aircraft/fokker100/Nasal/air-ground.nas</file>
+  </airground>
  </nasal>
 
 </PropertyList>
