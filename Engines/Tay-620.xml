@@ -13,7 +13,7 @@
 
 <turbine_engine name="Tay-620">
   <milthrust> 13847.7 </milthrust>
-  <bypassratio>     3.04 </bypassratio>
+  <bypassratio>     3.185 </bypassratio>
   <tsfc>            0.69 </tsfc>
   <bleed>           0.03</bleed>
   <idlen1>         30.0 </idlen1>

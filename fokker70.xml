@@ -270,11 +270,12 @@
 -->
  </propulsion>
 
+ <system file="pushback"/>
 
  <flight_control name="FCS: Fokker-70">
 
   <channel name="Pitch">
-   <summer name="Pitch Trim Sum">
+   <summer name="fcs/pitch-trim-sum">
       <input>fcs/elevator-cmd-norm</input>
       <input>fcs/pitch-trim-cmd-norm</input>
       <clipto>
@@ -283,7 +284,7 @@
       </clipto>
    </summer>
 
-   <aerosurface_scale name="Elevator Control">
+   <aerosurface_scale name="fcs/elevator-control">
       <input>fcs/pitch-trim-sum</input>
       <range>
         <min> -0.35 </min>
@@ -292,7 +293,7 @@
       <output>fcs/elevator-pos-rad</output>
    </aerosurface_scale>
 
-   <aerosurface_scale name="elevator normalization">
+   <aerosurface_scale name="fcs/elevator-normalization">
       <input>fcs/elevator-pos-rad</input>
       <domain>
         <min> -0.35 </min>
@@ -308,7 +309,7 @@
   </channel>
 
   <channel name="Roll">
-   <summer name="Roll Trim Sum">
+   <summer name="fcs/roll-trim-sum">
       <input>fcs/aileron-cmd-norm</input>
       <input>fcs/roll-trim-cmd-norm</input>
       <clipto>
@@ -317,7 +318,7 @@
       </clipto>
    </summer>
 
-   <aerosurface_scale name="Left Aileron Control">
+   <aerosurface_scale name="fcs/left-aileron-control">
       <input>fcs/roll-trim-sum</input>
       <range>
         <min> -0.35 </min>
@@ -326,7 +327,7 @@
       <output>fcs/left-aileron-pos-rad</output>
    </aerosurface_scale>
 
-   <aerosurface_scale name="Right Aileron Control">
+   <aerosurface_scale name="fcs/right-aileron-control">
       <input>fcs/roll-trim-sum</input>
       <range>
         <min> -0.35 </min>
@@ -335,7 +336,7 @@
       <output>fcs/right-aileron-pos-rad</output>
    </aerosurface_scale>
 
-   <aerosurface_scale name="left aileron normalization">
+   <aerosurface_scale name="fcs/left-aileron-normalization">
       <input>fcs/left-aileron-pos-rad</input>
       <domain>
         <min> -0.35 </min>
@@ -348,7 +349,7 @@
       <output>fcs/left-aileron-pos-norm</output>
    </aerosurface_scale>
 
-   <aerosurface_scale name="right aileron normalization">
+   <aerosurface_scale name="fcs/right-aileron-normalization">
       <input>fcs/right-aileron-pos-rad</input>
       <domain>
         <min> -0.35 </min>
@@ -364,7 +365,7 @@
   </channel>
 
   <channel name="Yaw">
-   <summer name="Rudder Command Sum">
+   <summer name="fcs/rudder-command-sum">
       <input>fcs/rudder-cmd-norm</input>
       <input>fcs/yaw-trim-cmd-norm</input>
       <clipto>
@@ -373,7 +374,7 @@
       </clipto>
    </summer>
 
-   <scheduled_gain name="Yaw Damper Rate">
+   <scheduled_gain name="fcs/yaw-damper-rate">
       <input>velocities/r-aero-rad_sec</input>
       <table>
         <independentVar lookup="row">velocities/ve-kts</independentVar>
@@ -384,7 +385,7 @@
       </table>
    </scheduled_gain>
 
-   <scheduled_gain name="Yaw Damper Beta">
+   <scheduled_gain name="fcs/yaw-damper-beta">
       <input>aero/beta-rad</input>
       <table>
         <independentVar lookup="row">velocities/ve-kts</independentVar>
@@ -395,7 +396,7 @@
       </table>
    </scheduled_gain>
 
-   <summer name="Yaw Damper Sum">
+   <summer name="fcs/yaw-damper-sum">
       <input>fcs/yaw-damper-beta</input>
       <input>fcs/yaw-damper-rate</input>
       <clipto>
@@ -404,7 +405,7 @@
       </clipto>
    </summer>
 
-   <scheduled_gain name="Yaw Damper Final">
+   <scheduled_gain name="fcs/yaw-damper-final">
       <input>fcs/yaw-damper-sum</input>
       <table>
         <independentVar lookup="row">velocities/ve-kts</independentVar>
@@ -415,7 +416,7 @@
       </table>
    </scheduled_gain>
 
-   <summer name="Rudder Sum">
+   <summer name="fcs/rudder-sum">
       <input>fcs/rudder-command-sum</input>
       <input>fcs/yaw-damper-final</input>
       <clipto>
@@ -424,7 +425,7 @@
       </clipto>
    </summer>
 
-   <aerosurface_scale name="Rudder Control">
+   <aerosurface_scale name="fcs/rudder-control">
       <input>fcs/rudder-sum</input>
       <range>
         <min> -0.35 </min>
@@ -433,7 +434,7 @@
       <output>fcs/rudder-pos-rad</output>
    </aerosurface_scale>
 
-   <aerosurface_scale name="rudder normalization">
+   <aerosurface_scale name="fcs/rudder-normalization">
       <input>fcs/rudder-pos-rad</input>
       <domain>
         <min> -0.35 </min>
@@ -449,7 +450,7 @@
   </channel>
 
   <channel name="Flaps">
-   <kinematic name="Flaps Control">
+   <kinematic name="fcs/flaps-control">
      <input>fcs/flap-cmd-norm</input>
      <traverse>
        <setting>
@@ -476,7 +477,7 @@
      <output>fcs/flap-pos-deg</output>
    </kinematic>
 
-   <aerosurface_scale name="flap normalization">
+   <aerosurface_scale name="fcs/flap-normalization">
       <input>fcs/flap-pos-deg</input>
       <domain>
         <min>0</min>
@@ -492,7 +493,7 @@
   </channel>
 
   <channel name="Landing Gear">
-   <kinematic name="Gear Control">
+   <kinematic name="fcs/gear-control">
      <input>gear/gear-cmd-norm</input>
      <traverse>
        <setting>
@@ -510,7 +511,7 @@
   </channel>
 
   <channel name="Speedbrake">
-   <kinematic name="Speedbrake Control">
+   <kinematic name="fcs/speedbrake-control">
      <input>fcs/speedbrake-cmd-norm</input>
      <traverse>
        <setting>
@@ -528,7 +529,7 @@
   </channel>
 
   <channel name="Spoilers">
-   <kinematic name="Spoiler Control">
+   <kinematic name="fcs/spoiler-control">
      <input>fcs/spoiler-cmd-norm</input>
      <traverse>
         <setting>
@@ -712,7 +713,7 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <abs><property>fcs/elevator-pos-norm</property></abs>
+                    <property>fcs/mag-elevator-pos-rad</property>
                     <value>0.0590</value>
                 </product>
             </function>
@@ -975,4 +976,19 @@
             </function>
         </axis>
     </aerodynamics>
+
+    <external_reactions>
+        <force name="pushback" frame="BODY">
+            <location unit="IN">
+                <x>-139</x>
+                <y>0</y>
+                <z>-71</z>
+            </location>
+            <direction>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </direction>
+        </force>
+    </external_reactions>
 </fdm_config>

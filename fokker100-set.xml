@@ -20,6 +20,12 @@
       <name type="string">Default</name>
       <texture>fabric.rgb</texture>
      </fabric>
+     <pushback>
+      <kp type="double">500</kp>
+      <ki type="double">0</ki>
+      <kd type="double">0</kd>
+      <position-norm type="double">0</position-norm>
+     </pushback>
     </model>
 
     <controls include="Systems/F100-init-controls.xml"/>
