@@ -115,22 +115,20 @@
   <name>Cockpit</name>
   <path>Aircraft/fokker100/Models/f100_cockpit.xml</path>
   <offsets>
-   <x-m>-13.48</x-m>
+   <x-m>-13.41</x-m>
    <z-m>1.15</z-m>
  </offsets>
  </model>
 
- <!--
  <model>
   <name>PassengerCabin</name>
   <path>Aircraft/fokker100/Models/f70_cabin.xml</path>
-		<offsets>
-        <x-m>-5.01</x-m>
-		<y-m>0</y-m>
-		<z-m>-0.40</z-m>
-        </offsets>
+   <offsets>
+   <x-m>-3.01</x-m>
+   <y-m>0.02</y-m>
+   <z-m>-0.12</z-m>
+  </offsets>
  </model>
--->
  
 <animation>
   <type>rotate</type>
@@ -1320,5 +1318,17 @@
       <z-m>-2.17551</z-m>
     </offsets>
   </model>
+
+  <!-- doors and stairs -->
+  <animation>
+  <type>select</type>
+  <object-name>Stairs</object-name>
+  <object-name>LastStep</object-name>
+  <object-name>ArmStrut</object-name>
+  <object-name>ArmStrut1</object-name>
+  <object-name>ArmStrut2</object-name>
+  <object-name>RightEscapeDoorOutside</object-name>
+  <property>sim/model/f100/stairs/position-norm</property>
+ </animation>
 
 </PropertyList>

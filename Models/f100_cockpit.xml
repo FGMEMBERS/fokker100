@@ -65,9 +65,36 @@
   <model>
    <path>Aircraft/fokker100/Models/seatL.xml</path>
    <offsets>
-    <x-m> 0.785</x-m>
-    <y-m> 0.95 </y-m>
+    <x-m> 0.085</x-m>
+    <y-m> 0.48 </y-m>
     <z-m> -0.15 </z-m>
+   </offsets>
+  </model>
+
+  <model>
+   <path>Aircraft/fokker100/Models/yoke.xml</path>
+   <offsets>
+    <x-m> -0.425</x-m>
+    <y-m> 0.48 </y-m>
+    <z-m> -0.95 </z-m>
+   </offsets>
+  </model>
+
+  <model>
+   <path>Aircraft/fokker100/Models/seatL.xml</path>
+   <offsets>
+    <x-m> 0.085</x-m>
+    <y-m> -0.48 </y-m>
+    <z-m> -0.15 </z-m>
+   </offsets>
+  </model>
+
+  <model>
+   <path>Aircraft/fokker100/Models/yoke.xml</path>
+   <offsets>
+    <x-m> -0.425</x-m>
+    <y-m> -0.48 </y-m>
+    <z-m> -0.95 </z-m>
    </offsets>
   </model>
 
@@ -489,7 +516,7 @@
  <model> <!-- Created by Gary R. Neely 'Buckaroo' -->
   <path>Aircraft/fokker100/Models/Instruments/EADI/efis_dimmer.xml</path>
   <offsets>
-   <x-m> -0.555 </x-m>
+   <x-m> -0.565 </x-m>
    <y-m> -0.41 </y-m>
    <z-m> -0.065 </z-m>
   </offsets>
@@ -586,5 +613,5 @@
    <pitch-deg>0</pitch-deg>
   </offsets>
  </model>
- 
+
 </PropertyList>
