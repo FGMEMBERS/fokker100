@@ -81,7 +81,7 @@
   </model>
 
   <model>
-   <path>Aircraft/fokker100/Models/seatL.xml</path>
+   <path>Aircraft/fokker100/Models/seatR.xml</path>
    <offsets>
     <x-m> 0.085</x-m>
     <y-m> -0.48 </y-m>

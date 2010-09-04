@@ -11,7 +11,7 @@
     <aero>xf100</aero>
 
     <model>
-     <path>Aircraft/fokker100/Models/fokker100.xml</path>
+     <path>Aircraft/fokker100/Models/xf100.xml</path>
      <livery>
       <name type="string">TAM</name>
       <texture>TAM.rgb</texture>
