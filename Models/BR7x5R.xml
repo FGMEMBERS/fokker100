@@ -19,12 +19,12 @@
  <animation>
   <type>rotate</type>
   <object-name>upper_thrust_reverse</object-name>
-  <property>engines/engine[0]/reverser-pos-norm</property>
+  <property>engines/engine[1]/reverser-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>11.040000</x-m>
-   <y-m>-0.250000</y-m>
-   <z-m>1.240000</z-m>
+   <x-m>2.09</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
   </center>
   <axis>
    <x>0.000000</x>
@@ -36,12 +36,12 @@
  <animation>
   <type>rotate</type>
   <object-name>lower_thrust_reverse</object-name>
-  <property>engines/engine[0]/reverser-pos-norm</property>
+  <property>engines/engine[1]/reverser-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>11.040000</x-m>
-   <y-m>0.250000</y-m>
-   <z-m>1.240000</z-m>
+   <x-m>2.15</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
   </center>
   <axis>
    <x>0.000000</x>
@@ -51,19 +51,14 @@
  </animation>
 
  <animation>
-  <object-name>rotating_fan_disk</object-name>
-  <object-name>fan_disk</object-name>
- </animation>
-
- <animation>
   <type>spin</type>
   <object-name>fan_disk</object-name>
-  <property>engines/engine[0]/n1</property>
+  <property>engines/engine[1]/n1</property>
   <factor>67</factor>
   <center>
-   <x-m>0.00000</x-m>
-   <y-m>2.60000</y-m>
-   <z-m>1.30000</z-m>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.14</z-m>
   </center>
   <axis>
    <x>1.000000</x>
@@ -75,12 +70,12 @@
  <animation>
   <type>spin</type>
   <object-name>rotating_fan_disk</object-name>
-  <property>engines/engine[0]/n1</property>
+  <property>engines/engine[1]/n1</property>
   <factor>67</factor>
   <center>
-   <x-m>0.00000</x-m>
-   <y-m>2.60000</y-m>
-   <z-m>1.30000</z-m>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.14</z-m>
   </center>
   <axis>
    <x>1.000000</x>
@@ -92,17 +87,17 @@
  <animation>
   <type>blend</type>
   <object-name>fan_disk</object-name>
-  <property>engines/engine[0]/n1</property>
+  <property>engines/engine[1]/n1</property>
   <factor>067</factor>
  </animation>
 
  <model>
-  <path>Aircraft/fokker100/Models/Effects/trail/trailL.xml</path>
-  <name>Left Jet Contrail</name>
+  <path>Aircraft/fokker100/Models/Effects/trail/trailR.xml</path>
+  <name>Jet Contrail</name>
   <offsets>
-   <x-m> 11.00 </x-m>
-   <y-m> -2.6 </y-m>
-   <z-m> 1.50 </z-m>
+   <x-m> 2.35 </x-m>
+   <y-m> 0.0 </y-m>
+   <z-m> 0.0 </z-m>
   </offsets>
  </model>
 
@@ -111,13 +106,13 @@
   <condition>
    <or>
     <property>sim/crashed</property>
-    <property>controls/engines/engine[0]/on-fire</property>
+    <property>controls/engines/engine[1]/on-fire</property>
    </or>
   </condition>
   <offsets>
-   <x-m> 12.00 </x-m>
-   <y-m> 2.6 </y-m>
-   <z-m> 1.50 </z-m>
+   <x-m> 3.35 </x-m>
+   <y-m> 0.0 </y-m>
+   <z-m> 0.0 </z-m>
   </offsets>
  </model>
 

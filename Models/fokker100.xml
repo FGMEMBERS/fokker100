@@ -95,12 +95,10 @@
 <!-- Livery System -->
 
 
- 
-
  <offsets>
    <x-m>0.0</x-m>
-   <z-m>0.4</z-m>
-   <pitch-deg>0.4</pitch-deg>
+   <z-m>0.7</z-m>
+   <pitch-deg>-1.00</pitch-deg>
  </offsets>
 
  <model>

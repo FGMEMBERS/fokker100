@@ -31,7 +31,7 @@
     # engines:     2
     engine type:   turbine
     engine layout: aft fuselage
-    yaw damper?    no
+    yaw damper?    yes
 
   Outputs:
     wing loading:  94.40 lb/sq-ft
@@ -116,8 +116,8 @@
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.02 </rolling_friction>
-   <spring_coeff unit="LBS/FT">      28504.03 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC">  9501.34 </damping_coeff>
+   <spring_coeff unit="LBS/FT">       7750.03 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC">  1600.34 </damping_coeff>
    <max_steer unit="DEG"> 5.00 </max_steer>
    <brake_group>NONE</brake_group>
    <retractable>1</retractable>

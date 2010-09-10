@@ -2,7 +2,7 @@
 
 <PropertyList>
 
- <path>fokker100.ac</path>
+ <path>xf100.ac</path>
  
 
 <!-- Livery System -->
@@ -95,12 +95,10 @@
 <!-- Livery System -->
 
 
- 
-
  <offsets>
    <x-m>0.0</x-m>
-   <z-m>0.4</z-m>
-   <pitch-deg>0.4</pitch-deg>
+   <z-m>0.7</z-m>
+   <pitch-deg>-1.0</pitch-deg>
  </offsets>
 
  <model>
@@ -114,21 +112,21 @@
 
  <model>
   <name>Right Engine</name>
-  <path>Aircraft/fokker100/Models/BR7x5.xml</path>
+  <path>Aircraft/fokker100/Models/BR7x5R.xml</path>
   <offsets>
    <x-m>9.15</x-m>
    <y-m>-2.62</y-m>
-   <z-m>1.30</z-m>
+   <z-m>1.20</z-m>
  </offsets>
  </model>
 
  <model>
   <name>Left Engine</name>
-  <path>Aircraft/fokker100/Models/BR7x5.xml</path>
+  <path>Aircraft/fokker100/Models/BR7x5L.xml</path>
   <offsets>
    <x-m>9.15</x-m>
    <y-m>2.62</y-m>
-   <z-m>1.30</z-m>
+   <z-m>1.20</z-m>
  </offsets>
  </model>
 
@@ -1119,15 +1117,97 @@
   </model>
 
   <!-- doors and stairs -->
-  <animation>
-  <type>select</type>
+ <animation>
+  <type>rotate</type>
   <object-name>Stairs</object-name>
   <object-name>LastStep</object-name>
   <object-name>ArmStrut</object-name>
   <object-name>ArmStrut1</object-name>
   <object-name>ArmStrut2</object-name>
-  <object-name>RightEscapeDoorOutside</object-name>
-  <property>sim/model/f100/stairs/position-norm</property>
+  <property>sim/model/f70/stairs/position-norm</property>
+  <factor>-140.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.380000</y-m>
+   <z-m>-0.100000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LastStep</object-name>
+  <property>sim/model/f70/stairs/position-norm</property>
+  <factor>-180.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.010000</y-m>
+   <z-m>1.920000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <property>sim/model/f70/stairs/position-norm</property>
+  <object-name>ArmStrut</object-name>
+  <object-name>ArmStrut1</object-name>
+  <offset-deg>-90.0</offset-deg>
+  <factor>90.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.340000</y-m>
+   <z-m>0.580000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <property>sim/model/f70/stairs/position-norm</property>
+  <object-name>ArmStrut</object-name>
+  <offset-deg>90.0</offset-deg>
+  <factor>-90.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-0.820000</y-m>
+   <z-m>0.430000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <property>sim/model/f70/stairs/position-norm</property>
+  <object-name>ArmStrut2</object-name>
+  <offset-deg>-80.0</offset-deg>
+  <factor>80.0</factor>
+  <center>
+   <x-m>-8.860001</x-m>
+   <y-m>-1.430000</y-m>
+   <z-m>1.210000</z-m>
+  </center>
+  <axis>
+   <x>-1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
  </animation>
 
 </PropertyList>
