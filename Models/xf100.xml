@@ -87,6 +87,7 @@
          <object-name>right_spoiler3</object-name>
          <object-name>right_spoiler2</object-name>
          <object-name>right_spoiler1</object-name>
+         <object-name>fuselage</object-name>
          <property-base>sim/model/livery</property-base>
          <texture-prop>texture</texture-prop>
       <texture>fokker100.rgb</texture>
@@ -97,8 +98,8 @@
 
  <offsets>
    <x-m>0.0</x-m>
-   <z-m>0.7</z-m>
-   <pitch-deg>-1.0</pitch-deg>
+   <z-m>0.9</z-m>
+   <pitch-deg>0.0</pitch-deg>
  </offsets>
 
  <model>
@@ -141,6 +142,14 @@
         </offsets>
  </model>
 -->
+
+ <animation>
+  <type>shader</type>
+  <shader>chrome</shader>
+  <texture>Aircraft/fokker100/Models/shader.png</texture>
+  <object-name>glass</object-name>
+ </animation>
+
  
 <animation>
   <type>rotate</type>

@@ -46,12 +46,14 @@
    <blue>0.018</blue>  </emission>
  </animation>
 
+<!--
  <animation>
   <type>shader</type>
   <shader>chrome</shader>
   <texture>shader.png</texture>
   <name>windows</name>
  </animation>
+-->
   
  <animation>
   <type>shader</type>

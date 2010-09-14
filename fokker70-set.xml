@@ -33,9 +33,9 @@
   <view n="0">
    <internal archive="y">true</internal>
    <config>
-    <pitch-offset-deg>-6.5</pitch-offset-deg>
-    <x-offset-m archive="y">-0.57</x-offset-m>	<!-- left -->
-    <y-offset-m archive="y">1.9</y-offset-m>	<!-- up -->
+    <pitch-offset-deg>-2.5</pitch-offset-deg>
+    <x-offset-m archive="y">-0.475</x-offset-m>	<!-- left -->
+    <y-offset-m archive="y">2.25</y-offset-m>	<!-- up -->
     <z-offset-m archive="y">-10.45</z-offset-m>	<!-- fwd -->
    </config>
   </view>

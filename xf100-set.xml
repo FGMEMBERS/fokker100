@@ -34,8 +34,8 @@
       <internal archive="y">true</internal>
       <config>
         <pitch-offset-deg>-6.5</pitch-offset-deg>
-        <x-offset-m archive="y">-0.57</x-offset-m> <!-- left -->
-        <y-offset-m archive="y">1.9</y-offset-m> <!-- up -->
+        <x-offset-m archive="y">-0.475</x-offset-m> <!-- left -->
+        <y-offset-m archive="y">2.3</y-offset-m> <!-- up -->
         <z-offset-m archive="y">-13.16</z-offset-m> <!-- fwd -->
       </config>
     </view>
@@ -96,6 +96,9 @@
   </sim>
 
   <nasal>
+   <xf100>
+    <file>Aircraft/fokker100/Nasal/fokker.nas</file>
+   </xf100>
    <reversethrust>
     <file>Aircraft/fokker100/Nasal/reverse-thrust.nas</file>
    </reversethrust>

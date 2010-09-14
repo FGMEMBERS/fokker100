@@ -97,8 +97,8 @@
 
  <offsets>
    <x-m>0.0</x-m>
-   <z-m>0.7</z-m>
-   <pitch-deg>-1.00</pitch-deg>
+   <z-m>0.9</z-m>
+   <pitch-deg>0.00</pitch-deg>
  </offsets>
 
  <model>

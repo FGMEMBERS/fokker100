@@ -114,7 +114,7 @@
    <location unit="IN">
      <x> 142.70 </x>
      <y>   0.00 </y>
-     <z> -63.53 </z>
+     <z> -55.73 </z>
    </location>
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
@@ -183,6 +183,21 @@
   </contact>
 
  </ground_reactions>
+
+ <external_reactions>
+    <force name="pushback" frame="BODY">
+       <location unit="IN">
+          <x>-139</x>
+          <y>0</y>
+          <z>-71</z>
+       </location>
+       <direction>
+          <x>1</x>
+          <y>0</y>
+          <z>0</z>
+       </direction>
+    </force>
+ </external_reactions>
 
   <propulsion>
 
@@ -687,7 +702,8 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <property>/engines/engine/reverser-pos-norm</property>
+                    <property>propulsion/engine[0]/reverser-angle-rad</property>
+                    <property>propulsion/engine[1]/reverser-angle-rad</property>
                     <value>0.0187</value>
                 </product>
             </function>
@@ -976,19 +992,4 @@
             </function>
         </axis>
     </aerodynamics>
-
-    <external_reactions>
-        <force name="pushback" frame="BODY">
-            <location unit="IN">
-                <x>-139</x>
-                <y>0</y>
-                <z>-71</z>
-            </location>
-            <direction>
-                <x>1</x>
-                <y>0</y>
-                <z>0</z>
-            </direction>
-        </force>
-    </external_reactions>
 </fdm_config>
