@@ -285,8 +285,7 @@
  <system file="pushback"/>
 
  <flight_control name="FCS: Fokker-100">
-<property
-value="0">/engines/engine/reverser-pos-norm</property>
+
   <channel name="Pitch">
    <summer name="fcs/pitch-trim-sum">
       <input>fcs/elevator-cmd-norm</input>
