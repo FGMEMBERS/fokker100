@@ -131,17 +131,15 @@
  </offsets>
  </model>
 
- <!--
  <model>
   <name>PassengerCabin</name>
-  <path>Aircraft/fokker100/Models/f70_cabin.xml</path>
-		<offsets>
-        <x-m>-5.01</x-m>
-		<y-m>0</y-m>
-		<z-m>-0.40</z-m>
-        </offsets>
+  <path>Aircraft/fokker100/Models/xf100_cabin.ac</path>
+    <offsets>
+     <x-m>0.0</x-m>
+     <y-m>0.0</y-m>
+     <z-m>0.18</z-m>
+   </offsets>
  </model>
--->
 
  <animation>
   <type>shader</type>
