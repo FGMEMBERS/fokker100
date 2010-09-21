@@ -134,11 +134,11 @@
  <model>
   <name>PassengerCabin</name>
   <path>Aircraft/fokker100/Models/xf100_cabin.ac</path>
-    <offsets>
-     <x-m>0.0</x-m>
-     <y-m>0.0</y-m>
-     <z-m>0.18</z-m>
-   </offsets>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.015</z-m>
+  </offsets>
  </model>
 
  <animation>
