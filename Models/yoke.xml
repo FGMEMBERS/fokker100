@@ -12,8 +12,9 @@
   <animation>
   <type>rotate</type>
   <object-name>focc</object-name>
+  <object-name>clipboard</object-name>
   <property>surface-positions/elevator-pos-norm</property>
-  <factor>-60</factor>
+  <factor>-10</factor>
   <center>
    <x-m>-0.01</x-m>
    <y-m>0.0</y-m>
@@ -29,7 +30,7 @@
  <animation>
   <type>rotate</type>
   <object-name>fowheel</object-name>
-  <object-name>clipboard</object-name>
+  <!-- object-name>clipboard</object-name -->
   <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-60</factor>
   <center>

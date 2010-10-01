@@ -12,7 +12,7 @@ OBJECT group
 name "focc"
 kids 2
 OBJECT poly
-name "focc"
+name "column"
 loc 8.48346 1.91773 0.465451
 data 18
 cylinder18_default
