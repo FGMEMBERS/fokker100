@@ -117,7 +117,7 @@
   <offsets>
    <x-m>9.15</x-m>
    <y-m>-2.62</y-m>
-   <z-m>1.20</z-m>
+   <z-m>1.70</z-m>
  </offsets>
  </model>
 
@@ -127,7 +127,7 @@
   <offsets>
    <x-m>9.15</x-m>
    <y-m>2.62</y-m>
-   <z-m>1.20</z-m>
+   <z-m>1.70</z-m>
  </offsets>
  </model>
 
@@ -933,9 +933,9 @@
 <path>Aircraft/fokker100/Models/Lights/GreenLight.xml</path>
 <name>Greenlight</name>     
 <offsets>
-<x-m> 3.400</x-m>
-<y-m> 14.00</y-m>
-<z-m>-0.00</z-m>        
+<x-m> 2.800</x-m>
+<y-m> 13.70</y-m>
+<z-m>1.320</z-m>        
 </offsets>
 </model>
 
@@ -943,9 +943,9 @@
 <path>Aircraft/fokker100/Models/Lights/RedLight.xml</path>
 <name>Redlight</name>     
 <offsets>
-<x-m> 3.400</x-m>
-<y-m>-14.00</y-m>
-<z-m>-0.0</z-m>        
+<x-m> 2.800</x-m>
+<y-m>-13.70</y-m>
+<z-m>1.32</z-m>        
 </offsets>
 </model>
 
@@ -953,9 +953,9 @@
 <path>Aircraft/fokker100/Models/Lights/flash.xml</path>
 <name>flashright</name>     
 <offsets>
-<x-m>4.40</x-m>
+<x-m>3.80</x-m>
 <y-m>14.000</y-m>
-<z-m>-0.00</z-m>    
+<z-m>1.32</z-m>    
 </offsets>
 </model>
 
@@ -963,9 +963,9 @@
 <path>Aircraft/fokker100/Models/Lights/flash.xml</path>
 <name>flashleft</name>     
 <offsets>
-<x-m>4.400</x-m>
+<x-m>3.800</x-m>
 <y-m>-14.000</y-m>
-<z-m>-0.00</z-m>      
+<z-m>1.32</z-m>      
 </offsets>
 </model>
 
@@ -975,7 +975,7 @@
 <offsets>
 <x-m>2.4</x-m>
 <y-m>-11..00</y-m>
-<z-m> -0.1</z-m>      
+<z-m> 0.75</z-m>      
 </offsets>
 </model>
 
@@ -985,7 +985,7 @@
 <offsets>
 <x-m>2.4</x-m>
 <y-m> 11.0</y-m>
-<z-m> -0.1</z-m>      
+<z-m> 0.75</z-m>      
 </offsets>
 </model>
 
