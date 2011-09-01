@@ -198,7 +198,7 @@
 
  <propulsion>
 
-   <engine file="BR-725">
+   <engine file="SaM146-1S17">
     <location unit="IN">
       <x>  922.52 </x>
       <y> -101.65 </y>
@@ -224,7 +224,7 @@
     </thruster>
   </engine>
 
-   <engine file="BR-725">
+   <engine file="SaM146-1S17">
     <location unit="IN">
       <x>  922.52 </x>
       <y>  101.65 </y>
