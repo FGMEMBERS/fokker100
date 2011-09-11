@@ -102,7 +102,7 @@
 	<animation>
 		<type>textranslate</type>
 		<object-name>L-ff-tape</object-name>
-		<property>engines/engine[0]/egt_degf</property>
+		<property>engines/engine[0]/egt-degf</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>40</ind><dep>-0.110</dep></entry>
@@ -123,7 +123,7 @@
 	<animation>
 		<type>textranslate</type>
 		<object-name>R-ff-tape</object-name>
-		<property>engines/engine[1]/egt_degf</property>
+		<property>engines/engine[1]/egt-degf</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>40</ind><dep>-0.110</dep></entry>
