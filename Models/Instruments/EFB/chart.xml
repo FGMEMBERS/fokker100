@@ -3,7 +3,7 @@
 
 <PropertyList>
     <name>Airport Chart</name>
-    <background>Aircraft/777-200/Models/Instruments/EFB/transparent.png</background>
+    <background>Aircraft/777/Models/Instruments/EFB/transparent.png</background>
     <w>512</w>
     <h>684</h>
 
