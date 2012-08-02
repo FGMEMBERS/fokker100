@@ -2,7 +2,7 @@
 
 <PropertyList>
 
- <path>xf100.ac</path>
+ <path>f120ng.ac</path>
  
 
 <!-- Livery System -->
@@ -113,7 +113,7 @@
 
  <model>
   <name>Right Engine</name>
-  <path>Aircraft/fokker100/Models/BR7x5R.xml</path>
+  <path>Aircraft/fokker100/Models/PW1217GR.xml</path>
   <offsets>
    <x-m>9.15</x-m>
    <y-m>-2.62</y-m>
@@ -123,7 +123,7 @@
 
  <model>
   <name>Left Engine</name>
-  <path>Aircraft/fokker100/Models/BR7x5L.xml</path>
+  <path>Aircraft/fokker100/Models/PW1217GL.xml</path>
   <offsets>
    <x-m>9.15</x-m>
    <y-m>2.62</y-m>
@@ -133,7 +133,7 @@
 
  <model>
   <name>PassengerCabin</name>
-  <path>Aircraft/fokker100/Models/xf100_cabin.xml</path>
+  <path>Aircraft/fokker100/Models/f100_cabin.xml</path>
   <offsets>
    <x-m>0.0</x-m>
    <y-m>0.0</y-m>

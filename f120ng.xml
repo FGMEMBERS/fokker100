@@ -18,13 +18,13 @@
  </fileheader>
 
 <!--
-  File:     xf100.xml
+  File:     f120ng.xml
   Inputs:
-    name:          NG-Aircraft XF-100 (Fokker 100NG)
+    name:          NG-Aircraft F-120NG
     type:          two-engine transonic transport
     max weight:    95013.45 lb
-    wing span:     92.13048 ft
-    length:        106.6325 ft
+    wing span:     95.03048 ft
+    length:        108.6325 ft
     wing area:     1025.9045 sq-ft
     gear type:     tricycle
     retractable?:  yes
@@ -198,7 +198,7 @@
 
  <propulsion>
 
-   <engine file="SaM146-1S17">
+   <engine file="PW1217G">
     <location unit="IN">
       <x>  922.52 </x>
       <y> -101.65 </y>
@@ -224,7 +224,7 @@
     </thruster>
   </engine>
 
-   <engine file="SaM146-1S17">
+   <engine file="PW1217G">
     <location unit="IN">
       <x>  922.52 </x>
       <y>  101.65 </y>

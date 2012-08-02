@@ -8,10 +8,10 @@
     <status>Beta 0.4</status>
 
     <flight-model>jsb</flight-model>
-    <aero>xf100</aero>
+    <aero>f120ng</aero>
 
     <model>
-     <path>Aircraft/fokker100/Models/xf100.xml</path>
+     <path>Aircraft/fokker100/Models/f120ng.xml</path>
      <livery>
       <name type="string">TAM</name>
       <texture>TAM.rgb</texture>
@@ -96,9 +96,9 @@
   </sim>
 
   <nasal>
-   <xf100>
+   <f120ng>
     <file>Aircraft/fokker100/Nasal/fokker.nas</file>
-   </xf100>
+   </f120ng>
    <reversethrust>
     <file>Aircraft/fokker100/Nasal/reverse-thrust.nas</file>
    </reversethrust>
