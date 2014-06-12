@@ -10,6 +10,16 @@
     <flight-model>jsb</flight-model>
     <aero>fokker100</aero>
 
+    <tags>
+        <tag>transport</tag>
+        <tag>fokker</tag>
+        <tag>jet</tag>
+        <tag>twin-engine</tag>
+        <tag>retractable-gear</tag>
+        <tag>glass-cockpit</tag>
+        <tag>ifr</tag>
+    </tags>
+    
     <model>
      <path>Aircraft/fokker100/Models/fokker100.xml</path>
      <livery>
