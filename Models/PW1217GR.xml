@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>PW1217G.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>rotating_fan_disk</object-name>
+  <object-name>fan_disk</object-name>
+  <object-name>upper_thrust_reverse</object-name>
+  <object-name>lower_thrust_reverse</object-name>
+  <property-base>sim/model/livery</property-base>
+  <texture-prop>texture</texture-prop>
+  <texture>fokker100.rgb</texture>
+ </animation>
+
+   <!-- reverser -->
+ <animation>
+  <type>rotate</type>
+  <object-name>upper_thrust_reverse</object-name>
+  <property>engines/engine[1]/reverser-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>2.09</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.000000</x>
+   <y>-1.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>lower_thrust_reverse</object-name>
+  <property>engines/engine[1]/reverser-pos-norm</property>
+  <factor>-60</factor>
+  <center>
+   <x-m>2.15</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.000000</x>
+   <y>1.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>fan_disk</object-name>
+  <property>engines/engine[1]/n1</property>
+  <factor>67</factor>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.14</z-m>
+  </center>
+  <axis>
+   <x>1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>rotating_fan_disk</object-name>
+  <property>engines/engine[1]/n1</property>
+  <factor>67</factor>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.14</z-m>
+  </center>
+  <axis>
+   <x>1.000000</x>
+   <y>0.000000</y>
+   <z>0.000000</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>blend</type>
+  <object-name>fan_disk</object-name>
+  <property>engines/engine[1]/n1</property>
+  <factor>067</factor>
+ </animation>
+
+ <model>
+  <path>Aircraft/fokker100/Models/Effects/trail/trailR.xml</path>
+  <name>Jet Contrail</name>
+  <offsets>
+   <x-m> 2.35 </x-m>
+   <y-m> 0.0 </y-m>
+   <z-m> 0.0 </z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/fokker100/Models/Effects/enginefire.xml</path>
+  <condition>
+   <or>
+    <property>sim/crashed</property>
+    <property>controls/engines/engine[1]/on-fire</property>
+   </or>
+  </condition>
+  <offsets>
+   <x-m> 3.35 </x-m>
+   <y-m> 0.0 </y-m>
+   <z-m> 0.0 </z-m>
+  </offsets>
+ </model>
+
+</PropertyList>
+

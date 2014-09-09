@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<autoflight>
+  <roll-min type="double">-20</roll-min>
+  <roll-max type="double">20</roll-max>
+</autoflight>
+
+<gear>
+  <brake-parking type="double">1.0</brake-parking>
+</gear>
+
+
+<lighting>
+  <default type="double">0.5</default>
+  <digital-norm type="double">1.0</digital-norm>
+  <pfd-norm type="double">1.0</pfd-norm>
+  <instrument-norm type="double">1.0</instrument-norm>
+  <panel-norm type="double">1</panel-norm>
+</lighting>
+
+</PropertyList>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Source :  http://users.skynet.be/jcordon/ -->
+
+<PropertyList>
+
+  <path>temp.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>temp</object-name>
+    <object-name>visses</object-name>
+  </animation>
+  	<animation> 
+		<object-name>temp</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.45</red>
+			<green>0.34</green>
+			<blue>0.18</blue>
+		</emission>
+	</animation>
+	<animation> 
+		<object-name>visses</object-name>
+		<type>material</type>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.45</red>
+			<green>0.34</green>
+			<blue>0.18</blue>
+		</emission>
+	</animation>
+</PropertyList>
+

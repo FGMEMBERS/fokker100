@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+
+ <fx>
+
+
+<!-- Cockpit GPWS -->
+
+        <altitude1>
+            <name>alt-10</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-10.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>10</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude1>
+
+        <altitude2>
+            <name>alt-20</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-20.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>20</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude2>
+
+        <altitude3>
+            <name>alt-30</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-30.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>30</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude3>
+
+        <altitude4>
+            <name>alt-40</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-40.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>40</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude4>
+
+        <altitude5>
+            <name>alt-50</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-50.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>50</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude5>
+
+        <altitude6>
+            <name>alt-100</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-100.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>100</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude6>
+
+        <altitude7>
+            <name>alt-200</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-200.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>200</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude7>
+
+        <altitude8>
+            <name>alt-300</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-300.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>300</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude8>
+
+        <altitude9>
+            <name>alt-400</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-400.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>400</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude9>
+
+        <altitude10>
+            <name>alt-500</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-500.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>500</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude10>
+
+        <altitude11>
+            <name>alt-1000</name>
+            <reference-dist>1.0</reference-dist>
+            <max-dist>2.0</max-dist>
+            <mode>once</mode>
+            <path>Aircraft/fokker100/Sounds/altitude-1000.wav</path>
+            <condition>
+				<less-than-equals>
+                    		<property>position/altitude-agl-ft</property>
+                    		<value>1000</value>
+                  	</less-than-equals>
+            </condition>
+            <volume>
+                <property>sim/sound/Evolume</property>
+            </volume>
+            <position>
+                <x>-5</x>
+                <y>0</y>
+                <z>0</z>
+            </position>
+        </altitude11>
+
+ <!--som reverso-->
+ <engines>
+<name>reverse-thrust</name>
+<mode>looped</mode>
+<path>Aircraft/fokker100/Sounds/reverse.wav</path>
+<condition>
+<and>
+<equals>
+<property>/engines/engine[0]/running</property>
+<value>1</value>
+</equals>
+<equals>
+<property>/controls/engines/engine[0]/reverser</property>
+<value>1</value>
+</equals>
+</and>
+</condition>
+</engines>
+ <!--som reverso-->
+ <engine>
+   <name>engine</name>
+   <path>Aircraft/fokker100/Sounds/TAY_1.wav</path>
+   <mode>looped</mode>
+   <property>/engines/engine[0]/running</property>
+   <volume>
+    <property>/engines/engine[0]/thrust_lb</property>
+    <type>lin</type>
+    <factor>0.0000253</factor>
+   </volume>
+  </engine>
+
+  <engine>
+   <name>engine</name>
+   <path>Aircraft/fokker100/Sounds/Dl.wav</path>
+   <mode>looped</mode>
+   <property>/engines/engine[1]/running</property>
+   <volume>
+    <property>/engines/engine[1]/thrust_lb</property>
+    <type>lin</type>
+    <factor>0.0000253</factor>
+   </volume>
+  </engine>
+
+  <engine>
+   <name>whine</name>
+   <path>Sounds/whine.wav</path>
+   <mode>looped</mode>
+   <property>/engines/engine[0]/running</property>
+   <pitch>
+    <property>/engines/engine[0]/n1</property>
+    <type>lin</type>
+    <factor>.008</factor>
+   </pitch>
+   <volume>
+    <property>/engines/engine[0]/n1</property>
+    <type>log</type>
+    <factor>0.08</factor> <!-- 10-100% rpm == 0.1 - 1 factor -->
+   </volume>
+  </engine>
+
+  <engine>
+   <name>whine</name>
+   <path>Sounds/whine.wav</path>
+   <mode>looped</mode>
+   <property>/engines/engine[1]/running</property>
+   <pitch>
+    <property>/engines/engine[1]/n1</property>
+    <type>lin</type>
+    <factor>.008</factor>
+   </pitch>
+   <volume>
+    <property>/engines/engine[1]/n1</property>
+    <type>log</type>
+    <factor>0.08</factor> <!-- 10-100% rpm == 0.1 - 1 factor -->
+   </volume>
+  </engine>
+
+  
+
+  <rumble>
+   <name>rumble</name>
+   <mode>looped</mode>
+   <path>Sounds/rumble.wav</path>
+   <condition>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+     <property>/gear/gear[2]/wow</property>
+    </or>
+   </condition>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <type>lin</type>
+    <factor>.012</factor>
+   </volume>
+  </rumble>
+
+  <gear>
+   <name>gear</name>
+   <mode>in-transit</mode>
+   <path>Sounds/gear.wav</path>
+   <property>/gear/gear[0]/position-norm</property>
+   <pitch>
+    <internal>dt_play</internal>
+    <offset>1.0</offset>
+    <factor>-0.001</factor>
+   </pitch>
+  </gear>
+
+  <gear>
+   <name>gear-lock</name>
+   <path>Sounds/gear-lck.wav</path>
+   <condition>
+    <equals>
+     <property>/gear/gear[0]/position-norm</property>
+     <value>0</value>
+    </equals>
+   </condition>
+  </gear>
+
+  <squeal>
+   <name>touch</name>
+   <path>Aircraft/fokker100/Sounds/touch.wav</path>
+   <condition>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+     <property>/gear/gear[2]/wow</property>
+    </or>
+   </condition>
+   <volume>
+    <property>/velocities/speed-down-fps</property>
+    <factor>0.05</factor>
+   </volume>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.01</factor>
+   </volume>
+   <volume>
+    <internal>dt_stop</internal>
+    <factor>0.7</factor>
+    <max>2.0</max>
+   </volume>
+   <pitch>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.0005</factor>
+    <offset>2.2</offset>
+   </pitch>
+  </squeal>
+ 
+  <flap>
+   <name>flaps</name>
+   <mode>in-transit</mode>
+   <path>Sounds/flaps.wav</path>
+   <property>/surface-positions/flap-pos-norm</property>
+   <volume>
+    <offset>0.25</offset>
+   </volume>
+  </flap>
+
+<apu>
+   <name>apu</name>
+   <mode>looped</mode>
+   <path>Sounds/turbine_loop.wav</path>
+   <property>/controls/APU/generator</property>
+   <volume>
+    <offset>0.05</offset>
+   </volume>
+  </apu>
+
+  <wind>
+   <name>wind</name>
+   <mode>looped</mode>
+   <path>Sounds/wind.wav</path>
+   <property>/velocities/airspeed-kt</property>
+   <volume>
+    <property>/position/altitude-ft</property>
+    <factor>-0.000015</factor>
+    <offset>1.0</offset>
+    <min>0.1</min>
+    <max>1.0</max>
+   </volume>
+   <volume>
+     <property>/velocities/airspeed-kt</property>
+     <factor>0.0015</factor>
+     <min>0.03</min>
+     <max>0.25</max>
+   </volume>
+   <pitch>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.01</factor>
+    <offset>1.25</offset>
+   </pitch>
+  </wind>
+
+  <stall>
+   <name>stall</name>
+   <path>Sounds/stall.wav</path>
+   <property>/sim/alarms/stall-warning</property>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <min>30.0</min>
+   </volume>
+  </stall>
+  
+  <stall>
+   <name>stall</name>
+   <path>Sounds/mk-viii/altitude-100.wav</path>
+   <property>/sim/alarms/stall-warning</property>
+   <volume>
+    <condition>
+     <less-than>
+        <property>position/altitude-agl-ft</property>
+            <value>15</value>
+     </less-than>
+    </condition>
+   </volume>
+  </stall>
+ 
+  
+<!-- no binding yet?
+  <click>
+   <name>click</name>
+   <path>Sounds/click.wav</path>
+  </click>
+-->
+
+</fx>
+ 
+</PropertyList>

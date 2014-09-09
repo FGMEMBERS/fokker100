@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+
+<PropertyList include="fokker100-base.xml">
+
+  <sim>
+    <description>NG-Aircraft XF-100 (Fokker F-28-0100NG)</description>
+    <author>Erik Hofman, Isaias Prestes, Michel Maia, Thomas Ito-Haigh</author>
+    <status>Beta 0.4</status>
+
+    <flight-model>jsb</flight-model>
+    <aero>f120ng</aero>
+
+    <model>
+     <path>Aircraft/fokker100/Models/f120ng.xml</path>
+     <livery>
+      <name type="string">TAM</name>
+      <texture>TAM.rgb</texture>
+     </livery>
+     <fabric>
+      <name type="string">Default</name>
+      <texture>fabric.rgb</texture>
+     </fabric>
+     <pushback>
+      <kp type="double">500</kp>
+      <ki type="double">0</ki>
+      <kd type="double">0</kd>
+      <position-norm type="double">0</position-norm>
+     </pushback>
+    </model>
+
+    <controls include="Systems/F100-init-controls.xml"/>
+    
+    <view n="0">
+      <internal archive="y">true</internal>
+      <config>
+        <pitch-offset-deg>-6.5</pitch-offset-deg>
+        <x-offset-m archive="y">-0.475</x-offset-m> <!-- left -->
+        <y-offset-m archive="y">2.3</y-offset-m> <!-- up -->
+        <z-offset-m archive="y">-13.16</z-offset-m> <!-- fwd -->
+      </config>
+    </view>
+
+
+    <view n="100">
+      <name>Wing View 1</name>
+      <type>lookfrom</type>
+      <internal archive="y">true</internal>
+      <config>
+        <from-model type="bool">true</from-model>
+        <from-model-idx type="int">0</from-model-idx>
+        <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+        <default-field-of-view-deg type="double">55</default-field-of-view-deg>
+        <pitch-offset-deg>-8.0</pitch-offset-deg>
+        <heading-offset-deg type="double">90</heading-offset-deg>
+        <!-- parallel to the panel -->
+        <x-offset-m archive="y"> -2.0 </x-offset-m>
+        <!-- Left/Right -->
+        <y-offset-m archive="y"> 1.31 </y-offset-m>
+        <!-- Up/Down -->
+        <z-offset-m archive="y"> 4.67 </z-offset-m>
+        <!-- Fdw/Back -->
+      </config>
+    </view>
+    <view n="300">
+      <name>Wing View 2</name>
+      <type>lookfrom</type>
+      <internal archive="y">true</internal>
+      <config>
+        <from-model type="bool">true</from-model>
+        <from-model-idx type="int">0</from-model-idx>
+        <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+        <default-field-of-view-deg type="double">55</default-field-of-view-deg>
+        <pitch-offset-deg>-8.0</pitch-offset-deg>
+        <heading-offset-deg type="double">270</heading-offset-deg>
+        <!-- parallel to the panel -->
+        <x-offset-m archive="y"> 2.0 </x-offset-m>
+        <!-- Left/Right -->
+        <y-offset-m archive="y"> 1.31 </y-offset-m>
+        <!-- Up/Down -->
+        <z-offset-m archive="y"> 4.67 </z-offset-m>
+        <!-- Fdw/Back -->
+      </config>
+    </view>
+    
+  <groundradar>
+   <id type="string">KSFO</id>
+   <range type="double">1.2</range>
+  </groundradar>
+        
+  <controls>
+   <gear>
+    <brake-parking type="bool">1</brake-parking>
+   </gear>
+  </controls>
+
+  </sim>
+
+  <nasal>
+   <f120ng>
+    <file>Aircraft/fokker100/Nasal/fokker.nas</file>
+   </f120ng>
+   <reversethrust>
+    <file>Aircraft/fokker100/Nasal/reverse-thrust.nas</file>
+   </reversethrust>
+   <tyresmoke>
+    <file>Aircraft/fokker100/Nasal/tyresmoke.nas</file>
+   </tyresmoke>
+   <livery>
+    <file>Aircraft/fokker100/Nasal/livery.nas</file>
+   </livery>
+   <airground>
+    <file>Aircraft/fokker100/Nasal/air-ground.nas</file>
+   </airground>
+ </nasal>
+
+
+</PropertyList>
