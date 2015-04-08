@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--automatically generated, do not edit-->
 <PropertyList>
-  <path>../../../Aircraft/Instruments-3d/mk-viii/assembly/assembly.ac</path>
+  <path>Aircraft/Instruments-3d/mk-viii/assembly/assembly.ac</path>
   <panel>
     <path>Aircraft/Instruments-3d/mk-viii/flap-override-actions.xml</path>
     <bottom-left>
