@@ -11,14 +11,14 @@
   <aero>fokker70</aero>
 
   <model>
-   <path>Aircraft/fokker100/Models/fokker70.xml</path>
+   <path>Aircraft/fokker100/Models/f70/fokker70.xml</path>
    <livery>
     <name type="string">TAM</name>
-    <texture>TAM.rgb</texture>
+    <texture>Aircraft/fokker100/Models/f70/Liveries/TAM.rgb</texture>
    </livery>
    <fabric>
     <name type="string">Default</name>
-    <texture>fabric.rgb</texture>
+    <texture>Aircraft/fokker100/Models/f70/Liveries/fabric.rgb</texture>
    </fabric>
    <pushback>
     <kp type="double">500</kp>
