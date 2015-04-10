@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>f100_cabin.ac</path>
+
+ <model>
+  <name>Row1</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>6.5</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row2</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>5.7</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row3</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>4.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row4</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>4.1</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row5</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>3.3</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row6</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>2.5</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row7</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>1.7</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row8</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>0.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row9</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>0.1</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row10</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-0.7</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row11</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-1.5</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row12</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-2.3</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row13</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-3.1</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row14</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-3.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row15</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-4.7</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row16</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-5.5</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row17</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-6.3</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row18</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-7.1</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row19</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-7.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row20</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-8.7</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+ <model>
+  <name>Row21</name>
+  <path>Aircraft/fokker100/Models/f100/2ndclass_row.xml</path>
+  <offsets>
+   <x-m>-9.5</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.75</z-m>
+ </offsets>
+ </model>
+
+
+
+
+</PropertyList>

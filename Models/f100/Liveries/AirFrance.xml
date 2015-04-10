@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+			<livery>
+				<name type="string">Air France (Brit Air)</name>
+				<texture>f100/Liveries/AirFrance.rgb</texture>
+			</livery>        
+    </model>
+</sim>
+</PropertyList>

@@ -3,32 +3,22 @@
 <PropertyList include="fokker100-base.xml">
 
   <sim>
-    <description>Fokker 100 (F-28-0100)</description>
-    <author>Erik Hofman, Isaias Prestes, Michel Maia, Thomas Ito-Haigh</author>
-    <status>Beta 0.4</status>
+    <description>NAC Fokker 120NG (Fokker F-28-0120)</description>
+    <author>Erik Hofman</author>
+    <status>Beta</status>
 
     <flight-model>jsb</flight-model>
-    <aero>fokker100</aero>
+    <aero>fokker120</aero>
 
-    <tags>
-      <tag>transport</tag>
-      <tag>fokker</tag>
-      <tag>jet</tag>
-      <tag>twin-engine</tag>
-      <tag>retractable-gear</tag>
-      <tag>glass-cockpit</tag>
-      <tag>ifr</tag>
-    </tags>
-    
     <model>
-     <path>Aircraft/fokker100/Models/f100/fokker100.xml</path>
+     <path>Aircraft/fokker100/Models/f120/fokker120.xml</path>
      <livery>
-      <name type="string">TAM</name>
-      <texture>Aircraft/fokker100/Models/f100/Liveries/TAM.rgb</texture>
+      <name type="string">Default</name>
+      <texture>default.rgb</texture>
      </livery>
      <fabric>
       <name type="string">Default</name>
-      <texture>Aircraft/fokker100/Models/f100/Liveries/fabric.rgb</texture>
+      <texture>fabric.rgb</texture>
      </fabric>
      <pushback>
       <kp type="double">500</kp>
@@ -43,7 +33,7 @@
     <view n="0">
       <internal archive="y">true</internal>
       <config>
-        <pitch-offset-deg>-2.5</pitch-offset-deg>
+        <pitch-offset-deg>-6.5</pitch-offset-deg>
         <x-offset-m archive="y">-0.475</x-offset-m> <!-- left -->
         <y-offset-m archive="y">2.3</y-offset-m> <!-- up -->
         <z-offset-m archive="y">-13.16</z-offset-m> <!-- fwd -->
@@ -106,6 +96,9 @@
   </sim>
 
   <nasal>
+   <f120ng>
+    <file>Aircraft/fokker100/Nasal/fokker.nas</file>
+   </f120ng>
    <reversethrust>
     <file>Aircraft/fokker100/Nasal/reverse-thrust.nas</file>
    </reversethrust>

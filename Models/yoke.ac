@@ -1,21 +1,28 @@
 AC3Db
-MATERIAL "ac3dmat14" rgb 0.49 0.604 0.675  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.165 0.165 0.165  shi 77  trans 0
+MATERIAL "ac3dmat14" rgb 0.49 0.604 0.675  amb 0.49 0.604 0.675  emis 0 0 0  spec 0.165 0.165 0.165  shi 77  trans 0
 OBJECT world
+kids 1
+OBJECT group
+name "yoke"
+loc 2.82782 0.639243 0.15515
 kids 3
 OBJECT poly
 name "Cube.001"
-loc 8.48346 1.91773 0.465451
+loc 5.65564 1.27849 0.310301
 data 8
 Cube.001
+crease 90.000000
 kids 0
 OBJECT group
 name "focc"
+loc -2.82782 -0.639243 -0.15515
 kids 2
 OBJECT poly
 name "column"
 loc 8.48346 1.91773 0.465451
 data 18
 cylinder18_default
+crease 90.000000
 numvert 124
 -8.46717 -1.9149 -0.428311
 -8.47099 -1.9149 -0.466583
@@ -1612,6 +1619,7 @@ name "fowheel"
 loc 8.48346 1.91773 0.465451
 data 21
 cylinder2_extract17_d
+crease 90.000000
 numvert 813
 -8.39741 -1.07402 -0.328853
 -8.39777 -1.07451 -0.329651
@@ -12114,6 +12122,8 @@ refs 3
 kids 0
 OBJECT poly
 name "clipboard"
+loc -2.82782 -0.639243 -0.15515
+crease 90.000000
 numvert 272
 0.121662 0.816904 -0.00113171
 0.121662 0.822934 -0.0023317
