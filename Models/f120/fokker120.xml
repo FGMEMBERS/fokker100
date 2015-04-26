@@ -105,8 +105,8 @@
   <name>Cockpit</name>
   <path>Aircraft/fokker100/Models/f100_cockpit.xml</path>
   <offsets>
-   <x-m>-13.41</x-m>
-   <z-m>1.15</z-m>
+   <x-m>-15.5</x-m>
+   <z-m>1.05</z-m>
  </offsets>
  </model>
 

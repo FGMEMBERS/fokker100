@@ -1,23 +1,20 @@
 <?xml version="1.0"?>
 <!--
-  File:     SaM146-1S17.xml
+  File:     PW815GA.xml
   Author:   Aero-Matic v 0.82
 
   Inputs:
-    name:           SaM146-1S17
+    name:           PW815GA
     type:           turbine
-    thrust:         17273.632 lb (76.84 kN)
+    thrust:         15680 lb
     augmented?      no
     injected?       no
-
-    fan diameter:   48.2 inches (1.22m)
-    dry weight:     1,708 kg (3,770 lb)
 -->
 
-<turbine_engine name="SaM146-1S17">
-  <milthrust> 17273.6 </milthrust>
-  <bypassratio>     4.43 </bypassratio>
-  <tsfc>            0.629 </tsfc>
+<turbine_engine name="PW815GA">
+  <milthrust> 15680.0 </milthrust>
+  <bypassratio>     5.12 </bypassratio>
+  <tsfc>            0.61 </tsfc>
   <bleed>           0.03</bleed>
   <idlen1>         30.0 </idlen1>
   <idlen2>         60.0 </idlen2>
