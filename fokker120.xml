@@ -91,14 +91,14 @@
    <izz unit="SLUG*FT2">    964325 </izz>
    <emptywt unit="LBS" >     58923 </emptywt>
    <location name="CG" unit="IN">
-     <x> 723.63 </x> <!-- 693.81 -->
+     <x> 733.63 </x>
      <y>   0.00 </y>
      <z>  38.12 </z>
    </location>
    <pointmass name="pilot">
      <weight unit="LBS"> 230 </weight>
      <location name="POINTMASS" unit="IN">
-       <x> 122.04 </x>
+       <x> 125.86 </x>
        <y> -30.0 </y>
        <z>  66.0 </z>
      </location>
@@ -106,7 +106,7 @@
    <pointmass name="copilot">
      <weight unit="LBS"> 230 </weight>
      <location name="POINTMASS" unit="IN">
-       <x> 122.04 </x>
+       <x> 125.86 </x>
        <y>  30.0 </y>
        <z>  66.0 </z>
      </location>
@@ -114,7 +114,7 @@
    <pointmass name="steward">
      <weight unit="LBS"> 400 </weight>
      <location name="POINTMASS" unit="IN">
-       <x>  218 </x>
+       <x>  222 </x>
        <y>  32.0 </y>
        <z>  66.0 </z>
      </location>
@@ -125,7 +125,7 @@
 
   <contact type="BOGEY" name="NOSE">
    <location unit="IN">
-     <x> 172.87 </x>
+     <x> 176.69 </x>
      <y>   0.00 </y>
      <z> -55.73 </z>
    </location>
