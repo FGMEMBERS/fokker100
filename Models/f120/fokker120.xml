@@ -107,7 +107,7 @@
 
  <model>
   <name>Cockpit</name>
-  <path>Aircraft/fokker100/Models/f100_cockpit.xml</path>
+  <path>Aircraft/fokker100/Models/f120/f120_cockpit.xml</path>
   <offsets>
    <x-m>-15.5</x-m>
    <z-m>1.05</z-m>
@@ -136,7 +136,7 @@
 
  <model>
   <name>PassengerCabin</name>
-  <path>Aircraft/fokker100/Models/f100/f120_cabin.xml</path>
+  <path>Aircraft/fokker100/Models/f100/f120/f120_cabin.xml</path>
   <offsets>
    <x-m>-5.01</x-m>
    <y-m>0</y-m>
