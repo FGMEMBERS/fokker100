@@ -1230,7 +1230,7 @@ kids 0
 OBJECT poly
 name "cylinder"
 loc -1.42354 0.000127792 3.38554e-05
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f120/fokker120.rgb"
+texture "Aircraft/fokker100/Models/f120/fokker120.rgb"
 crease 45.000000
 numvert 240
 -1.26181 0.730433 0.411554

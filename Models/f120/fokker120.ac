@@ -42274,7 +42274,7 @@ kids 7
 OBJECT poly
 name "nose_tire"
 loc -10.651 -3.48826 -0.225601
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -43756,7 +43756,7 @@ kids 0
 OBJECT poly
 name "nose_tire"
 loc -10.651 -3.48825 0.15512
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -45238,7 +45238,7 @@ kids 0
 OBJECT poly
 name "nose_tire1_wow"
 loc -6.29013 -3.39257 0.153378
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -46775,7 +46775,7 @@ kids 0
 OBJECT poly
 name "nose_tire2_wow"
 loc -6.28992 -3.39272 -0.22411
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -48165,7 +48165,7 @@ kids 0
 OBJECT poly
 name "LeftWheelCore"
 loc -6.27575 -3.39365 -0.22296
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.067 0.088
 texoff -0.13 0.44
 crease 90.000000
@@ -48247,7 +48247,7 @@ kids 0
 OBJECT poly
 name "RightWheelCore"
 loc -6.27577 -3.39369 0.154622
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.067 0.088
 texoff -0.13 0.44
 crease 90.000000
@@ -48333,7 +48333,7 @@ kids 7
 OBJECT poly
 name "left_tire"
 loc 1.49439 -3.94438 2.71525
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -49815,7 +49815,7 @@ kids 0
 OBJECT poly
 name "left_tire"
 loc 1.4944 -3.9444 2.10735
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -51297,7 +51297,7 @@ kids 0
 OBJECT poly
 name "left_tire1_wow"
 loc 1.50179 -3.90538 2.10684
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -52687,7 +52687,7 @@ kids 0
 OBJECT poly
 name "left_tire2_wow"
 loc 1.50143 -3.90512 2.71473
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -54224,7 +54224,7 @@ kids 0
 OBJECT poly
 name "LeftWheelCore"
 loc 1.52753 -3.90729 2.10865
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
 crease 90.000000
@@ -54306,7 +54306,7 @@ kids 0
 OBJECT poly
 name "RightWheelCore"
 loc 1.5275 -3.90736 2.71671
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
 crease 90.000000
@@ -54392,7 +54392,7 @@ kids 7
 OBJECT poly
 name "right_tire"
 loc 1.49441 -3.79834 -2.26762
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -55874,7 +55874,7 @@ kids 0
 OBJECT poly
 name "right_tire"
 loc 1.49442 -3.79836 -2.8753
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -57356,7 +57356,7 @@ kids 0
 OBJECT poly
 name "right_tire1_wow"
 loc 1.50125 -3.75933 -2.26814
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -58893,7 +58893,7 @@ kids 0
 OBJECT poly
 name "right_tire2_wow"
 loc 1.50161 -3.7596 -2.87582
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.047 0.09
 texoff 0.151 0.01
 crease 90.000000
@@ -60283,7 +60283,7 @@ kids 0
 OBJECT poly
 name "LeftWheelCore"
 loc 1.52753 -3.7613 -2.87411
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
 crease 90.000000
@@ -60365,7 +60365,7 @@ kids 0
 OBJECT poly
 name "RightWheelCore"
 loc 1.52751 -3.76136 -2.26629
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/fokker100/Models/f70/fokker70.rgb"
+texture "Aircraft/fokker100/Models/f70/fokker70.rgb"
 texrep 0.068 0.088
 texoff -0.13 0.44
 crease 90.000000
