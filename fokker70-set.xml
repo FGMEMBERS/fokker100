@@ -6,9 +6,10 @@
   <description>Fokker 70 (F-28-070)</description>
   <author>Erik Hofman, Michel Maia, Thomas Ito-Haigh</author>
   <status>Beta 0.4</status>
- 
+
   <flight-model>jsb</flight-model>
   <aero>fokker70</aero>
+  <variant-of>fokker100</variant-of>
 
   <model>
    <path>Aircraft/fokker100/Models/f70/fokker70.xml</path>
