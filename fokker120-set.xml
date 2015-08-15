@@ -9,7 +9,8 @@
 
     <flight-model>jsb</flight-model>
     <aero>fokker120</aero>
-
+    <variant-of>fokker100</variant-of>
+    
     <model>
      <path>Aircraft/fokker100/Models/f120/fokker120.xml</path>
      <livery>
@@ -29,7 +30,7 @@
     </model>
 
     <controls include="Systems/F100-init-controls.xml"/>
-    
+
     <view n="0">
       <internal archive="y">true</internal>
       <config>
@@ -81,12 +82,12 @@
         <!-- Fdw/Back -->
       </config>
     </view>
-    
+
   <groundradar>
    <id type="string">KSFO</id>
    <range type="double">1.2</range>
   </groundradar>
-        
+
   <controls>
    <gear>
     <brake-parking type="bool">1</brake-parking>
