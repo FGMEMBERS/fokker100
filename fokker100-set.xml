@@ -6,6 +6,12 @@
     <description>Fokker 100 (F-28-0100)</description>
     <author>Erik Hofman, Isaias Prestes, Michel Maia, Thomas Ito-Haigh</author>
     <status>Beta 0.4</status>
+    <rating>
+     <FDM type="int">3</FDM>
+     <systems type="int">1</systems>
+     <cockpit type="int">2</cockpit>
+     <model type="int">4</model>
+    </rating>
 
     <flight-model>jsb</flight-model>
     <aero>fokker100</aero>
