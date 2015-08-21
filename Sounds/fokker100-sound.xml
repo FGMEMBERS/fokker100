@@ -269,10 +269,13 @@
 </engines>
  <!--som reverso-->
  <engine>
-   <name>engine</name>
-   <path>Aircraft/fokker100/Sounds/TAY_1.wav</path>
+   <name>engine-outside</name>
+   <path>Aircraft/fokker100/Sounds/Dl.wav</path>
    <mode>looped</mode>
    <property>/engines/engine[0]/running</property>
+   <condition>
+     <not><property>sim/current-view/internal</property></not>
+   </condition>
    <volume>
     <property>/engines/engine[0]/thrust_lb</property>
     <type>lin</type>
@@ -281,10 +284,13 @@
   </engine>
 
   <engine>
-   <name>engine</name>
+   <name>engine-outside</name>
    <path>Aircraft/fokker100/Sounds/Dl.wav</path>
    <mode>looped</mode>
    <property>/engines/engine[1]/running</property>
+   <condition>
+     <not><property>sim/current-view/internal</property></not>
+   </condition>
    <volume>
     <property>/engines/engine[1]/thrust_lb</property>
     <type>lin</type>
@@ -299,13 +305,15 @@
    <property>/engines/engine[0]/running</property>
    <pitch>
     <property>/engines/engine[0]/n1</property>
-    <type>lin</type>
-    <factor>.008</factor>
+    <offset>1</offset>
+    <factor>0.01</factor>
+	<min>0.2</min>
    </pitch>
    <volume>
     <property>/engines/engine[0]/n1</property>
     <type>log</type>
     <factor>0.08</factor> <!-- 10-100% rpm == 0.1 - 1 factor -->
+	<min>0.2</min>
    </volume>
   </engine>
 
@@ -316,13 +324,58 @@
    <property>/engines/engine[1]/running</property>
    <pitch>
     <property>/engines/engine[1]/n1</property>
-    <type>lin</type>
-    <factor>.008</factor>
+    <offset>1</offset>
+    <factor>0.01</factor>
+	<min>0.2</min>
    </pitch>
    <volume>
     <property>/engines/engine[1]/n1</property>
     <type>log</type>
     <factor>0.08</factor> <!-- 10-100% rpm == 0.1 - 1 factor -->
+    <min>0.2</min>
+   </volume>
+  </engine>
+  
+  
+  
+  
+  <engine>
+   <name>engine-inside</name>
+   <path>Aircraft/fokker100/Sounds/Dl.wav</path>
+   <mode>looped</mode>
+   <property>/engines/engine[0]/running</property>
+   <condition>
+     <property>sim/current-view/internal</property>
+   </condition>
+   <pitch>
+    <property>/engines/engine[0]/n1</property>
+    <offset>0.01</offset>
+    <factor>0.014</factor>
+	<min>0.01</min>
+   </pitch>
+   <volume>
+    <min>3</min>
+	<max>3</max>
+   </volume>
+  </engine>
+  
+  <engine>
+   <name>engine-inside</name>
+   <path>Aircraft/fokker100/Sounds/Dl.wav</path>
+   <mode>looped</mode>
+   <property>/engines/engine[1]/running</property>
+   <condition>
+     <property>sim/current-view/internal</property>
+   </condition>
+   <pitch>
+    <property>/engines/engine[1]/n1</property>
+    <offset>0.01</offset>
+    <factor>0.014</factor>
+	<min>0.01</min>
+   </pitch>
+   <volume>
+    <min>3</min>
+	<max>3</max>
    </volume>
   </engine>
 

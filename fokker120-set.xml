@@ -6,6 +6,12 @@
     <description>NAC Fokker 120NG (Fokker F-28-0120)</description>
     <author>Erik Hofman</author>
     <status>Beta</status>
+    <rating>
+     <FDM type="int">3</FDM>
+     <systems type="int">1</systems>
+     <cockpit type="int">2</cockpit>
+     <model type="int">4</model>
+    </rating>
 
     <flight-model>jsb</flight-model>
     <aero>fokker120</aero>
