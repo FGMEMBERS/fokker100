@@ -2,7 +2,7 @@
 
 <PropertyList>
 
- <path>f120_cockpit.ac</path>
+ <path>f130_cockpit.ac</path>
 
  <animation>
   <object-name>panel</object-name>
@@ -91,7 +91,7 @@
   </model>
 
   <model>
-   <path>Aircraft/fokker100/Models/f120/yoke.xml</path>
+   <path>Aircraft/fokker100/Models/f130/yoke.xml</path>
    <offsets>
     <x-m> -0.425</x-m>
     <y-m> 0.48 </y-m>
@@ -109,7 +109,7 @@
   </model>
 
   <model>
-   <path>Aircraft/fokker100/Models/f120/yoke.xml</path>
+   <path>Aircraft/fokker100/Models/f130/yoke.xml</path>
    <offsets>
     <x-m> -0.425</x-m>
     <y-m> -0.48 </y-m>
