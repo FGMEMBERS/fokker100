@@ -2,7 +2,7 @@
 
 <PropertyList>
 
- <path>fokker120.ac</path>
+ <path>fokker130.ac</path>
  <offsets>
   <z-m>1.1</z-m>
   <pitch-deg>-0.9</pitch-deg>
@@ -12,7 +12,7 @@
 <!-- Livery System -->
     <nasal>
         <load>
-            var livery_update = aircraft.livery_update.new("Aircraft/fokker100/Models/f120/Liveries", 10);
+            var livery_update = aircraft.livery_update.new("Aircraft/fokker100/Models/f130/Liveries", 10);
         </load>
 
         <unload>
@@ -107,7 +107,7 @@
 
  <model>
   <name>Cockpit</name>
-  <path>Aircraft/fokker100/Models/f120/f120_cockpit.xml</path>
+  <path>Aircraft/fokker100/Models/f130/f130_cockpit.xml</path>
   <offsets>
    <x-m>-15.5</x-m>
    <z-m>1.05</z-m>
@@ -136,11 +136,11 @@
 
  <model>
   <name>PassengerCabin</name>
-  <path>Aircraft/fokker100/Models/f100/f120/f120_cabin.xml</path>
+  <path>Aircraft/fokker100/Models/f130/f130_cabin.xml</path>
   <offsets>
-   <x-m>-5.01</x-m>
+   <x-m>-4.01</x-m>
    <y-m>0</y-m>
-   <z-m>-0.40</z-m>
+   <z-m>-0.30</z-m>
   </offsets>
  </model>
  

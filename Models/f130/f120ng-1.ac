@@ -16855,7 +16855,7 @@ kids 0
 OBJECT group
 name "group"
 loc 13.5761 2.05898 0.00462968
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 texrep 0.93 0.2
 texoff -0.18 -0.36
 kids 2

@@ -3,7 +3,7 @@
 <PropertyList include="fokker100-base.xml">
 
   <sim>
-    <description>NAC Fokker 120NG (Fokker F-28-0120)</description>
+    <description>NAC Fokker 130NG (Fokker F-28-0130)</description>
     <author>Erik Hofman</author>
     <status>Beta</status>
     <rating>
@@ -14,11 +14,11 @@
     </rating>
 
     <flight-model>jsb</flight-model>
-    <aero>fokker120</aero>
+    <aero>fokker130</aero>
     <variant-of>fokker100</variant-of>
     
     <model>
-     <path>Aircraft/fokker100/Models/f120/fokker120.xml</path>
+     <path>Aircraft/fokker100/Models/f130/fokker130.xml</path>
      <livery>
       <name type="string">Default</name>
       <texture>default.rgb</texture>
@@ -103,9 +103,9 @@
   </sim>
 
   <nasal>
-   <f120ng>
+   <f130ng>
     <file>Aircraft/fokker100/Nasal/fokker.nas</file>
-   </f120ng>
+   </f130ng>
    <reversethrust>
     <file>Aircraft/fokker100/Nasal/reverse-thrust.nas</file>
    </reversethrust>

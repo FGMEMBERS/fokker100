@@ -991,7 +991,7 @@ kids 0
 OBJECT poly
 name "object"
 loc -0.149416 2.53067 -0.000302792
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 90.000000
 numvert 2207
 13.0923 -0.736815 -0.448521
@@ -27291,7 +27291,7 @@ kids 0
 OBJECT poly
 name "disk"
 loc 15.7216 1.46328 -0.00273739
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 30
 -1.43277 -0.0465932 0.252954
@@ -27513,14 +27513,14 @@ kids 0
 OBJECT group
 name "group"
 loc 13.5761 2.05898 0.00462968
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 texrep 0.93 0.2
 texoff -0.18 -0.36
 kids 2
 OBJECT poly
 name "right_speedbrake_inner_shell"
 loc 2.30142 -0.598135 -0.134167
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 texrep 0.07 0.061
 crease 45.000000
 numvert 35
@@ -27840,7 +27840,7 @@ kids 0
 OBJECT poly
 name "left_speedbrake_inner_shell"
 loc 2.30132 -0.597915 0.123014
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 texrep 0.07 0.061
 crease 45.000000
 numvert 35
@@ -33636,7 +33636,7 @@ kids 0
 OBJECT poly
 name "box"
 loc 1.96914 -0.635031 -1.93513
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 14
 -0.591548 -0.244993 -0.109345
@@ -33961,7 +33961,7 @@ kids 0
 OBJECT poly
 name "disk"
 loc 15.7216 1.46328 -0.00273739
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 30
 -1.43277 -0.0465932 0.252954
@@ -34179,7 +34179,7 @@ kids 0
 OBJECT poly
 name "object"
 loc 0 -0.00701994 -0.00880811
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 4
 7.76165 2.37182 -0.00462496
@@ -34203,7 +34203,7 @@ kids 0
 OBJECT poly
 name "object"
 loc 0.589273 -1.65888 -0.00880811
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 26
 15.6797 7.45705 -0.225081
@@ -34531,7 +34531,7 @@ kids 1
 OBJECT poly
 name "rudder"
 loc 3.11182 1.76099 -0.0186083
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 16
 -1.93507 -1.4576 -0.148466
@@ -34729,7 +34729,7 @@ kids 0
 OBJECT poly
 name "right_inner_door"
 loc 1.93488 -1.01629 -1.49851
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 texrep 0.01 0.01
 crease 45.000000
 numvert 8
@@ -34782,7 +34782,7 @@ kids 0
 OBJECT poly
 name "left_inner_door"
 loc 1.9493 -1.01616 1.40567
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 texrep 0.01 0.01
 crease 45.000000
 numvert 8
@@ -34835,7 +34835,7 @@ kids 0
 OBJECT poly
 name "right_speedbrake_outer_shell"
 loc 15.5261 1.46262 -0.261078
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 68
 0.444213 0.115388 0.258032
@@ -35529,7 +35529,7 @@ kids 0
 OBJECT poly
 name "left_speedbrake_outer_shell"
 loc 15.5258 1.46262 0.254583
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 66
 0.444513 0.115388 -0.257629
@@ -36197,7 +36197,7 @@ kids 0
 OBJECT poly
 name "RightEngineCarrier"
 loc 9.22891 1.3919 -1.4296
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 22
 1.02831 -0.122279 0.492133
@@ -36413,7 +36413,7 @@ kids 0
 OBJECT poly
 name "LeftEngineCarrier"
 loc 9.22569 1.39409 1.40773
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 22
 1.02831 -0.122279 -0.492133
@@ -39441,7 +39441,7 @@ kids 0
 OBJECT poly
 name "object"
 loc -14.1371 -0.711287 -0.000612915
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 8
 -1.79705 0.00584537 0.698522
@@ -39492,7 +39492,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_nose_door"
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 8
 -15.9048 -1.02055 0.265764
@@ -39550,7 +39550,7 @@ kids 0
 OBJECT poly
 name "box"
 loc -12.9542 -0.705317 -0.00222802
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 15
 -2.95062 -0.234816 0.00238752
@@ -41880,7 +41880,7 @@ kids 0
 OBJECT poly
 name "MainDoorOutside"
 loc -12.3903 1.16679 1.26906
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 16
 -0.68625 0.755455 -0.106337
@@ -41988,7 +41988,7 @@ kids 0
 OBJECT poly
 name "cylinder"
 loc -13.8005 0.813146 -1.50413
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 90.000000
 numvert 36
 0.360692 0.293061 -0.076658
@@ -60446,7 +60446,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_nose_door"
-texture "fokker120.rgb"
+texture "fokker130.rgb"
 crease 45.000000
 numvert 8
 -14.1227 -1.0627 -0.000967691
