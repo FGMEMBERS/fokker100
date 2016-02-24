@@ -6,16 +6,19 @@
 
  <animation>
   <type>material</type>
-  <object-name>rotating_fan_disk</object-name>
   <object-name>fan_disk</object-name>
+<!--
+  <object-name>rotating_fan_disk</object-name>
   <object-name>upper_thrust_reverse</object-name>
   <object-name>lower_thrust_reverse</object-name>
+-->
   <property-base>sim/model/livery</property-base>
   <texture-prop>texture</texture-prop>
   <texture>fokker100.rgb</texture>
  </animation>
 
    <!-- reverser -->
+<!--
  <animation>
   <type>rotate</type>
   <object-name>upper_thrust_reverse</object-name>
@@ -49,6 +52,7 @@
    <z>0.000000</z>
   </axis>
  </animation>
+-->
 
  <animation>
   <type>spin</type>
@@ -67,6 +71,7 @@
   </axis>
  </animation>
 
+<!--
  <animation>
   <type>spin</type>
   <object-name>rotating_fan_disk</object-name>
@@ -83,6 +88,7 @@
    <z>0.000000</z>
   </axis>
  </animation>
+-->
 
  <animation>
   <type>blend</type>

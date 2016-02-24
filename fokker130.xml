@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://jsbsim.sourceforge.net/JSBSim.xsl"?>
-<fdm_config name="Fokker-100" version="2.0" release="ALPHA"
+<fdm_config name="Fokker-130" version="2.0" release="ALPHA"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
  <fileheader>
   <author> Erik Hofman </author>
-  <filecreationdate> 2010-08-08 </filecreationdate>
+  <filecreationdate> 29 Jan 2016 </filecreationdate>
   <version>$Revision: 1.10 $</version>
-  <description> Fokker-120NG commercial airliner </description>
+  <description> Fokker-130NG commercial airliner </description>
   <reference title="Butterworth-Heinemann - Civil Jet Aircraft Design (BH)
         http://www.elsevierdirect.com/companions/9780340741528/appendices/data-a/table-8/table.htm"/>
   <reference title="Lissys - PIANO aircraft analysis software
@@ -18,44 +18,64 @@
  </fileheader>
 
 <!--
-  File:     Fokker-120.xml
+  File:     Fokker 130.xml
   Inputs:
-    name:          NAC Fokker-120NG
-    type:          two-engine transonic transport
-    max weight:    103022.015 lb
-    wing span:     95.046 ft
-    length:        121.2598 ft
-    wing area:     1025.9045 sq-ft
-    gear type:     tricycle
-    retractable?:  yes
-    # engines:     2
-    engine type:   turbine
+    name:          Fokker 130
+    type:          2 engine transonic transport
+    stall speed:   118.79kts
+    max weight:    106298.63 lb
+    length:        127.95 ft
+    wing: 
+     span:         95.05 ft
+     area:         unspecified
+     mean chord:   12.47 ft
+     aspect ratio: 8.43:1
+     taper ratio:  0.23:1
+     incidence:    2.00 degrees
+     dihedral:     0.00 degrees
+     sweep:        17.45 degrees
+
+    no. engines:   2
+    engine type:   Turbine Engine
     engine layout: aft fuselage
-    yaw damper?    yes
+
+    control type:   Conventional with Yaw Damper
+
+    gear type:     tricycle
+    steering type: steering
+    retractable?:  yes
 
   Outputs:
-    wing loading:  83.35 lb/sq-ft
-    CL-alpha:      4.4 per radian
-    CL-0:          0.2
-    CL-max:        1.72
+    wing loading:  110.00 lb/sq-ft
+    payload:       18697.04 lbs
+    CL-alpha:      5.42 per radian
+    CL-0:          0.42
+    CL-max:        2.30
     CD-0:          0.02
-    K:             0.043
+    K:             0.04
+    Mcrit:         0.57
 
   Differences to the Fokker-100:
   ==============================
+  * The fuselage is 2.3 meters longer increasing the no. passeners up to 138,
+    (at 130 tyypical in economic class).
+
   * The winglets reduce fuel consumption by 2 to 3% for a typical flight.
-    - Up to 7% reduction in drag during takeoff
-    - Up to 3% reduction in drag during cruise
+    - Up to 7% reduction in drag during takeoff.
+    - Up to 3% reduction in drag during cruise.
+
+  * New avionics and fly-by-wire system result in 750kg less weight.
+  * The fly-by-wire system results in 10% reduction in drag.
 
   * A 1,500 kg extra payload capacity in critical takeoff conditions is
     realized for operation at high airfields and in high ambient temperatures.
 
-  * The Fokker 120 is powered by the smallest version of the Pratt & Whitney
+  * The Fokker 130 is powered by the smallest version of the Pratt & Whitney
     Geared Turbofan engines. This engine family is based on the concept of:
     - A reduction gear between the low speed turbine and the fan
     - A very high bypass ratio and a high Overall Pressure Ratio
     - The lowest specific fuel consumption available in a commercial transport
-      engine in this class (between 11% and 15% more economical)
+      engine in this class (22% more economical)
 
 -->
 
@@ -86,9 +106,9 @@
  </metrics>
 
  <mass_balance>
-   <ixx unit="SLUG*FT2">    244784 </ixx>
-   <iyy unit="SLUG*FT2">    757606 </iyy>
-   <izz unit="SLUG*FT2">    964325 </izz>
+   <ixx unit="SLUG*FT2">    254937 </ixx>
+   <iyy unit="SLUG*FT2">   1067460 </iyy>
+   <izz unit="SLUG*FT2">   1187805 </izz>
    <emptywt unit="LBS" >     58923 </emptywt>
    <location name="CG" unit="IN">
      <x> 733.63 </x>
@@ -412,9 +432,9 @@
                           <independentVar>aero/alpha-rad</independentVar>
                           <tableData>
                               -1.5700	1.4700
-                              -0.2600	0.0392
-                              0.0000	0.01884
-                              0.2600	0.0392
+                              -0.2600	0.0382
+                              0.0000	0.0167
+                              0.2600	0.0382
                               1.5700	1.4700
                           </tableData>
                       </table>
