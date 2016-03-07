@@ -7,9 +7,19 @@
   <z-m>1.1</z-m>
   <pitch-deg>-0.9</pitch-deg>
  </offsets>
+
+ <model>
+  <name>Cockpit</name>
+  <path>Aircraft/fokker100/Models/f130/f130_cockpit.xml</path>
+  <offsets>
+   <x-m>-16.655</x-m>
+   <z-m>1.135</z-m>
+ </offsets>
+ </model>
  
 
 <!-- Livery System -->
+<!--
     <nasal>
         <load>
             var livery_update = aircraft.livery_update.new("Aircraft/fokker100/Models/f130/Liveries", 10);
@@ -95,6 +105,7 @@
          <texture-prop>texture</texture-prop>
       <texture>fokker100.rgb</texture>
     </animation>
+-->
     
 <!-- Livery System -->
 
@@ -106,19 +117,10 @@
  </offsets>
 
  <model>
-  <name>Cockpit</name>
-  <path>Aircraft/fokker100/Models/f130/f130_cockpit.xml</path>
-  <offsets>
-   <x-m>-15.5</x-m>
-   <z-m>1.05</z-m>
- </offsets>
- </model>
-
- <model>
   <name>Right Engine</name>
   <path>Aircraft/fokker100/Models/Engines/PW1x17GR.xml</path>
   <offsets>
-   <x-m>9.15</x-m>
+   <x-m>9.05</x-m>
    <y-m>-2.72</y-m>
    <z-m>1.60</z-m>
  </offsets>
@@ -128,31 +130,21 @@
   <name>Left Engine</name>
   <path>Aircraft/fokker100/Models/Engines/PW1x17GL.xml</path>
   <offsets>
-   <x-m>9.15</x-m>
+   <x-m>9.05</x-m>
    <y-m>2.72</y-m>
    <z-m>1.60</z-m>
  </offsets>
  </model>
 
- <model>
-  <name>PassengerCabin</name>
-  <path>Aircraft/fokker100/Models/f130/f130_cabin.xml</path>
-  <offsets>
-   <x-m>-4.01</x-m>
-   <y-m>0</y-m>
-   <z-m>-0.30</z-m>
-  </offsets>
- </model>
- 
  <animation>
   <type>rotate</type>
   <object-name>right_aileron</object-name>
   <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor>
   <center>
-   <x-m>3.670000</x-m>
+   <x-m>3.685000</x-m>
    <y-m>11.040000</y-m>
-   <z-m>0.1000000</z-m>
+   <z-m>0.530000</z-m>
   </center>
   <axis>
    <x>0.120893</x>
@@ -167,9 +159,9 @@
   <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor>
   <center>
-   <x-m>3.670000</x-m>
+   <x-m>3.685000</x-m>
    <y-m>-11.040000</y-m>
-   <z-m>0.1000000</z-m>
+   <z-m>0.530000</z-m>
   </center>
   <axis>
    <x>0.120893</x>
@@ -376,9 +368,9 @@
   <property>surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
-   <x-m>15.535000</x-m>
+   <x-m>16.470000</x-m>
    <y-m>0.000000</y-m>
-   <z-m>3.765000</z-m>
+   <z-m>4.250000</z-m>
   </center>
   <axis>
    <x>0.492465</x>
@@ -393,9 +385,9 @@
   <property>surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <center>
-   <x-m>17.535000</x-m>
+   <x-m>18.440000</x-m>
    <y-m>2.360000</y-m>
-   <z-m>5.580000</z-m>
+   <z-m>5.670000</z-m>
   </center>
   <axis>
    <x>0.371004</x>
@@ -410,9 +402,9 @@
   <property>surface-positions/elevator-pos-norm</property>
   <factor>-25</factor>
   <center>
-   <x-m>17.535000</x-m>
+   <x-m>18.440000</x-m>
    <y-m>-2.360000</y-m>
-   <z-m>5.580000</z-m>
+   <z-m>5.670000</z-m>
   </center>
   <axis>
    <x>0.371004</x>
@@ -421,6 +413,7 @@
   </axis>
  </animation>
 
+<!--
  <animation>
   <type>rotate</type>
   <object-name>nose_wheels</object-name>
@@ -428,9 +421,9 @@
   <property>surface-positions/rudder-pos-norm</property>
   <factor>-35</factor>
   <center>
-   <x-m>-12.23</x-m>
+   <x-m>-15.57</x-m>
    <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
+   <z-m>-0.58</z-m>
   </center>
   <axis>
    <x>0</x>
@@ -438,6 +431,7 @@
    <z>1</z>
   </axis>
  </animation>
+-->
 
  <animation>
   <type>rotate</type>
@@ -447,9 +441,9 @@
   <factor>-90</factor>
   <offset-deg>90</offset-deg>
   <center>
-   <x-m>-12.23</x-m>
+   <x-m>-15.59</x-m>
    <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
+   <z-m>-0.35</z-m>
   </center>
   <axis>
    <x>0</x>
@@ -563,7 +557,7 @@
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>14.370000</x-m>
+   <x-m>14.600000</x-m>
    <y-m>-0.250000</y-m>
    <z-m>1.440000</z-m>
   </center>
@@ -581,7 +575,7 @@
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-60</factor>
   <center>
-   <x-m>14.370000</x-m>
+   <x-m>14.600000</x-m>
    <y-m>0.250000</y-m>
    <z-m>1.440000</z-m>
   </center>
@@ -769,9 +763,9 @@
   <offset>-90.0</offset>
   <factor>90.0</factor>
   <center>
-   <x-m>-12.940001</x-m>
+   <x-m>-16.235001</x-m>
    <y-m>-0.630000</y-m>
-   <z-m>-0.885000</z-m>
+   <z-m>-0.530000</z-m>
   </center>
   <axis>
    <x>-0.999858</x>
@@ -787,9 +781,9 @@
   <offset>90.0</offset>
   <factor>-90.0</factor>
   <center>
-   <x-m>-12.940001</x-m>
+   <x-m>-16.235001</x-m>
    <y-m>0.630000</y-m>
-   <z-m>-0.885000</z-m>
+   <z-m>-0.530000</z-m>
   </center>
   <axis>
    <x>-0.999858</x>
@@ -807,8 +801,8 @@
   <min-deg>-110.0</min-deg>
   <center>
    <x-m>1.925000</x-m>
-   <y-m>-3.200000</y-m>
-   <z-m>-0.680000</z-m>
+   <y-m>-3.130000</y-m>
+   <z-m>-0.450000</z-m>
   </center>
   <axis>
    <x>1.000000</x>
@@ -826,8 +820,8 @@
   <max-deg>110.0</max-deg>
   <center>
    <x-m>1.925000</x-m>
-   <y-m>3.200000</y-m>
-   <z-m>-0.680000</z-m>
+   <y-m>3.130000</y-m>
+   <z-m>-0.450000</z-m>
   </center>
   <axis>
    <x>1.000000</x>
