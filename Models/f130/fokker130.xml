@@ -435,6 +435,7 @@
 
  <animation>
   <type>rotate</type>
+  <object-name>landinglight</object-name>
   <object-name>nose_wheels</object-name>
   <object-name>nose_strut</object-name>
   <property>gear/gear[0]/position-norm</property>
@@ -474,6 +475,8 @@
 
  <animation>
   <type>rotate</type>
+  <object-name>RightUpperMainStrut</object-name>
+  <object-name>RightLowerMainStrut</object-name>
   <object-name>right_main_wheels</object-name>
   <object-name>right_main_strut</object-name>
   <property>gear/gear[1]/position-norm</property>
@@ -483,6 +486,43 @@
    <x-m>0.0</x-m>
    <y-m>2.4</y-m>
    <z-m>-0.17</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RightUpperMainStrut</object-name>
+  <object-name>RightLowerMainStrut</object-name>
+  <property>gear/gear[1]/position-norm</property>
+  <factor>65</factor>
+  <offset-deg>-65</offset-deg>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>2.65</y-m>
+   <z-m>-0.89</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RightUpperMainStrut</object-name>
+  <property>gear/gear[1]/position-norm</property>
+  <factor>-180</factor>
+  <offset-deg>180</offset-deg>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>2.29</y-m>
+   <z-m>-0.64</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -513,6 +553,8 @@
 
  <animation>
   <type>rotate</type>
+  <object-name>LeftUpperMainStrut</object-name>
+  <object-name>LeftLowerMainStrut</object-name>
   <object-name>left_main_wheels</object-name>
   <object-name>left_main_strut</object-name>
   <property>gear/gear[2]/position-norm</property>
@@ -529,6 +571,44 @@
    <z>0</z>
   </axis>
  </animation>
+
+  <animation>
+  <type>rotate</type>
+  <object-name>LeftUpperMainStrut</object-name>
+  <object-name>LeftLowerMainStrut</object-name>
+  <property>gear/gear[1]/position-norm</property>
+  <factor>-65</factor>
+  <offset-deg>65</offset-deg>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>-2.65</y-m>
+   <z-m>-0.89</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LeftUpperMainStrut</object-name>
+  <property>gear/gear[1]/position-norm</property>
+  <factor>180</factor>
+  <offset-deg>-180</offset-deg>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>-2.29</y-m>
+   <z-m>-0.64</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
 
  <animation>
   <type>select</type>
