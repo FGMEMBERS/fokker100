@@ -434,6 +434,37 @@
 -->
 
  <animation>
+  <type>translate</type>
+  <object-name>landinglight</object-name>
+  <object-name>nose_wheels</object-name>
+  <property>gear/gear/compression-norm</property>
+  <factor>0.25</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>landinglight</object-name>
+  <object-name>nose_wheels</object-name>
+  <property>gear/gear[0]/steering-norm</property>
+  <factor>-80</factor>
+  <center>
+   <x-m>-15.59</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
   <type>rotate</type>
   <object-name>landinglight</object-name>
   <object-name>nose_wheels</object-name>
@@ -474,18 +505,30 @@
 
 
  <animation>
+  <type>translate</type>
+  <object-name>right_main_wheels</object-name>
+  <property>gear/gear[1]/compression-norm</property>
+  <factor>0.65</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
   <type>rotate</type>
   <object-name>RightUpperMainStrut</object-name>
   <object-name>RightLowerMainStrut</object-name>
   <object-name>right_main_wheels</object-name>
   <object-name>right_main_strut</object-name>
   <property>gear/gear[1]/position-norm</property>
-  <factor>105</factor>
-  <offset-deg>-105</offset-deg>
+  <factor>92.5</factor>
+  <offset-deg>-92.5</offset-deg>
   <center>
    <x-m>0.0</x-m>
-   <y-m>2.4</y-m>
-   <z-m>-0.17</z-m>
+   <y-m>2.75</y-m>
+   <z-m>-0.29</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -504,7 +547,7 @@
   <center>
    <x-m>0.0</x-m>
    <y-m>2.65</y-m>
-   <z-m>-0.89</z-m>
+   <z-m>-0.95</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -550,6 +593,17 @@
   </condition>
  </animation>
  
+ <animation>
+  <type>translate</type>
+  <object-name>left_main_wheels</object-name>
+  <property>gear/gear[2]/compression-norm</property>
+  <factor>0.65</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
 
  <animation>
   <type>rotate</type>
@@ -558,12 +612,12 @@
   <object-name>left_main_wheels</object-name>
   <object-name>left_main_strut</object-name>
   <property>gear/gear[2]/position-norm</property>
-  <factor>-105</factor>
-  <offset-deg>105</offset-deg>
+  <factor>-92.5</factor>
+  <offset-deg>92.5</offset-deg>
   <center>
    <x-m>0.0</x-m>
-   <y-m>-2.4</y-m>
-   <z-m>-0.17</z-m>
+   <y-m>-2.75</y-m>
+   <z-m>-0.29</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -582,7 +636,7 @@
   <center>
    <x-m>0.0</x-m>
    <y-m>-2.65</y-m>
-   <z-m>-0.89</z-m>
+   <z-m>-0.95</z-m>
   </center>
   <axis>
    <x>1</x>
