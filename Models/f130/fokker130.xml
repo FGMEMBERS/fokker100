@@ -136,6 +136,8 @@
  </offsets>
  </model>
 
+
+
  <animation>
   <type>rotate</type>
   <object-name>right_aileron</object-name>
