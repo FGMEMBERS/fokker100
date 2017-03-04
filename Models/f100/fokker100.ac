@@ -29965,7 +29965,7 @@ refs 3
 55 0.835389 0.944215
 kids 0
 OBJECT poly
-name "object"
+name "fuselage"
 loc 1.2555 2.65168 -0.00603938
 texture "fokker100.rgb"
 crease 90.000000
