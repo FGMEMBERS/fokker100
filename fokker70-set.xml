@@ -11,11 +11,25 @@
      <systems type="int">1</systems>
      <cockpit type="int">2</cockpit>
      <model type="int">4</model>
-    </rating>
+  </rating>
 
   <flight-model>jsb</flight-model>
   <aero>fokker70</aero>
   <variant-of>fokker100</variant-of>
+  <tags>
+      <tag>1980s</tag>
+      <tag>1990s</tag>
+      <tag>2000s</tag>
+      <tag>transport</tag>
+      <tag>fokker</tag>
+      <tag>jet</tag>
+      <tag>t-tail</tag>
+      <tag>tricycle</tag>
+      <tag>twin-engine</tag>
+      <tag>retractable-gear</tag>
+      <tag>glass-cockpit</tag>
+      <tag>ifr</tag>
+    </tags>
 
   <model>
    <path>Aircraft/fokker100/Models/f70/fokker70.xml</path>

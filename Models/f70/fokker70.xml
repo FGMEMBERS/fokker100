@@ -903,4 +903,51 @@
   </axis>
  </animation>
 
+ <effect>
+       <inherits-from>Aircraft/fokker100/Models/Effects/reflection</inherits-from>
+         <object-name>fuselage</object-name>
+         <object-name>MainDoorOutside</object-name>
+         <object-name>RightEscapeDoorOutside</object-name>
+         <object-name>LeftWing</object-name>
+         <object-name>RightWing</object-name>
+         <object-name>EngineHousing</object-name>
+         <object-name>rudder</object-name>
+         <object-name>RightEngineCarrier</object-name>
+         <object-name>LeftEngineCarrier</object-name>
+         <object-name>left_speedbrake_outer_shell</object-name>
+         <object-name>right_speedbrake_outer_shell</object-name>
+         <object-name>Elevator</object-name>
+         <object-name>left_elevator</object-name>
+         <object-name>right_elevator</object-name>
+         <object-name>left_nose_door</object-name>
+         <object-name>right_nose_door</object-name>
+         <object-name>left_main_strut</object-name>
+         <object-name>right_main_strut</object-name>
+         <object-name>left_outer_door</object-name>
+         <object-name>left_inner_door</object-name>
+         <object-name>left_inbound_slot</object-name>
+         <object-name>right_inner_door</object-name>
+         <object-name>right_outer_door</object-name>
+         <object-name>ActuatorHousing</object-name>
+         <object-name>right_inbound_slot</object-name>
+         <object-name>left_inbound_flap</object-name>
+         <object-name>right_inbound_flap</object-name>
+         <object-name>left_aileron</object-name>
+         <object-name>left_outbound_flap</object-name>
+         <object-name>right_aileron</object-name>
+         <object-name>right_outbound_flap</object-name>
+         <object-name>left_outbound_slot</object-name>
+         <object-name>left_spoiler5</object-name>
+         <object-name>left_spoiler4</object-name>
+         <object-name>left_spoiler3</object-name>
+         <object-name>left_spoiler2</object-name>
+         <object-name>left_spoiler1</object-name>
+         <object-name>right_outbound_slot</object-name>
+         <object-name>right_spoiler5</object-name>
+         <object-name>right_spoiler4</object-name>
+         <object-name>right_spoiler3</object-name>
+         <object-name>right_spoiler2</object-name>
+         <object-name>right_spoiler1</object-name>
+    </effect>
+
 </PropertyList>

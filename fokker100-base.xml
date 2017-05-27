@@ -3,6 +3,9 @@
 <PropertyList>
 
  <sim>
+  <long-description>
+   The Fokker 70/100 is a medium-sized, twin-turbofan airliner from Fokker. Upon introduction, the type possessed low operational costs and had scant competition in the 100-seat short-range class of regional airliner, which contributed to strong sales during the late 1980s. 
+  </long-description>
 
   <systems>
    <!-- O piloto automtico do fokker100 -->

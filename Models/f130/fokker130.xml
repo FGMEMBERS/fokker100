@@ -17,6 +17,28 @@
  </offsets>
  </model>
  
+ <effect>
+  <inherits-from>Aircraft/fokker100/Models/Effects/reflection</inherits-from>
+  <object-name>fuselage</object-name>
+  <object-name>Wing</object-name>
+  <object-name>rudder</object-name>
+  <object-name>ElevatorGroup</object-name>
+  <object-name>right_speedbrake_outer_shell</object-name>
+  <object-name>left_speedbrake_outer_shell</object-name>
+  <object-name>right_inner_door</object-name>
+  <object-name>left_inner_door</object-name>
+  <object-name>left_inbound_flap</object-name>
+  <object-name>left_outer_door</object-name>
+  <object-name>left_outbound_flap</object-name>
+  <object-name>left_aileron</object-name>
+  <object-name>right_outbound_flap</object-name>
+  <object-name>right_aileron</object-name>
+  <object-name>right_inbound_flap</object-name>
+  <object-name>right_outer_door</object-name>
+  <object-name>ActuatorHousing</object-name>
+  <object-name>left_nose_door</object-name>
+  <object-name>right_nose_door</object-name>
+ </effect>
 
 <!-- Livery System -->
 <!--
